@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Website for Nicholas M Vincent, Researcher</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <style>
+      h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+      }
+
+      .profile-heading {
+        margin: 20px 0;
+        padding-bottom: 30px;
+        font-size: 14px;
+      }
+
+      .bordered-left {
+        border-left: 2px solid #f1f1f1;
+      }
+
+      .bordered-right {
+        border-right: 2px solid #f1f1f1;
+      }
+
+      .bordered-bottom {
+        border-bottom: 2px solid #f1f1f1;
+      }
+
+      p.title.is-bold {
+        font-weight: bold;
+      }
+
+      .columns {
+        margin-left: 10px;
+      }
+
+      .avatar {
+        margin-left: 20px;
+          max-width: 120px;
+          height: auto;
+      }
+    </style>
+    <div class="hello">
+      <div class="container">
+        <div class="section profile-heading">
+          <div class="columns">
+            <div class="column is-2 bordered-left bordered-bottom">
+              <figure class="image avatar">
+                <img
+                  class="is-rounded"
+                  src="./static/Headshots-916_Small.jpg"
+                />
+              </figure>
+            </div>
+            <div class="column is-4 bordered-right bordered-bottom">
+              <p>
+                <span class="subtitle is-bold">Nick Vincent</span>
+              </p>
+              <p>
+                PhD student in the
+                <a href="http://www.psagroup.org">
+                  People, Space, and Algorithms Research Group
+                </a>
+                led by <a href="http://www.brenthecht.com/">Dr. Brent Hecht </a>
+              </p>
+              <p>
+                Research interests: Human-centered Machine Learning, 
+                Responsible AI, Human-computer Interaction (HCI), Social Computing
+              </p>
+            </div>
+
+            <div class="column is-3 bordered-right bordered-bottom">
+              <span class="subtitle is-bold">Current Affiliation</span>
+              <p>
+                <a href="http://tsb.northwestern.edu/">
+                  Technology and Social Behavior Ph.D. program
+                </a>
+              </p>
+              <p>(dual program in Computer Science and Communication)</p>
+              <p></p>
+              <p>Northwestern University</p>
+              <p>Evanston, Illinois</p>
+            </div>
+            <div class="column is-3 bordered-right bordered-bottom">
+              <span class="subtitle is-bold">Contact + More Info</span>
+              <p>nickvincent@u.northwestern.edu</p>
+              <p>Twitter: <a href="https://twitter.com/nickmvincent"> @nickmvincent </a></p>
+              <p>
+                <a href="public_cv.pdf"> CV as PDF (updated: Nov 1 2021) </a>
+              </p>
+              <p><a href="https://github.com/nickmvincent"> Github </a></p>
+              
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/nicholas-vincent-93594a81/"
+                >
+                  LinkedIn
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns section" id="intro">
+          <div class="column is-12 is-size-7">
+            <p>
+              My research focuses on studying the dependence of modern computing
+              technologies, including the broad set of systems called "AI", on
+              human-generated data, with the goal of mitigating
+              negative impacts of these technologies. I am especially interested
+              in research that (1) makes people aware of the value of their data
+              and (2) helps people leverage the value of their data. My work
+              relates to concepts such as
+              <a href="https://www.radicalxchange.org/concepts/">
+                "data dignity"</a
+              >,
+              <a href="http://radicalmarkets.com/chapters/data-as-labor/">
+                "data as labor"</a
+              >, <a href="./static/data_leverage.pdf"> "data leverage"</a>, and
+              <a href="https://www.datadividends.org/"> "data dividends"</a>. 
+              My research is rooted in the hypothesis that, with better-designed systems,
+              AI can mitigate inequalities in wealth and power rather than exacerbate them. 
+            </p>
+            <!--p>
+              Should you prefer a more classic computer science personal website
+              experience, append "/static/nojs.html" to your URL or click this
+              <a href="/static/nojs.html"> link</a>.
+            </p-->
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-6 is-size-7">
+            <h2 class="is-size-5">News Coverage</h2>
+            <ol>
+              <li>
+                <p>
+                  Wikipedia and search engines in 
+                  <a
+                    href="https://www.vox.com/recode/22550555/google-search-knowledge-panels-serial-killer-misinformation-knowledge-graph"
+                  >
+                    Vox.</a>
+                </p>
+                <p>
+                  Heilweil, R. June 2021.
+                  Got the same name as a serial killer? Google might think you’re the same person.
+                </p>
+                </li>
+                <li>
+                <p>
+                  Data dividends in
+                  <a
+                    href="https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way"
+                  >
+                    Bloomberg.</a
+                  >
+                </p>
+                <p>
+                  Coy, P. May 2021. Facebook and Others Should Pay Us for Our Data. Here’s One Way.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Data leverage in the
+                  <a
+                    href="https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/"
+                  >
+                    MIT Technology Review.</a
+                  >
+                </p>
+                <p>
+                  Hao, K. March 2021. How to poison the data that Big Tech uses to
+                  surveil you.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Data leverage in
+                  <a
+                    href="https://fortune.com/2021/02/23/your-data-is-a-weapon-that-can-help-change-corporate-behavior/"
+                  >
+                    Fortune.
+                  </a>
+                </p>
+                <p>
+                  Vanian, J. and Kahn, J. February 2021
+                  Your data is a weapon that
+                  can help change corporate behavior. Also
+                  covered in the
+                  <a
+                    href="https://technews.acm.org/archives.cfm?fo=2021-02-feb/feb-24-2021.html"
+                  >
+                    ACM TechNews.</a
+                  >
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Data strikes in
+                  <a
+                    href="https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/"
+                  >
+                    Quartz.
+                  </a>
+                </p>
+                <p>
+                  Rivero, N. July 2020. Is it time for Netflix subscribers to go on
+                  strike?
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Value of Wikipedia in the
+                  <a
+                    href="https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html"
+                  >
+                    New York Times.</a
+                  >
+                </p>
+                Herrman, J. March 2018.
+                YouTube May Add to the Burdens of Humble
+                Wikipedia.  Also covered on the
+                Northwestern Computer Science
+                <a
+                  href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2018/hecht-vincent-johnson-research-featured-in-new-york-times-article.html"
+                >
+                  website.</a
+                >
+              </li>
+            </ol>
+
+            <h2 class="is-size-5">Blog Posts</h2>
+            <ol>
+
+              
+
+              <li>
+                <a href="https://www.psagroup.org/blogposts/101">
+                  GitHub Copilot and the Exploitation of “Data Labor”: A Wake-Up Call for the Tech Industry.
+                </a>
+                July 2021.
+              </li>
+              
+              <li>
+                <a href="https://medium.com/technically-social/apple-now-lets-you-opt-out-of-tracking-will-this-give-you-more-influence-over-tech-companies-f7eec970aec1">
+                  Apple Now Lets You Opt-Out of Tracking: Will This Give You More Influence Over Tech Companies?
+                </a>
+                July 2021.
+              </li>
+
+              <li>
+                <a href="https://govrnance.substack.com/p/deliberate-public-goods-games">
+                  A Casual Introduction to Public Goods and Collective Action Problems.
+                </a>
+                June 2021.
+              </li>
+
+              
+
+              
+
+              <li>
+                <a href="https://observablehq.com/d/685789015c21cd9a">
+                  Powerful Technologies and Their Power Laws: Estimating Machine
+                  Learning Systems' Data Leverage Vulnerabilities.
+                </a>
+                Last Updated April 2021.
+              </li>
+
+              <li>
+                <a href="https://www.psagroup.org/blogposts/78">
+                  Why You’re an Expert "Language Model Trainer"!</a
+                >
+                March 2021.
+              </li>
+
+              <li>
+                <a href="https://www.psagroup.org/blogposts/62">
+                  Don’t give OpenAI all the credit for GPT-3: You might have
+                  helped create the latest “astonishing” advance in AI too.</a
+                > September 2020.
+              </li>
+
+              <li>
+                <a href="https://blog.datadividendproject.com/data-strikes/"
+                  >"Data Strikes": A New Form of Leverage for Tech Users?
+                </a>
+                Guest post on the
+                <a href="https://blog.datadividendproject.com/">
+                  Data Dividend Project blog.</a
+                >
+                September 2020.
+              </li>
+            </ol>
+
+            <h2 class="is-size-5">Multimedia</h2>
+            <ol>
+              <li>
+
+                (Podcast)
+                <a href="https://www.thc-pod.com/episode/should-tech-companies-be-paying-us-for-our-data-with-nicholas-vincent">
+                  Should Tech Companies Be Paying Us for Our Data? - Things Have Changed Podcast
+                </a>. November 2021.
+              </li>
+              <li>
+                (Podcast)
+                <a
+                  href="https://radicalxchange-s.simplecast.com/episodes/yakov-feygin-and-nick-vincent-data-dividends-cr25oF5m"
+                >
+                  On Data Dividends - RadicalxChange Podcast</a
+                >. With Yakov Feygin and Matt Prewitt, May 2021.
+              </li>
+
+              <li>
+                (Video)
+                <a href="https://www.youtube.com/watch?v=eRo6mff6vLY">
+                  Data Agency: Individual or Shared?</a
+                >
+                With Matt Prewitt, Kaliya Young, and Jennifer Lyn Morone, Jan
+                2021.
+              </li>
+
+              <li>
+                (Video)
+                <a href="https://youtu.be/77SD6r2jVhw">
+                  Data Driven Economy for All - 2020 RxC Conference</a
+                >. With Hanlin Li, Yakov Feygin, and Brent Hecht. July 2020.
+              </li>
+            </ol>
+          </div>
+          <div class="column is-6 is-size-7">
+            <h2 class="is-size-5">Peer-reviewed Publications</h2>
+            <ol>
+              <li>
+                <div>
+                  <p>[<a href="https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks">NeurIPS 2021 Datasets and Benchmarks Track</a>]</p>
+                  <p>
+                    Bandy, J., and <b></b>Vincent, N.</b> 2021. 
+                  </p>
+                  <p>Addressing 'Documentation
+                    Debt' in Machine Learning Research: A Retrospective
+                    Datasheet for BookCorpus. In
+                    <i> NeurIPS 2021 Dataset Track.</i>
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="https://arxiv.org/abs/2105.05241">
+                    arXiv
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>
+                    [<a
+                      href="https://ojs.aaai.org/index.php/ICWSM/issue/view/405"
+                      >ICWSM 2021</a
+                    >]
+                  </p>
+                  <p>
+                    Chowdhury, F.A., Liu, Y., Saha, K., <b> Vincent, N. </b>,
+                    Neves, L., Shah, N., and Bos, M.W. 2021.
+                  </p>
+                  <p>
+                    CEAM: The Effectiveness of Cyclic and Ephemeral Attention
+                    Models of User Behavior on Social Platforms. In
+                    <i>
+                      Proceedings of the 15th International AAAI Conference on
+                      Web and Social Media (ICWSM).</i
+                    >
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="https://koustuv.com/papers/ICWSM21_CEAM.pdf">
+                    PDF Preprint
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>[<a href="https://cscw.acm.org/2021/">CSCW 2021</a>]</p>
+                  <p><b>Vincent. N. </b> and Hecht, B. 2021.</p>
+                  <p>
+                    A Deeper Investigation of the Importance of Wikipedia Links
+                    to Search Engine Results. In
+                    <i
+                      >CSCW 2021 / PACM Computer-Supported Cooperative Work and
+                      Social Computing.</i
+                    >
+                  </p>
+                </div>
+
+                <div>
+                  Link to
+                  <a href="/static/wikiserp_cscw.pdf"> PDF Preprint </a> |
+                  <a href="https://github.com/nickmvincent/se-scraper">
+                    Archived Code
+                  </a>
+                  |
+                  <a href="https://github.com/nickmvincent/LinkCoordMin">
+                    Newer SERP Collection Code (recommended)
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>[<a href="https://cscw.acm.org/2021/">CSCW 2021</a>]</p>
+                  <p><b>Vincent. N. </b> and Hecht, B. 2021.</p>
+                  <p>
+                    Can “Conscious Data Contribution” Help Users to Exert “Data
+                    Leverage” Against Technology Companies? In
+                    <i
+                      >CSCW 2021 / PACM Computer-Supported Cooperative Work and
+                      Social Computing.</i
+                    >
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="/static/cdc_cscw.pdf"> PDF Preprint </a> |
+                  <a href="https://github.com/nickmvincent/cdc">
+                    Archived Code
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>[<a href="https://chi2021.acm.org/">CHI 2021</a>]</p>
+                  <p>
+                    Saha, K., Liu, Y., <b> Vincent, N. </b>, Chowdhury, F.A.,
+                    Neves, L., Shah, N., and Bos, M. 2021.
+                  </p>
+                  <p>
+                    AdverTiming Matters: Examining User Ad Consumption for
+                    Effective Ad Allocations on Social Media. In
+                    <i>
+                      Proceedings of the 2021 CHI Conference on Human Factors in
+                      Computing Systems.</i
+                    >
+                  </p>
+                </div>
+                <div class="links">
+                  Link to
+                  <a href="https://koustuv.com/papers/CHI21_AdverTiming.pdf">
+                    PDF Preprint
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>
+                    [<a href="https://facctconference.org/2021/index.html"
+                      >FAccT 2021 (formerly FAT*)</a
+                    >]
+                  </p>
+                  <p>
+                    <b>Vincent, N. </b>, Li, H., Tilly, N., Chancellor, S.,
+                    Hecht, B. 2021.
+                  </p>
+                  <p>
+                    Data Leverage: A Framework for Empowering the Public in its
+                    Relationship with Technology Companies. In
+                    <i
+                      >Proceedings of the 2021 Conference on Fairness,
+                      Accountability, and Transparency.</i
+                    >
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="/static/data_leverage.pdf"> PDF Preprint </a> |
+                  <a href="https://arxiv.org/abs/2012.09995"> arXiv </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>[<a href="http://cscw.acm.org/2019/">CSCW 2019</a>]</p>
+                  <p>
+                    Li, H. *, <b>Vincent, N. *</b>, Tsai, J., Kaye, J., and
+                    Hecht, B. 2019.
+                  </p>
+                  <p>
+                    How Do People Change Their Technology Use in Protest?:
+                    Understanding “Protest Users”.
+                    <i
+                      >CSCW 2019 / PACM Computer-Supported Cooperative Work and
+                      Social Computing.</i
+                    >
+                    * indicates equal contributions.
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a
+                    href="http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf"
+                  >
+                    PDF Preprint
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>[<a href="https://icwsm.org/2019/">ICWSM 2019</a>]</p>
+                  <p>
+                    <b>Vincent, N.</b>, Johnson, I., Sheehan, P., and Hecht, B.
+                    2019.
+                  </p>
+                  <p>
+                    Measuring the Importance of User-Generated Content to Search
+                    Engines. In <i>AAAI ICWSM 2019.</i>
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="/static/icwsm2019_ugcinsearch_arxiv.pdf">
+                    PDF Preprint
+                  </a>
+                  | Link to
+                  <a href="https://github.com/nickmvincent/you-geo-see">
+                    Archived code
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    [<a href="https://www2019.thewebconf.org/"
+                      >The Web Conference 2019</a
+                    >]
+                  </p>
+                  <p><b>Vincent, N.</b>, Hecht, B., and Sen, S. 2019.</p>
+                  <p></p>
+                  <p>
+                    “Data Strikes”: Evaluating the Effectiveness of New Forms of
+                    Collective Action Against Technology Platforms. In
+                    <i>The World Wide Web Conference (WWW '19)</i>.
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="https://dl.acm.org/citation.cfm?id=3313742">
+                    ACM Digital Library
+                  </a>
+                  (includes HTML version) | Link to
+                  <a href="/static/www2019_datastrike.pdf"> PDF Preprint </a>
+                  | Link to
+                  <a href="https://github.com/nickmvincent/surprise_sandbox">
+                    Archived code
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>[<a href="http://cscw.acm.org/2018/">CSCW 2018</a>]</p>
+                  <p>
+                    Foong, E., <b>Vincent, N.</b>, Hecht, B., and Gerber, E.
+                    2018.
+                  </p>
+                  <p>
+                    Women (Still) Ask For Less: Gender Differences in 
+                    Hourly Rate in an Online Labor Marketplace. 
+                    <i
+                      >ACM CSCW 2018</i
+                    >.
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a
+                    href="http://www.brenthecht.com/publications/cscw2018_upworkgender.pdf"
+                  >
+                    PDF Preprint
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>[<a href="https://chi2018.acm.org/">CHI 2018</a>]</p>
+                  <p><b>Vincent, N.</b>, Johnson, I., and Hecht, B. 2018.</p>
+                  <p>
+                    Examining Wikipedia with a Broader Lens: Quantifying the
+                    Value of Wikipedia's Relationships with Other Large-Scale
+                    Online Communities. In <i>ACM CHI 2018</i>.
+                  </p>
+                </div>
+                <p>* Best paper award (top 1% of submissions)</p>
+                <div>
+                  Link to
+                  <a
+                    href="/static/WikipediaAndOnlineCommunitiesChi18_references_fixed.pdf"
+                  >
+                    PDF Preprint
+                  </a>
+                  | Link to
+                  <a href="https://github.com/nickmvincent/ugc-val-est"
+                    >Archived code
+                  </a>
+                </div>
+              </li>
+            </ol>
+
+            <h2 class="is-size-5">Workshop Papers and Other Preprints</h2>
+            <ol>
+              <li>
+                <div>
+                  <p>
+                    [<a href="https://ci2020.weebly.com/"
+                      >Collective Intelligence 2020 (non-archival) </a
+                    >]
+                  </p>
+                  <p><b> Vincent, N. </b> and Hecht, B. 2020.</p>
+                  <p>
+                    Can “Conscious Data Contribution” Help Users to Exert “Data
+                    Leverage” Against Technology Companies? In
+                    <i>ACM Collective Intelligence 2020</i>.
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a
+                    href="http://www.brenthecht.com/publications/CollectiveIntelligence2020_ConsciousDataContribution.pdf"
+                  >
+                    PDF Preprint
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>
+                    [<a href="https://wikiworkshop.org/2020/"
+                      >WikiWorkshop 2020 (non-archival) </a
+                    >]
+                  </p>
+                  <p><b> Vincent, N. </b> and Hecht, B. 2020.</p>
+                  <p>
+                    A Deeper Investigation of the Importance of Wikipedia Links
+                    to the Success of Search Engines. In
+                    <i>WikiWorkshop 2020</i>.
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="/static/WikiSerp2020.pdf"> PDF Preprint </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>[arXiv Preprint]</p>
+                  <p>
+                    <b>Vincent, N., </b> Li, Y., Zha, R. and Hecht, B., 2019.
+                  </p>
+                  <p>
+                    Mapping the Potential and Pitfalls of" Data Dividends" as a
+                    Means of Sharing the Profits of Artificial Intelligence.
+                    arXiv preprint arXiv:1912.00757.
+                  </p>
+                </div>
+                <div>
+                  Link to
+                  <a href="https://arxiv.org/abs/1912.00757">arXiv</a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    [BIBM 2015 Workshop on Biomedical Visual Search and Deep
+                    Learning]
+                  </p>
+                  <p>
+                    Stier, N., <b> Vincent, N. </b>, Liebeskind, D. and Scalzo,
+                    F. 2015.
+                  </p>
+                  <p>
+                    Deep learning of tissue fate features in acute ischemic
+                    stroke. In
+                    <i>Bioinformatics and Biomedicine (BIBM) 2015</i>.
+                  </p>
+                </div>
+
+                <div>
+                  Link to <a href="http://ieeexplore.ieee.org/document/7359869/"
+                    >IEEE Explore
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <p>
+                    [BIBM 2015 Workshop on Biomedical Visual Search and Deep
+                    Learning]
+                  </p>
+                  <p>
+                    <b>Vincent, N.</b>, Stier, N., Yu, S., Liebeskind, D.S.,
+                    Wang, D.J. and Scalzo, F. 2015.
+                  </p>
+                  <p>
+                    Detection of hyperperfusion on arterial spin labeling using
+                    deep learning. In
+                    <i>Bioinformatics and Biomedicine (BIBM) 2015</i>.
+                  </p>
+                </div>
+                <div>
+                  Link to <a href="http://ieeexplore.ieee.org/document/7359870/"
+                    >IEEE Explore
+                  </a>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
