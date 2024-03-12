@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+</head>
+
+<body>
+    <style>
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                "Segoe UI Symbol";
+        }
+
+        .profile-heading {
+            margin: 20px 0;
+            padding-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .bordered-left {
+            border-left: 2px solid #f1f1f1;
+        }
+
+        .bordered-right {
+            border-right: 2px solid #f1f1f1;
+        }
+
+        .bordered-bottom {
+            border-bottom: 2px solid #f1f1f1;
+        }
+
+        p.title.is-bold {
+            font-weight: bold;
+        }
+
+        .columns {
+            margin-left: 10px;
+        }
+
+        .avatar {
+            margin-left: 20px;
+            max-width: 120px;
+            height: auto;
+        }
+
+        ul {
+            list-style-type: circle;
+        }
+    </style>
+    <div class="container">
+        <div class="section profile-heading">
+            <div class="columns">
+                <div class="column is-2 bordered-left bordered-bottom">
+                    <figure class="image avatar">
+                        <img class="is-rounded" src="{{ profile_image_url }}" />
+                    </figure>
+                </div>
+                <div class="column is-5 bordered-right bordered-bottom">
+                    <p>
+                        <span class="subtitle is-bold">{{ name }}</span>
+                    </p>
+                    <p>{{ position }} at <a href="{{ department_url }}">{{ department_name }}</a> at <a
+                            href="{{ university_url }}">{{ university_name }}</a>.</p>
+                    <br>
+                    <p>
+                        Research interests: {{ research_interests }}.
+                    </p>
+                </div>
+
+                <!-- More Info Section -->
+                <div class="column is-2 bordered-right bordered-bottom">
+                    <span class="subtitle is-bold">More Info</span>
+                    {% for link in more_info_links %}
+                    <p><a href="{{ link.url }}">{{ link.text }}</a></p>
+                    {% endfor %}
+                </div>
+
+                <!-- Contact Section -->
+                <div class="column is-3 bordered-right bordered-bottom">
+                    <span class="subtitle is-bold">Contact</span>
+                    <p>{{ email }}</p>
+                    {% for social in social_links %}
+                    <p><a href="{{ social.url }}">{{ social.platform }}</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Intro Section -->
+        <div class="columns section" id="intro">
+            <div class="column is-12 is-size-7">
+                <p>
+                    Hello! I'm Nick. Below, you can find a short bio describing my body of work.
+        
+        
+        
+                    <b>Quick bio:</b> Prof. Nick Vincent is a researcher in human-centered artificial intelligence (AI). 
+                    His research
+                    focuses on understanding how data -- including works and content that we produce and 
+                    logs of our behavior -- provides value to AI systems such as search engines, recommender systems, and
+                    new "generative AI" systems and the benefits of data-dependent AI might be shared back to the public. 
+                    A key idea motivating his work is that because human activities are upstream of the
+                    <a href="https://www.radicalxchange.org/concepts/data-dignity/">data contributions</a> that make AI work,
+                    organized groups can exert <a href="./static/data_leverage.pdf">"data leverage"</a> to bargain for larger
+                    shares of the profits of AI or for more voice in how AI systems are governed.
+                    The overarching goal of this research is to
+                    develop frameworks, build tools, and present empirical results that help 
+                    work towards an ecosystem of highly capable and widely beneficial
+                    AI technologies that mitigate inequalities in
+                    wealth and power rather than exacerbating them.
+                  </p>
+                  <br/>
+        
+                  <p>
+                    <b>Additional background info:</b> I was previously a postdoc working with the <a href="https://c2.ucdavis.edu/">Computational Communication
+                      Research Lab</a> at UC Davis and the <a href="https://social.cs.washington.edu/"> Social Futures Lab </a>
+                    at the University of Washington.
+                    I received my PhD from Northwestern University's <a href="http://tsb.northwestern.edu/">
+                      Technology and Social Behavior
+                    </a> program (a joint degree in computer science and communication), where I worked in the <a
+                      href="https://www.psagroup.org/">People, Space, and Algorithms Research Group</a>. During graduate school,
+                    I was a research intern at Snap and Microsoft. Before graduate school, I studied
+                    electrical engineering at UCLA.
+                  </p>
+                  
+                <b>Recent news: </b>
+                <ul>
+                    {% for news_item in recent_news %}
+                    <li>{{ news_item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- News Coverage Section -->
+        <div class="columns" id="news">
+            <div class="column is-6 is-size-7">
+                <h2 class="is-size-5">News Coverage</h2>
+                <ol>
+                    {% for news in news_coverage %}
+                    <li>
+                        <p>{{ news.title }} in <a href="{{ news.url }}">{{ news.source }}</a></p>
+                        <p>{{ news.description }}</p>
+                    </li>
+                    {% endfor %}
+                </ol>
+
+                <!-- Blog Posts Section -->
+                <h2 class="is-size-5">Blog Posts and Op-eds</h2>
+                <ol>
+                    {% for post in blog_posts %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date }}.</li>
+                    {% endfor %}
+                </ol>
+
+                <!-- Multimedia Section -->
+                <h2 class="is-size-5">Multimedia</h2>
+                <ol>
+                    {% for media in multimedia %}
+                    <li>({{ media.type }}) <a href="{{ media.url }}">{{ media.title }}</a>, {{ media.date }}.</li>
+                    {% endfor %}
+                </ol>
+            </div>
+
+            <!-- Publications Section -->
+            <div class="column is-6 is-size-7">
+                <h2 class="is-size-5">Peer-reviewed Publications</h2>
+                <ol>
+                    {% for publication in publications %}
+                    <li>
+                        <p>[<a href="{{ publication.conference_url }}">{{ publication.conference }}</a>] {{
+                            publication.year }}.</p>
+                        <p>{{ publication.citation }}</p>
+                        <div>Link to <a href="{{ publication.preprint_url }}">preprint</a> | <a
+                                href="{{ publication.slides_url }}">slides</a></div>
+                    </li>
+                    {% endfor %}
+                </ol>
+
+                <!-- Workshop Papers and Other Preprints Section -->
+                <h2 class="is-size-5">Workshop Papers and Other Preprints</h2>
+                <ol>
+                    {% for paper in workshop_papers %}
+                    <li>
+                        <p>[<a href="{{ paper.event_url }}">{{ paper.event_name }}</a>] {{ paper.year }}.</p>
+                        <p>{{ paper.title }}</p>
+                        <div>Link to <a href="{{ paper.preprint_url }}">preprint</a></div>
+                    </li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+page_title: "Personal Website for Nicholas M. Vincent"
+profile_image_url: "./static/Headshots-916_Small.jpg"
+name: "Nick Vincent"
+position: "Assistant Professor"
+department_url: "https://www.sfu.ca/computing.html"
+department_name: "School of Computing Science"
+university_url: "https://www.sfu.ca/"
+university_name: "Simon Fraser University"
+university_location: "British Columbia"
+research_interests: "Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, and Social Computing"
+email: "nvincent@sfu.ca"
+more_info_links:
+  - url: "https://raw.githubusercontent.com/nickmvincent/simple_research_website/main/public_cv.pdf"
+    text: "CV as PDF"
+  - url: "https://dataleverage.substack.com/"
+    text: "Blog"
+  - url: "https://www.semanticscholar.org/author/Nicholas-Vincent/2065694473"
+    text: "Semantic Scholar page"
+  - url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
+    text: "LinkedIn"
+  - url: "https://github.com/nickmvincent"
+    text: "Github"
+
+social_links:
+  - platform: "Twitter"
+    url: "https://twitter.com/nickmvincent"
+  - platform: "hci.social"
+    url: "https://hci.social/@nickmvincent"
+
+recent_news:
+  - "Presented in Prof. Shilad Sen's Collective Intelligence course at Macalester College"
+  - "I recently received a SIGCHI Outstanding Dissertation Award."
+  - "Gave a talk at SFU's Digital Democracies Institute."
+  - "I was a panelist at U of Toronto's Fair LLM workshop put on by the Data Sciences Institute."
+
+
+news_coverage:
+  - title: "Data deals and generative AI in the Washington Post"
+    source: "Washington Post"
+    url: "https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/"
+    description: "Tiku, N. October 2023. Newspapers want payment for articles used to power ChatGPT."
+
+  - title: "Paradox of re-use in Business Insider"
+    source: "Business Insider"
+    url: "https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8"
+    description: "Hays, K. and Barr, A. AI is killing the grand bargain at the heart of the web. 'We're in a different world.'"
+
+  - title: "Data leverage and generative AI in the Business Insider"
+    source: "Business Insider"
+    url: "https://www.businessinsider.com/data-leverage-harry-potter-test-putting-value-data-ai-models-2023-8"
+    description: "Barr, A. August 2023. 'Data leverage' and the Harry Potter test: How much is a single book worth to a giant AI model?"
+
+  - title: "Value of Wikipedia in New York Times Magazine."
+    source: "New York Times Magazine"
+    url: "https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html"
+    description: "Gertner, J. July 2023. Wikipedia’s Moment of Truth."
+
+  - title: "Data labor in MIT Technology Review."
+    source: "MIT Technology Review"
+    url: "https://www.technologyreview.com/2023/06/13/1074560/we-are-all-ais-free-data-workers/"
+    description: "Heikkilä, M. June 2023. We are all AI’s free data workers."
+
+  - title: "Data poisoning in Le Monde."
+    source: "Le Monde"
+    url: "https://www.lemonde.fr/en/pixels/article/2022/04/30/internet-users-are-poisoning-their-personal-data-in-the-fight-against-online-surveillance_5982052_13.html"
+    description: "Defer, A. April 2022. Internet users are 'poisoning' their personal data in the fight against online surveillance."
+
+  - title: "Wikipedia and search engines in Vox."
+    source: "Vox"
+    url: "https://www.vox.com/recode/22550555/google-search-knowledge-panels-serial-killer-misinformation-knowledge-graph"
+    description: "Heilweil, R. June 2021. Got the same name as a serial killer? Google might think you’re the same person."
+
+  - title: "Data dividends in Bloomberg."
+    source: "Bloomberg"
+    url: "https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way"
+    description: "Coy, P. May 2021. Facebook and Others Should Pay Us for Our Data. Here’s One Way."
+
+  - title: "Data leverage in MIT Technology Review."
+    source: "MIT Technology Review"
+    url: "https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/"
+    description: "Hao, K. March 2021. How to poison the data that Big Tech use to surveil you."
+
+  - title: "Data leverage in Fortune."
+    source: "Fortune"
+    url: "https://fortune.com/2021/02/23/your-data-is-a-weapon-that-can-help-change-corporate-behavior/"
+    description: "Vanian, J. and Kahn, J. February 2021. Your data is a weapon that can help change corporate behavior. Also covered in the ACM TechNews."
+
+  - title: "Data strikes in Quartz."
+    source: "Quartz"
+    url: "https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/"
+    description: "Rivero, N. July 2020. Is it time for Netflix subscribers to go on strike?"
+
+  - title: "Value of Wikipedia in the New York Times."
+    source: "New York Times"
+    url: "https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html"
+    description: "Herrman, J. March 2018. YouTube May Add to the Burdens of Humble Wikipedia"
+
+blog_posts:
+  - title: "A roadmap toward empowering the labor force behind AI."
+    url: "https://montrealethics.ai/a-roadmap-toward-empowering-the-labor-force-behind-ai/"
+    date: "July 2023"
+
+  - title: "ChatGPT Stole Your Work. So What Are You Going to Do?"
+    url: "https://www.wired.com/story/chatgpt-generative-artificial-intelligence-regulation/"
+    date: "January 2023"
+
+  - title: "AI Technologies are System Maps, and You are a Cartographer."
+    url: "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
+    date: "February 2023"
+
+  - title: "AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage."
+    url: "https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage"
+    date: "December 2022"
+
+  - title: "ChatGPT is Awesome and Scary: You Deserve Credit for the Good Parts (and Might Help Fix the Bad Parts)."
+    url: "https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit"
+    date: "December 2022"
+
+  - title: "The Paradox of Reuse, Language Models Edition."
+    url: "https://dataleverage.substack.com/p/the-paradox-of-reuse-language-models-edition"
+    date: "December 2022"
+
+  - title: "GitHub Copilot and the Exploitation of “Data Labor”: A Wake-Up Call for the Tech Industry."
+    url: "https://www.psagroup.org/blogposts/101"
+    date: "July 2021"
+
+  - title: "Apple Now Lets You Opt-Out of Tracking: Will This Give You More Influence Over Tech Companies?"
+    url: "https://medium.com/technically-social/apple-now-lets-you-opt-out-of-tracking-will-this-give-you-more-influence-over-tech-companies-f7eec970aec1"
+    date: "July 2021"
+
+  - title: "A Casual Introduction to Public Goods and Collective Action Problems. Guest post for the Govrnance Substack."
+    url: "https://govrnance.substack.com/p/deliberate-public-goods-games"
+    date: "June 2021"
+
+  - title: "Powerful Technologies and Their Power Laws: Estimating Machine Learning Systems' Data Leverage Vulnerabilities."
+    url: "https://observablehq.com/d/685789015c21cd9a"
+    date: "Last Updated April 2021"
+
+  - title: "What if we could check Big Tech?: The collective voice of millions of users could be as effective as regulation."
+    url: "https://news.northwestern.edu/stories/2021/03/what-if-we-could-check-big-tech/"
+    date: "March 2021"
+
+  - title: "Why You’re an Expert \"Language Model Trainer\"!"
+    url: "https://www.psagroup.org/blogposts/78"
+    date: "March 2021"
+
+  - title: "Don’t give OpenAI all the credit for GPT-3: You might have helped create the latest “astonishing” advance in AI too."
+    url: "https://www.psagroup.org/blogposts/62"
+    date: "September 2020"
+
+  - title: "\"Data Strikes\": A New Form of Leverage for Tech Users?"
+    url: "https://blog.datadividendproject.com/data-strikes/"
+    date: "September 2020"
+
+multimedia:
+  - type: "Video"
+    title: "Does the rise of AI need us to adopt new data licensing policies?"
+    url: "https://www.youtube.com/watch?v=EZ4XQanYuXo"
+    date: "December 2022"
+
+  - type: "Podcast"
+    title: "Should Tech Companies Be Paying Us for Our Data? - Things Have Changed Podcast"
+    url: "https://www.thc-pod.com/episode/should-tech-companies-be-paying-us-for-our-data-with-nicholas-vincent"
+    date: "November 2021"
+
+  - type: "Podcast"
+    title: "On Data Dividends - RadicalxChange Podcast"
+    url: "https://radicalxchange-s.simplecast.com/episodes/yakov-feygin-and-nick-vincent-data-dividends-cr25oF5m"
+    date: "May 2021"
+
+  - type: "Video"
+    title: "Data Agency: Individual or Shared?"
+    url: "https://www.youtube.com/watch?v=eRo6mff6vLY"
+    date: "January 2021"
+
+  - type: "Video"
+    title: "Data Driven Economy for All - 2020 RxC Conference"
+    url: "https://youtu.be/77SD6r2jVhw"
+    date: "July 2020"
+
+publications:
+  - conference: "CSCW 2023"
+    conference_url: "https://cscw.acm.org/2023/"
+    year: "2023"
+    citation: "Ajmani, L., Vincent, N., and Chancellor, S. 2023. Peer-Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration. In ACM CSCW 2023."
+    preprint_url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf"
+    slides_url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/850be5a8-7f12-4c5b-8bbd-a5f52767ea7a.pdf"
+
+  - conference: "FAccT 2023"
+    conference_url: "https://facctconference.org/2023/"
+    year: "2023"
+    citation: "Li, H., Vincent, N., Chancellor, S., and Hecht, B. 2023. The Dimensions of Data Labor: A roadmap for Activists, Researchers, and Practitioners to Empower Data Producers. In ACM FAccT 2023."
+    preprint_url: "https://arxiv.org/abs/2305.13238"
+
+  - conference: "FAccT 2022"
+    conference_url: "https://facctconference.org/2022/"
+    year: "2022"
+    citation: "Contractor, D., McDuff, D., Haines, J., Lee, J., Hines, C., Hecht, B., Vincent, N., and Li, H. 2021. Behavioral Use Licensing for Responsible AI. In ACM FAcct 2022."
+    preprint_url: "https://dl.acm.org/doi/abs/10.1145/3531146.3533143"
+
+  - conference: "NeurIPS 2021 Datasets and Benchmarks Track"
+    conference_url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+    year: "2021"
+    citation: "Bandy, J., and Vincent, N. 2021. Addressing 'Documentation Debt' in Machine Learning Research: A Retrospective Datasheet for BookCorpus. In NeurIPS 2021 Dataset Track."
+    preprint_url: "https://arxiv.org/abs/2105.05241"
+
+  - conference: "ICWSM 2021"
+    conference_url: "https://ojs.aaai.org/index.php/ICWSM/issue/view/405"
+    year: "2021"
+    citation: "Chowdhury, F.A., Liu, Y., Saha, K., Vincent, N., Neves, L., Shah, N., and Bos, M.W. 2021. CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms. In Proceedings of the 15th International AAAI Conference on Web and Social Media (ICWSM)."
+    preprint_url: "https://koustuv.com/papers/ICWSM21_CEAM.pdf"
+
+  - conference: "CSCW 2021"
+    conference_url: "https://cscw.acm.org/2021/"
+    year: "2021"
+    citation: "Vincent, N., and Hecht, B. 2021. A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results. In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
+    preprint_url: "/static/wikiserp_cscw.pdf"
+    slides_url: "https://github.com/nickmvincent/se-scraper"
+
+  - conference: "CSCW 2021"
+    citation: "Vincent, N., and Hecht, B. 2021. Can “Conscious Data Contribution” Help Users to Exert “Data Leverage” Against Technology Companies? In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
+    preprint_url: "/static/cdc_cscw.pdf"
+    slides_url: "https://github.com/nickmvincent/cdc"
+
+  - conference: "CHI 2021"
+    conference_url: "https://chi2021.acm.org/"
+    year: "2021"
+    citation: "Saha, K., Liu, Y., Vincent, N., Chowdhury, F.A., Neves, L., Shah, N., and Bos, M. 2021. AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems."
+    preprint_url: "https://koustuv.com/papers/CHI21_AdverTiming.pdf"
+
+  - conference: "FAccT 2021"
+    conference_url: "https://facctconference.org/2021/index.html"
+    year: "2021"
+    citation: "Vincent, N., Li, H., Tilly, N., Chancellor, S., Hecht, B. 2021. Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies. In Proceedings of the 2021 Conference on Fairness, Accountability, and Transparency."
+    preprint_url: "/static/data_leverage.pdf"
+    slides_url: "https://arxiv.org/abs/2012.09995"
+
+  - conference: "CSCW 2019"
+    conference_url: "http://cscw.acm.org/2019/"
+    year: "2019"
+    citation: "Li, H., Vincent, N., Tsai, J., Kaye, J., and Hecht, B. 2019. How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”. CSCW 2019 / PACM Computer-Supported Cooperative Work and Social Computing."
+    preprint_url: "http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf"
+
+  - conference: "ICWSM 2019"
+    conference_url: "https://icwsm.org/2019/"
+    year: "2019"
+    citation: "Vincent, N., Johnson, I., Sheehan, P., and Hecht, B. 2019. Measuring the Importance of User-Generated Content to Search Engines. In AAAI ICWSM 2019."
+
+workshop_papers:
+  - event_name: "RegML 2023"
+    event_url: "https://regulatableml.github.io/"
+    year: "2023"
+    title: "An Alternative to Regulation: The Case for Public AI."
+    preprint_url: "https://arxiv.org/abs/2311.11350"
+
+  - event_name: "EAAMO 2023 Posters"
+    year: "2023"
+    title: "Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation."
+    preprint_url: "http://www.nickmvincent.com/static/eaamo_data_dividends.pdf"
+
+  - event_name: "CESC 2022"
+    year: "2022"
+    title: "Collaborative Design of Contribution Tracking Systems for Decentralized Organizations."
+    preprint_url: "http://www.nickmvincent.com/static/CollabRecords___CESC_22.pdf"
+
+  - event_name: "CSCW 2022 Posters"
+    year: "2022"
+    title: "Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users."
+    preprint_url: "http://www.nickmvincent.com/static/Birdwatch.pdf"
+
+  - event_name: "arXiv Preprint"
+    title: "Twitter Engagement with Retracted Articles: Who, When, and How?"
+    preprint_url: "https://arxiv.org/abs/2203.04228"
+
+  - event_name: "WikiWorkshop 2020"
+    year: "2020"
+    title: "A Deeper Investigation of the Importance of Wikipedia Links to the Success of Search Engines."
+    preprint_url: "/static/WikiSerp2020.pdf"
+
+  - event_name: "arXiv Preprint"
+    title: "Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing the Profits of Artificial Intelligence."
+    preprint_url: "https://arxiv.org/abs/1912.00757"
+
+  - event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
+    year: "2015"
+    title: "Deep learning of tissue fate features in acute ischemic stroke."
+    preprint_url: "http://ieeexplore.ieee.org/document/7359869/"
+
+  - event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
+    title: "Detection of hyperperfusion on arterial spin labeling using deep learning."
+    preprint_url: "http://ieeexplore.ieee.org/document/7359870/"
+
