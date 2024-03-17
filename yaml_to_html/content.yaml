@@ -179,77 +179,200 @@ multimedia:
     date: "July 2020"
 
 publications:
-  - conference: "CSCW 2023"
+  - conference: ACM CSCW 2023
     conference_url: "https://cscw.acm.org/2023/"
+    title: "Peer Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration"
     year: "2023"
+    authors: "Leah Ajmani, Nicholas Vincent, Stevie Chancellor"
+    proceedings: "Proceedings of the ACM on Human-Computer Interaction"
+    volume: "7"
+    issue: "CSCW2"
     citation: "Ajmani, L., Vincent, N., and Chancellor, S. 2023. Peer-Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration. In ACM CSCW 2023."
-    preprint_url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf"
-    slides_url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/850be5a8-7f12-4c5b-8bbd-a5f52767ea7a.pdf"
+    urls:
+      - url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf"
+        type: "preprint pdf"
+      - url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/850be5a8-7f12-4c5b-8bbd-a5f52767ea7a.pdf"
+        type: slides
 
-  - conference: "FAccT 2023"
+  - conference: "ACM FAccT 2023"
     conference_url: "https://facctconference.org/2023/"
+    title: "The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers"
     year: "2023"
+    authors: "Hanlin Li, Nicholas Vincent, Stevie Chancellor, Brent Hecht"
+    proceedings: "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency"
     citation: "Li, H., Vincent, N., Chancellor, S., and Hecht, B. 2023. The Dimensions of Data Labor: A roadmap for Activists, Researchers, and Practitioners to Empower Data Producers. In ACM FAccT 2023."
-    preprint_url: "https://arxiv.org/abs/2305.13238"
+    urls:
+      - url: https://arxiv.org/abs/2305.13238
+        type: arxiv
 
-  - conference: "FAccT 2022"
+  - conference: "ACM FAccT 2022"
     conference_url: "https://facctconference.org/2022/"
+    title: "Behavioral Use Licensing for Responsible AI"
     year: "2022"
+    authors: "Danish Contractor, Daniel McDuff, Julia Katherine Haines, Jenny Lee, Christopher Hines, Brent Hecht, Nicholas Vincent, Hanlin Li"
+    proceedings: "Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency"
     citation: "Contractor, D., McDuff, D., Haines, J., Lee, J., Hines, C., Hecht, B., Vincent, N., and Li, H. 2021. Behavioral Use Licensing for Responsible AI. In ACM FAcct 2022."
-    preprint_url: "https://dl.acm.org/doi/abs/10.1145/3531146.3533143"
+    urls:
+      - url: "https://dl.acm.org/doi/abs/10.1145/3531146.3533143"
+        type: "ACM DL"
+      - url: https://www.licenses.ai
+        type: "RAIL Initiative"
 
   - conference: "NeurIPS 2021 Datasets and Benchmarks Track"
     conference_url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+    title: 'Addressing "Documentation Debt" in Machine Learning Research: A Retrospective Datasheet for BookCorpus'
     year: "2021"
+    authors: Jack Bandy, Nicholas Vincent
+    proceedings: "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1)"
     citation: "Bandy, J., and Vincent, N. 2021. Addressing 'Documentation Debt' in Machine Learning Research: A Retrospective Datasheet for BookCorpus. In NeurIPS 2021 Dataset Track."
-    preprint_url: "https://arxiv.org/abs/2105.05241"
+    urls: 
+      - url: "https://arxiv.org/abs/2105.05241"
+        type: "arxiv"
+      - url: "https://jackbandy.medium.com/dirty-secrets-of-bookcorpus-a-key-dataset-in-machine-learning-6ee2927e8650?ref=jackbandy.com"
+        type: "blog"
 
   - conference: "ICWSM 2021"
     conference_url: "https://ojs.aaai.org/index.php/ICWSM/issue/view/405"
+    title: "CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms"
     year: "2021"
+    authors: "Farhan Asif Chowdhury, Yozen Liu, Koustuv Saha, Nicholas Vincent, Leonardo Neves, Neil Shah, Maarten W Bos"
+    proceedings: "Proceedings of the International AAAI conference on Web and Social Media"
     citation: "Chowdhury, F.A., Liu, Y., Saha, K., Vincent, N., Neves, L., Shah, N., and Bos, M.W. 2021. CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms. In Proceedings of the 15th International AAAI Conference on Web and Social Media (ICWSM)."
-    preprint_url: "https://koustuv.com/papers/ICWSM21_CEAM.pdf"
-
-  - conference: "CSCW 2021"
-    conference_url: "https://cscw.acm.org/2021/"
-    year: "2021"
-    citation: "Vincent, N., and Hecht, B. 2021. A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results. In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
-    preprint_url: "/static/wikiserp_cscw.pdf"
-    slides_url: "https://github.com/nickmvincent/se-scraper"
-
-  - conference: "CSCW 2021"
-    citation: "Vincent, N., and Hecht, B. 2021. Can “Conscious Data Contribution” Help Users to Exert “Data Leverage” Against Technology Companies? In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
-    preprint_url: "/static/cdc_cscw.pdf"
-    slides_url: "https://github.com/nickmvincent/cdc"
+    doi: https://doi.org/10.1609/icwsm.v15i1.18046
+    urls:
+      - url: "https://koustuv.com/papers/ICWSM21_CEAM.pdf"
+        type: "preprint pdf"
 
   - conference: "CHI 2021"
     conference_url: "https://chi2021.acm.org/"
+    title: "AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media"
     year: "2021"
+    authors: "Koustuv Saha, Yozen Liu, Nicholas Vincent, Farhan Asif Chowdhury, Leonardo Neves, Neil Shah, Maarten W Bos"
+    proceedings: "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems"
     citation: "Saha, K., Liu, Y., Vincent, N., Chowdhury, F.A., Neves, L., Shah, N., and Bos, M. 2021. AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems."
-    preprint_url: "https://koustuv.com/papers/CHI21_AdverTiming.pdf"
+    urls: 
+      - url: "https://koustuv.com/papers/CHI21_AdverTiming.pdf"
+        type: "pdf preprint"
+
+  - conference: "CSCW 2021"
+    conference_url: "https://cscw.acm.org/2021/"
+    title: "A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results"
+    year: "2021"
+    authors: "Nicholas Vincent, Brent Hecht"
+    proceedings: "Proceedings of the ACM on Human-Computer Interaction"
+    volume: "5"
+    issue: "CSCW1"
+    citation: "Vincent, N., and Hecht, B. 2021. A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results. In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
+    urls:
+      - url: "/static/wikiserp_cscw.pdf"
+        type: "preprint pdf"
+      - url: "https://github.com/nickmvincent/se-scraper"
+        type: "archived code"
+      - url: "https://github.com/nickmvincent/LinkCoordMin"
+        type: "newer data collection code"
+
+  - conference: "CSCW 2021"
+    conference_url: "https://cscw.acm.org/2021/"
+    title: 'Can "Conscious Data Contribution" Help Users to Exert "Data Leverage" Against Technology Companies?'
+    year: "2021"
+    authors: Nicholas Vincent, Brent Hecht
+    proceedings: "Proceedings of the ACM on Human-Computer Interaction"
+    volume: "5"
+    issue: "CSCW1"
+    citation: "Vincent, N., and Hecht, B. 2021. Can “Conscious Data Contribution” Help Users to Exert “Data Leverage” Against Technology Companies? In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
+    urls: 
+      - url: "/static/cdc_cscw.pdf"
+        type: "pdf preprint"
+      - url: "https://github.com/nickmvincent/cdc"
+        type: "archived code"
 
   - conference: "FAccT 2021"
     conference_url: "https://facctconference.org/2021/index.html"
+    title: "Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies"
     year: "2021"
+    authors: "Nicholas Vincent, Hanlin Li, Nicole Tilly, Stevie Chancellor, Brent Hecht"
+    proceedings: "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency"
     citation: "Vincent, N., Li, H., Tilly, N., Chancellor, S., Hecht, B. 2021. Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies. In Proceedings of the 2021 Conference on Fairness, Accountability, and Transparency."
-    preprint_url: "/static/data_leverage.pdf"
-    slides_url: "https://arxiv.org/abs/2012.09995"
+    urls:
+      - url: "/static/data_leverage.pdf"
+        type: "pdf preprint"
+      - url: "https://arxiv.org/abs/2012.09995"
+        type: "arxiv"
 
   - conference: "CSCW 2019"
     conference_url: "http://cscw.acm.org/2019/"
+    title: 'How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”'
     year: "2019"
+    authors: "Hanlin Li, Nicholas Vincent, Janice Tsai, Jofish Kaye, Brent Hecht"
+    proceedings: "Proceedings of the ACM on Human-Computer Interaction"
+    issue: "CSCW"
     citation: "Li, H., Vincent, N., Tsai, J., Kaye, J., and Hecht, B. 2019. How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”. CSCW 2019 / PACM Computer-Supported Cooperative Work and Social Computing."
-    preprint_url: "http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf"
+    urls: 
+      - url: "http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf"
+        type: "pdf preprint"
 
   - conference: "ICWSM 2019"
     conference_url: "https://icwsm.org/2019/"
+    title: "Measuring the Importance of User-Generated Content to Search Engines "
     year: "2019"
+    authors: "Nicholas Vincent, Isaac Johnson, Patrick Sheehan, Brent Hecht"
+    proceedings: "Proceedings of the International AAAI Conference on Web and Social Media"
     citation: "Vincent, N., Johnson, I., Sheehan, P., and Hecht, B. 2019. Measuring the Importance of User-Generated Content to Search Engines. In AAAI ICWSM 2019."
+    urls:
+      - url: "https://www.nickmvincent.com/static/icwsm2019_ugcinsearch_arxiv.pdf"
+        type: "pdf preprint"
+      - url: "https://github.com/nickmvincent/you-geo-see"
+        type: "archived code"
+  
+  - conference: "The Web Conference 2019"
+    conference_url: "https://www2019.thewebconf.org/"
+    title: '“Data Strikes”: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies'
+    year: "2019"
+    pub_date: "2019/5/13"
+    authors: "Nicholas Vincent, Brent Hecht, Shilad Sen"
+    proceedings: "The World Wide Web Conference"
+    citation: "Vincent, N., Hecht, B., and Sen, S. 2019. “Data Strikes”: Evaluating the Effectiveness of New Forms of Collective Action Against Technology Platforms. In The World Wide Web Conference (WWW '19)."
+    urls:
+      - url: "https://dl.acm.org/citation.cfm?id=3313742"
+        type: "ACM DL"
+      - url: "https://www.nickmvincent.com/static/www2019_datastrike.pdf"
+        type: "pdf preprint"
+        url: "https://github.com/nickmvincent/surprise_sandbox"
+        type: "archived code"
+
+  - conference: "CSCW 2018"
+    conference_url: "http://cscw.acm.org/2018/"
+    title: "Women (still) ask for less: Gender differences in hourly rate in an online labor marketplace"
+    year: "2018"
+    pub_date: "2018/11/1"
+    authors: "Eureka Foong, Nicholas Vincent, Brent Hecht, Elizabeth M Gerber"
+    proceedings: "Proceedings of the ACM on Human-Computer Interaction"
+    volume: "2"
+    issue: "CSCW"
+    citation: "Foong, E., Vincent, N., Hecht, B., and Gerber, E. 2018. Women (Still) Ask For Less: Gender Differences in Hourly Rate in an Online Labor Marketplace. ACM CSCW 2018. "
+    urls:
+      - url: "http://www.brenthecht.com/publications/cscw2018_upworkgender.pdf"
+        type: "pdf preprint"
+
+  - conference: "CHI 2018"
+    conference_url: "https://chi2018.acm.org/"
+    title: "Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities"
+    year: "2018"
+    pub_date: "2018/4/21"
+    authors: "Nicholas Vincent, Isaac Johnson, Brent Hecht"
+    proceedings: "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
+    citation: "Vincent, N., Johnson, I., and Hecht, B. 2018. Examining Wikipedia with a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities. In ACM CHI 2018."
+    urls:
+      - url: "https://www.nickmvincent.com/static/WikipediaAndOnlineCommunitiesChi18_references_fixed.pdf"
+        type: "pdf preprint"
+      - url: "https://github.com/nickmvincent/ugc-val-est"
+        type: "archived code"
 
 workshop_papers:
   - event_name: "RegML 2023"
     event_url: "https://regulatableml.github.io/"
     year: "2023"
+    authors: "Nicholas Vincent, David Bau, Sarah Schwettmann, Joshua Tan"
     title: "An Alternative to Regulation: The Case for Public AI."
     preprint_url: "https://arxiv.org/abs/2311.11350"
 
@@ -290,3 +413,5 @@ workshop_papers:
     title: "Detection of hyperperfusion on arterial spin labeling using deep learning."
     preprint_url: "http://ieeexplore.ieee.org/document/7359870/"
 
+
+events:
