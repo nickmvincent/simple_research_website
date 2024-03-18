@@ -35,75 +35,115 @@ recent_news:
 
 
 news_coverage:
-  - title: "Data deals and generative AI in the Washington Post"
+  - title: "Newspapers want payment for articles used to power ChatGPT"
     source: "Washington Post"
+    authors: "Nitasha Tiku"
+    date: "October 2023"
     url: "https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/"
-    description: "Tiku, N. October 2023. Newspapers want payment for articles used to power ChatGPT."
 
-  - title: "Paradox of re-use in Business Insider"
+  - title: "AI is killing the grand bargain at the heart of the web. 'We're in a different world.'"
     source: "Business Insider"
+    authors: "Kali Hays and Alistair Barr"
+    date: "January 2024"
     url: "https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8"
-    description: "Hays, K. and Barr, A. AI is killing the grand bargain at the heart of the web. 'We're in a different world.'"
 
-  - title: "Data leverage and generative AI in the Business Insider"
+  - title: "'Data leverage' and the Harry Potter test: How much is a single book worth to a giant AI model?"
     source: "Business Insider"
+    authors: "Alistar Barr"
+    date: "August 2023"
     url: "https://www.businessinsider.com/data-leverage-harry-potter-test-putting-value-data-ai-models-2023-8"
-    description: "Barr, A. August 2023. 'Data leverage' and the Harry Potter test: How much is a single book worth to a giant AI model?"
 
-  - title: "Value of Wikipedia in New York Times Magazine."
+  - title: "Wikipedia’s Moment of Truth"
     source: "New York Times Magazine"
+    authors: "Jon Gernter"
+    date: "September 2023"
     url: "https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html"
-    description: "Gertner, J. July 2023. Wikipedia’s Moment of Truth."
+    notes: "Also featured in The Daily and translated to Portuguese for Estadão."
+    urls:
+      - url: "https://www.nytimes.com/2023/09/10/podcasts/the-daily/wikipedia-ai.html"
+        type: "The Daily"
+      - url: "https://www.estadao.com.br/link/empresas/fim-da-wikipedia-enciclopedia-digital-tenta-sobreviver-a-era-da-inteligencia-artificial/"
+        type: "Estadão"
 
-  - title: "Data labor in MIT Technology Review."
+  - title: "We are all AI’s free data workers"
     source: "MIT Technology Review"
+    authors: "Melissa Heikkilä"
+    date: "June 2023"
+    pub_date: "2023/06/13"
     url: "https://www.technologyreview.com/2023/06/13/1074560/we-are-all-ais-free-data-workers/"
-    description: "Heikkilä, M. June 2023. We are all AI’s free data workers."
 
-  - title: "Data poisoning in Le Monde."
+  - title: "Internet users are 'poisoning' their personal data in the fight against online surveillance."
     source: "Le Monde"
+    authors: "Aurélien Defer"
+    date: "April 2022"
+    pub_date: "2022/04/30"
     url: "https://www.lemonde.fr/en/pixels/article/2022/04/30/internet-users-are-poisoning-their-personal-data-in-the-fight-against-online-surveillance_5982052_13.html"
-    description: "Defer, A. April 2022. Internet users are 'poisoning' their personal data in the fight against online surveillance."
 
-  - title: "Wikipedia and search engines in Vox."
+  - title: "Got the same name as a serial killer? Google might think you’re the same person."
     source: "Vox"
+    authors: "Rebecca Heilweil"
+    date: "June 2021"
+    pub_date: "2021/06/25"
     url: "https://www.vox.com/recode/22550555/google-search-knowledge-panels-serial-killer-misinformation-knowledge-graph"
-    description: "Heilweil, R. June 2021. Got the same name as a serial killer? Google might think you’re the same person."
 
-  - title: "Data dividends in Bloomberg."
+  - title: "Facebook and Others Should Pay Us for Our Data. Here’s One Way."
     source: "Bloomberg"
+    authors: "Peter Coy"
+    date: "May 2021"
+    pub_date: "2021/05/05"
     url: "https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way"
-    description: "Coy, P. May 2021. Facebook and Others Should Pay Us for Our Data. Here’s One Way."
 
-  - title: "Data leverage in MIT Technology Review."
+  - title: "How to poison the data that Big Tech use to surveil you"
     source: "MIT Technology Review"
+    authors: "Karen Hao"
+    date: "March 2021"
+    pub_date: "2021/03/05"
     url: "https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/"
-    description: "Hao, K. March 2021. How to poison the data that Big Tech use to surveil you."
 
-  - title: "Data leverage in Fortune."
+  - title: "Your data is a weapon that can help change corporate behavior."
     source: "Fortune"
+    authors: "Jonathan Vanian and Jeremy Kahn"
+    date: "February 2021"
+    pub_date: "2021/02/23"
     url: "https://fortune.com/2021/02/23/your-data-is-a-weapon-that-can-help-change-corporate-behavior/"
-    description: "Vanian, J. and Kahn, J. February 2021. Your data is a weapon that can help change corporate behavior. Also covered in the ACM TechNews."
+    notes: "Also covered in the ACM TechNews."
+    urls:
+      - url: "https://technews.acm.org/archives.cfm?fo=2021-02-feb/feb-24-2021.html"
+        type: "ACM TechNews"
 
   - title: "Data strikes in Quartz."
     source: "Quartz"
+    authors: "Nicolás Rivero"
+    date: "July 2020"
+    pub_date: "2020/07/23"
     url: "https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/"
-    description: "Rivero, N. July 2020. Is it time for Netflix subscribers to go on strike?"
 
-  - title: "Value of Wikipedia in the New York Times."
+  - title: "YouTube May Add to the Burdens of Humble Wikipedia"
     source: "New York Times"
+    authors: "John Herrman"
+    date: "March 2018"
     url: "https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html"
-    description: "Herrman, J. March 2018. YouTube May Add to the Burdens of Humble Wikipedia"
+    notes: "Also covered on the Northwestern Computer Science"
+    urls:
+      - url: "https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2018/hecht-vincent-johnson-research-featured-in-new-york-times-article.html"
+        type: "Northwestern University Computer Science press release"
 
-blog_posts:
+op_eds:
   - title: "A roadmap toward empowering the labor force behind AI."
+    authors: "Hanlin Li, Nicholas Vincent, Stevie Chancellor, and Brent Hecht"
+    source: "Montreal AI Ethics Institute Research Summaries"
     url: "https://montrealethics.ai/a-roadmap-toward-empowering-the-labor-force-behind-ai/"
     date: "July 2023"
-
+    pub_date: "2023/07/17"
+    
   - title: "ChatGPT Stole Your Work. So What Are You Going to Do?"
+    authors: "Nicholas Vincent, Hanlin Li"
+    source: "Wired"
     url: "https://www.wired.com/story/chatgpt-generative-artificial-intelligence-regulation/"
     date: "January 2023"
+    pub_date: "2023/01/20"
 
+blog_posts:
   - title: "AI Technologies are System Maps, and You are a Cartographer."
     url: "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
     date: "February 2023"
@@ -202,8 +242,10 @@ publications:
     proceedings: "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency"
     citation: "Li, H., Vincent, N., Chancellor, S., and Hecht, B. 2023. The Dimensions of Data Labor: A roadmap for Activists, Researchers, and Practitioners to Empower Data Producers. In ACM FAccT 2023."
     urls:
-      - url: https://arxiv.org/abs/2305.13238
-        type: arxiv
+      - url: "https://arxiv.org/abs/2305.13238"
+        type: "arxiv"
+      - url: "https://montrealethics.ai/a-roadmap-toward-empowering-the-labor-force-behind-ai/"
+        type: "Research summary for Montreal AI Ethics Institute"
 
   - conference: "ACM FAccT 2022"
     conference_url: "https://facctconference.org/2022/"
@@ -216,7 +258,7 @@ publications:
       - url: "https://dl.acm.org/doi/abs/10.1145/3531146.3533143"
         type: "ACM DL"
       - url: https://www.licenses.ai
-        type: "RAIL Initiative"
+        type: "RAIL Initiative Website"
 
   - conference: "NeurIPS 2021 Datasets and Benchmarks Track"
     conference_url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
@@ -254,7 +296,7 @@ publications:
       - url: "https://koustuv.com/papers/CHI21_AdverTiming.pdf"
         type: "pdf preprint"
 
-  - conference: "CSCW 2021"
+  - conference: "ACM CSCW 2021"
     conference_url: "https://cscw.acm.org/2021/"
     title: "A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results"
     year: "2021"
@@ -263,6 +305,7 @@ publications:
     volume: "5"
     issue: "CSCW1"
     citation: "Vincent, N., and Hecht, B. 2021. A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results. In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
+    notes: "An early version of this work was presented at WikiWorkshop 2020."
     urls:
       - url: "/static/wikiserp_cscw.pdf"
         type: "preprint pdf"
@@ -271,7 +314,7 @@ publications:
       - url: "https://github.com/nickmvincent/LinkCoordMin"
         type: "newer data collection code"
 
-  - conference: "CSCW 2021"
+  - conference: "ACM CSCW 2021"
     conference_url: "https://cscw.acm.org/2021/"
     title: 'Can "Conscious Data Contribution" Help Users to Exert "Data Leverage" Against Technology Companies?'
     year: "2021"
@@ -280,13 +323,14 @@ publications:
     volume: "5"
     issue: "CSCW1"
     citation: "Vincent, N., and Hecht, B. 2021. Can “Conscious Data Contribution” Help Users to Exert “Data Leverage” Against Technology Companies? In CSCW 2021 / PACM Computer-Supported Cooperative Work and Social Computing."
+    notes: "An early version of thsi work was presented at Collective Intelligence 2020."
     urls: 
       - url: "/static/cdc_cscw.pdf"
         type: "pdf preprint"
       - url: "https://github.com/nickmvincent/cdc"
         type: "archived code"
 
-  - conference: "FAccT 2021"
+  - conference: "ACM FAccT 2021"
     conference_url: "https://facctconference.org/2021/index.html"
     title: "Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies"
     year: "2021"
@@ -299,7 +343,7 @@ publications:
       - url: "https://arxiv.org/abs/2012.09995"
         type: "arxiv"
 
-  - conference: "CSCW 2019"
+  - conference: "ACM CSCW 2019"
     conference_url: "http://cscw.acm.org/2019/"
     title: 'How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”'
     year: "2019"
@@ -311,7 +355,7 @@ publications:
       - url: "http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf"
         type: "pdf preprint"
 
-  - conference: "ICWSM 2019"
+  - conference: "AAAI ICWSM 2019"
     conference_url: "https://icwsm.org/2019/"
     title: "Measuring the Importance of User-Generated Content to Search Engines "
     year: "2019"
@@ -340,7 +384,7 @@ publications:
         url: "https://github.com/nickmvincent/surprise_sandbox"
         type: "archived code"
 
-  - conference: "CSCW 2018"
+  - conference: "ACM CSCW 2018"
     conference_url: "http://cscw.acm.org/2018/"
     title: "Women (still) ask for less: Gender differences in hourly rate in an online labor marketplace"
     year: "2018"
@@ -354,7 +398,7 @@ publications:
       - url: "http://www.brenthecht.com/publications/cscw2018_upworkgender.pdf"
         type: "pdf preprint"
 
-  - conference: "CHI 2018"
+  - conference: "ACM CHI 2018"
     conference_url: "https://chi2018.acm.org/"
     title: "Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities"
     year: "2018"
@@ -362,6 +406,7 @@ publications:
     authors: "Nicholas Vincent, Isaac Johnson, Brent Hecht"
     proceedings: "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
     citation: "Vincent, N., Johnson, I., and Hecht, B. 2018. Examining Wikipedia with a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities. In ACM CHI 2018."
+    notes: "Best Paper Award (Top 1% of submissions)."
     urls:
       - url: "https://www.nickmvincent.com/static/WikipediaAndOnlineCommunitiesChi18_references_fixed.pdf"
         type: "pdf preprint"
@@ -369,49 +414,82 @@ publications:
         type: "archived code"
 
 workshop_papers:
-  - event_name: "RegML 2023"
+  - event_name: "RegML 2023 (NeurIPS 2023 Workshop)"
     event_url: "https://regulatableml.github.io/"
+    title: "An Alternative to Regulation: The Case for Public AI"
     year: "2023"
+    pub_date: "2023/11/19"
     authors: "Nicholas Vincent, David Bau, Sarah Schwettmann, Joshua Tan"
-    title: "An Alternative to Regulation: The Case for Public AI."
     preprint_url: "https://arxiv.org/abs/2311.11350"
 
-  - event_name: "EAAMO 2023 Posters"
+  - event_name: "EAAMO 2023"
+    event_url: "https://eaamo.org"
+    title: "Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation"
     year: "2023"
-    title: "Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation."
+    authors: "Nicholas Vincent, Brent Hecht"
     preprint_url: "http://www.nickmvincent.com/static/eaamo_data_dividends.pdf"
+    notes: "Non-archival poster track."
 
   - event_name: "CESC 2022"
+    event_url: "https://cesc.io/"
+    title: "Collaborative Design of Contribution Tracking Systems for Decentralized Organizations"
     year: "2022"
-    title: "Collaborative Design of Contribution Tracking Systems for Decentralized Organizations."
+    authors: "Nicholas Vincent, Christine Vandevoorde"
     preprint_url: "http://www.nickmvincent.com/static/CollabRecords___CESC_22.pdf"
+    notes: "Non-archival conference."
 
   - event_name: "CSCW 2022 Posters"
+    title: "Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users"
     year: "2022"
-    title: "Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users."
+    authors: "Isaiah Jones, Brent Hecht, Nicholas Vincent"
     preprint_url: "http://www.nickmvincent.com/static/Birdwatch.pdf"
-
-  - event_name: "arXiv Preprint"
-    title: "Twitter Engagement with Retracted Articles: Who, When, and How?"
-    preprint_url: "https://arxiv.org/abs/2203.04228"
-
-  - event_name: "WikiWorkshop 2020"
-    year: "2020"
-    title: "A Deeper Investigation of the Importance of Wikipedia Links to the Success of Search Engines."
-    preprint_url: "/static/WikiSerp2020.pdf"
-
-  - event_name: "arXiv Preprint"
-    title: "Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing the Profits of Artificial Intelligence."
-    preprint_url: "https://arxiv.org/abs/1912.00757"
 
   - event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
     year: "2015"
-    title: "Deep learning of tissue fate features in acute ischemic stroke."
+    title: "Deep learning of tissue fate features in acute ischemic stroke"
+    authors: "Noah Stier, Nicholas Vincent, David Liebeskind, Fabien Scalzo"
     preprint_url: "http://ieeexplore.ieee.org/document/7359869/"
 
   - event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
-    title: "Detection of hyperperfusion on arterial spin labeling using deep learning."
+    year: "2015"
+    title: "Detection of hyperperfusion on arterial spin labeling using deep learning"
+    authors: "Nicholas Vincent, Noah Stier, Songlin Yu, David S Liebeskind, Danny JJ Wang, Fabien Scalzo"
+    pub_date: "2015/11/9"
     preprint_url: "http://ieeexplore.ieee.org/document/7359870/"
+
+other_papers:
+  - title: "Twitter Engagement with Retracted Articles: Who, When, and How?"
+    year: "2022"
+    pub_date: "2022/3/8"
+    authors: "Rod Abhari, Nicholas Vincent, Henry K Dambanemuya, Herminio Bodon, Emőke-Ágnes Horvát"
+    preprint_url: "https://arxiv.org/abs/2203.04228"
+
+  - title: "A Data Dividend that Works: Steps Toward Building an Equitable Data Economy"
+    authors: "Yakov Feygin, Hanlin Li, Chirag Lala, Brent Hecht, Nicholas Vincent, Luisa Scarcella, Matthew Prewitt"
+    year: "2021"
+  - title: "Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing the Profits of Artificial Intelligence."
+    authors: "Nicholas Vincent, Yichun Li, Renee Zha, Brent Hecht"
+    year: "2019"
+    pub_date: "2019/11/19"
+    preprint_url: "https://arxiv.org/abs/1912.00757"
 
 
 events:
+  - title: "Can Licensing Mitigate the Negative Implications of Commercial Web Scraping?"
+    authors: "Hanlin Li, Nicholas Vincent, Yacine Jernite, Nick Merrill, Jesse Josua Benjamin, Alek Tarkowski"
+    year: "2023"
+    pub_date: "2023/10/14"
+    description: "Workshop at CSCW 2023"
+    url: "https://dl.acm.org/doi/abs/10.1145/3584931.3611276"
+  - title: "Epistemic Injustice in Online Communities: Unpacking the Values of Knowledge Creation and Curation within CSCW Applications"
+    authors: "Leah Ajmani, Mo Houtti, Jasmine C Foriest, Michael Ann Devito, Nicholas Vincent, Isaac Johnson"
+    year: "2023"
+    pub_date: "2023/10/14"
+    description: "Workshop at CSCW 2023"
+    url: "https://dl.acm.org/doi/abs/10.1145/3584931.3611280"
+  - title: "Ethical Tensions, Norms, and Directions in the Extraction of Online Volunteer Work"
+    authors: "Hanlin Li, Leah Ajmani, Moyan Zhou, Nicholas Vincent, Sohyeon Hwang, Tiziano Piccardi, Sneha Narayan, Sherae Daniel, Veniamin Veselovsky"
+    year: "2022"
+    pub_date: "2022/11/8"
+    description: "Workshop at CSCW 2022"
+    url: https://dl.acm.org/doi/abs/10.1145/3500868.3560923
