@@ -11,32 +11,35 @@ research_interests: "Responsible Artificial Intelligence, Human-computer Interac
 email: "nvincent@sfu.ca"
 more_info_links:
   - url: "https://raw.githubusercontent.com/nickmvincent/simple_research_website/main/public_cv.pdf"
-    text: "CV as PDF"
+    text: "CV"
   - url: "https://dataleverage.substack.com/"
     text: "Blog"
   - url: "https://www.semanticscholar.org/author/Nicholas-Vincent/2065694473"
-    text: "Semantic Scholar page"
-  - url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
-    text: "LinkedIn"
+    text: "Semantic Scholar"
+  - url: "https://scholar.google.com/citations?user=IWa_ZMcAAAAJ&hl=en"
+    text: "Google Scholar"
+  
   - url: "https://github.com/nickmvincent"
-    text: "Github"
+    text: "GitHub"
 
 social_links:
   - platform: "Twitter"
     url: "https://twitter.com/nickmvincent"
   - platform: "hci.social"
     url: "https://hci.social/@nickmvincent"
+  - url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
+    text: "LinkedIn"
 
 recent_news:
   - "Presented in Prof. Shilad Sen's Collective Intelligence course at Macalester College"
   - "I recently received a SIGCHI Outstanding Dissertation Award."
   - "Gave a talk at SFU's Digital Democracies Institute."
-  - "I was a panelist at U of Toronto's Fair LLM workshop put on by the Data Sciences Institute."
+  - "I was a panelist at University of Toronto's Fair LLM workshop put on by the Data Sciences Institute."
 
 
 news_coverage:
   - title: "Newspapers want payment for articles used to power ChatGPT"
-    source: "Washington Post"
+    source: "The Washington Post"
     authors: "Nitasha Tiku"
     date: "October 2023"
     url: "https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/"
@@ -111,7 +114,7 @@ news_coverage:
       - url: "https://technews.acm.org/archives.cfm?fo=2021-02-feb/feb-24-2021.html"
         type: "ACM TechNews"
 
-  - title: "Data strikes in Quartz."
+  - title: "Is it time for Netflix subscribers to go on strike?"
     source: "Quartz"
     authors: "Nicolás Rivero"
     date: "July 2020"
@@ -129,6 +132,22 @@ news_coverage:
         type: "Northwestern University Computer Science press release"
 
 op_eds:
+
+  - title: "Where Biden’s AI policies fall short in protecting workers"
+    authors: "Hanlin Li, Nicholas Vincent"
+    source: "Bulletin of the Atomic Scientists"
+    url: "https://thebulletin.org/2024/02/where-bidens-ai-policies-fall-short-in-protecting-workers"
+    date: "February 2024"
+    pub_date: "2024/02/05"
+
+  - title: "How creatives can stop AI from stealing their work"
+    authors: "Nicholas Vincent"
+    source: "Bulletin of the Atomic Scientists"
+    url: "https://thebulletin.org/2023/10/how-creatives-can-stop-ai-from-stealing-their-work"
+    date: "October 2023"
+    pub_date: "2023/11/03"
+
+
   - title: "A roadmap toward empowering the labor force behind AI."
     authors: "Hanlin Li, Nicholas Vincent, Stevie Chancellor, and Brent Hecht"
     source: "Montreal AI Ethics Institute Research Summaries"

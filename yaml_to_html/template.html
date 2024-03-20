@@ -101,7 +101,7 @@
             <div class="column is-12 is-size-7">
                 <p>
                     Hello! I'm Nick. Below, you can find a short bio describing my work, followed by links to my papers and other artifacts. <br>
-        
+                    <br>
                     <b>Quick bio:</b> Prof. Nick Vincent is a researcher in human-centered artificial intelligence. 
                     Much of his research
                     focuses on understanding how data records -- including works that we produce and 
@@ -114,8 +114,8 @@
                     The overarching goal of this research is to
                     develop frameworks, build tools, and present empirical results that help 
                     work towards an ecosystem of highly capable and widely beneficial
-                    AI technologies that mitigate inequalities in
-                    wealth and power rather than exacerbating them.
+                    AI technologies that mitigate -- rather than exacerbate -- inequalities in
+                    wealth and power.
                   </p>
                   <br/>
         
@@ -143,37 +143,37 @@
 
         <div class="columns" id="news">
             <div class="column is-6 is-size-7">
-                <h2 class="is-size-5">Op-eds</h2>
-                <ol>
+                <h2 class="is-size-5">Op-eds and invited writing</h2>
+                <ul>
                     {% for piece in op_eds %}
                     <li>
                         <p><a href="{{piece.url}}">{{ piece.title }} </a> </p>
                     </li>
                     {% endfor %}
-                </ol>
+                </ul>
 
                 <h2 class="is-size-5">News Coverage</h2>
                 <ul>
                     {% for news in news_coverage %}
                     <li>
-                        <p> {{news.authors}}. <a href="{{ news.url }}">{{ news.title }}</a>. In {{ news.source }}. </p>
+                        <p> {{news.authors}} for {{ news.source }}. <a href="{{ news.url }}">{{ news.title }}</a> </p>
                     </li>
                     {% endfor %}
                 </ul>
 
                 <h2 class="is-size-5">Blog Posts and Op-eds</h2>
-                <ol>
+                <ul>
                     {% for post in blog_posts %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}.</li>
                     {% endfor %}
-                </ol>
+                </ul>
 
                 <h2 class="is-size-5">Multimedia</h2>
-                <ol>
+                <ul>
                     {% for media in multimedia %}
                     <li>({{ media.type }}) <a href="{{ media.url }}">{{ media.title }}</a>, {{ media.date }}.</li>
                     {% endfor %}
-                </ol>
+                </ul>
             </div>
 
             <!-- Publications Column (peer-reviewed, non-archival, pre-prints) -->
