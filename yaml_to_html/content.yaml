@@ -9,32 +9,36 @@ university_name: "Simon Fraser University"
 university_location: "British Columbia"
 research_interests: "Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, and Social Computing"
 email: "nvincent@sfu.ca"
+office: "9241 TASC 1, SFU Burnaby"
+office_link: "https://www.sfu.ca/fs/campus-maps/directory-of-buildings/technology---science-complex-11.html"
+cv_link: "https://raw.githubusercontent.com/nickmvincent/simple_research_website/main/public_cv.pdf"
 more_info_links:
-  - url: "https://raw.githubusercontent.com/nickmvincent/simple_research_website/main/public_cv.pdf"
-    text: "CV"
   - url: "https://dataleverage.substack.com/"
-    text: "Blog"
-  - url: "https://www.semanticscholar.org/author/Nicholas-Vincent/2065694473"
-    text: "Semantic Scholar"
-  - url: "https://scholar.google.com/citations?user=IWa_ZMcAAAAJ&hl=en"
-    text: "Google Scholar"
-  
+    text: "blog"
   - url: "https://github.com/nickmvincent"
-    text: "GitHub"
+    text: "github"
+
+scholarly_profiles:
+  - url: "https://scholar.google.com/citations?user=IWa_ZMcAAAAJ&hl=en"
+    platform: "google scholar"
+  - url: "https://www.semanticscholar.org/author/Nicholas-Vincent/2065694473"
+    platform: "semantic scholar"
+  - url: "https://dblp.org/pid/174/0437.html"
+    platform: "dblp"
 
 social_links:
-  - platform: "Twitter"
+  - platform: "twitter"
     url: "https://twitter.com/nickmvincent"
   - platform: "hci.social"
     url: "https://hci.social/@nickmvincent"
-  - url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
-    text: "LinkedIn"
+  - platform: "linkedin"
+    url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
 
 recent_news:
-  - "Presented in Prof. Shilad Sen's Collective Intelligence course at Macalester College"
-  - 'I was honored to receive a SIGCHI Outstanding Dissertation Award. See more on the SFU <a href="https://www.sfu.ca/computing/newsandevents/2024/towards-equitable-ai-technologies.html"> webpage </a>.'
-  - 'Gave a talk at the <a href="https://digitaldemocracies.org">Digital Democracies Institute</a>.'
-  - "I was a panelist at University of Toronto's Fair LLM workshop put on by the Data Sciences Institute."
+  - "Presented in Prof. Shilad Sen's Collective Intelligence course"
+  - 'Received a SIGCHI Outstanding Dissertation Award (<a href="https://www.sfu.ca/computing/newsandevents/2024/towards-equitable-ai-technologies.html">coverage</a>).'
+  - '<a href="https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/">Spoke</a> at the <a href="https://digitaldemocracies.org">Digital Democracies Institute</a>.'
+  - 'I was a panelist at University of Toronto <a href="https://datasciences.utoronto.ca/fairness-chatgpt-workshop/">Fairness - ChatGPT workshop </a> put on by the Data Sciences Institute.'
 
 
 news_coverage:
