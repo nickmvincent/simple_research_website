@@ -53,6 +53,10 @@
             height: auto;
         }
 
+        .links {
+            font-family: monospace;
+        }
+
         ul {
             list-style-type: circle;
         }
@@ -100,38 +104,46 @@
         <div class="columns section" id="intro">
             <div class="column is-12 is-size-7">
                 <p>
-                    Hello! I'm Nick. Below, you can find a short bio describing my work, followed by links to my papers and other artifacts. <br>
+                    Hello! I'm Nick. Below, you can find a short bio describing my work, followed by links to my papers
+                    and other artifacts. <br>
                     <br>
-                    <b>Quick bio:</b> Prof. Nick Vincent is a researcher in human-centered artificial intelligence. 
+                    <b>Quick bio:</b> Prof. Nick Vincent is a researcher in human-centered artificial intelligence.
                     Much of his research
-                    focuses on understanding how data records -- including works that we produce and 
+                    focuses on understanding how data records -- including works that we produce and
                     logs of our behavior -- provide value to AI systems such as search engines, recommender systems, and
-                    new "generative AI" systems, and how the benefits of data-dependent AI might flow back to the public. 
+                    new "generative AI" systems, and how the benefits of data-dependent AI might flow back to the
+                    public.
                     A key idea motivating his work is that because human activities are upstream of the
-                    <a href="https://www.radicalxchange.org/concepts/data-dignity/">data contributions</a> that make AI work,
-                    organized groups can exert <a href="./static/data_leverage.pdf">"data leverage"</a> to bargain for larger
+                    <a href="https://www.radicalxchange.org/concepts/data-dignity/">data contributions</a> that make AI
+                    work,
+                    organized groups can exert <a href="./static/data_leverage.pdf">"data leverage"</a> to bargain for
+                    larger
                     shares of the profits of AI or for more voice in how AI systems are governed.
                     The overarching goal of this research is to
-                    develop frameworks, build tools, and present empirical results that help 
+                    develop frameworks, build tools, and present empirical results that help
                     work towards an ecosystem of highly capable and widely beneficial
                     AI technologies that mitigate -- rather than exacerbate -- inequalities in
                     wealth and power.
-                  </p>
-                  <br/>
-        
-                  <p>
-                    <b>Additional background info:</b> 
-                    I was previously a postdoc working with the <a href="https://c2.ucdavis.edu/">Computational Communication
-                      Research Lab</a> at UC Davis and the <a href="https://social.cs.washington.edu/"> Social Futures Lab </a>
+                </p>
+                <br />
+
+                <p>
+                    <b>Additional background info:</b>
+                    I was previously a postdoc working with the <a href="https://c2.ucdavis.edu/">Computational
+                        Communication
+                        Research Lab</a> at UC Davis and the <a href="https://social.cs.washington.edu/"> Social Futures
+                        Lab </a>
                     at the University of Washington.
                     I received my PhD from Northwestern University's <a href="http://tsb.northwestern.edu/">
-                      Technology and Social Behavior
+                        Technology and Social Behavior
                     </a> program (a joint degree in computer science and communication), where I worked in the <a
-                      href="https://www.psagroup.org/">People, Space, and Algorithms Research Group</a>. During graduate school,
+                        href="https://www.psagroup.org/">People, Space, and Algorithms Research Group</a>. During
+                    graduate school,
                     I was a research intern at Snap and Microsoft. Before graduate school, I studied
-                    electrical engineering at UCLA and interned at Cisco and SPAWAR (now known as NAVWAR) via the NREIP program.
-                  </p>
-                  <br>
+                    electrical engineering at UCLA and interned at Cisco and SPAWAR (now known as NAVWAR) via the NREIP
+                    program.
+                </p>
+                <br>
                 <b>Recent news: </b>
                 <ul>
                     {% for news_item in recent_news %}
@@ -147,7 +159,15 @@
                 <ul>
                     {% for piece in op_eds %}
                     <li>
-                        <p><a href="{{piece.url}}">{{ piece.title }} </a> </p>
+                        <div class="columns">
+                            <p class="column is-9"> {{ piece.authors}}.
+                                {{ piece.title }}.
+                                <i><a href="{{ piece.url }}">{{ piece.source }}</a></i>
+                            </p>
+
+
+                            <!-- <p class="column is-12"><a href="{{piece.url}}">{{ piece.title }}</a>. {{piece.source}}</p> -->
+                        </div>
                     </li>
                     {% endfor %}
                 </ul>
@@ -156,7 +176,14 @@
                 <ul>
                     {% for news in news_coverage %}
                     <li>
-                        <p> {{news.authors}} for {{ news.source }}. <a href="{{ news.url }}">{{ news.title }}</a> </p>
+                        <div class="columns">
+                            <p class="column is-9"> {{ news.authors}}.
+                                <a href="{{ news.url }}">{{ news.title }}</a>.
+                                <i>{{ news.source }}, {{news.date}}</i>
+                            </p>
+
+                        </div>
+                        <!-- <p> {{news.authors}} for {{ news.source }}.  </p> -->
                     </li>
                     {% endfor %}
                 </ul>
@@ -164,14 +191,28 @@
                 <h2 class="is-size-5">Blog Posts and Op-eds</h2>
                 <ul>
                     {% for post in blog_posts %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}.</li>
+                    <li>
+                        <div class="columns">
+                            <p class="column is-9">
+                                <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}.
+
+                            </p>
+
+                        </div>
+                    </li>
                     {% endfor %}
                 </ul>
 
                 <h2 class="is-size-5">Multimedia</h2>
                 <ul>
                     {% for media in multimedia %}
-                    <li>({{ media.type }}) <a href="{{ media.url }}">{{ media.title }}</a>, {{ media.date }}.</li>
+                    <li>
+                        <div class="columns">
+                            <p class="column">({{ media.type }}) <a href="{{ media.url }}">{{ media.title }}</a>, {{
+                            media.date }}.</p>
+                        
+                        </div>
+                    </li>
                     {% endfor %}
                 </ul>
             </div>
@@ -182,14 +223,16 @@
                 <ul>
                     {% for publication in publications %}
                     <li>
-                    <p> {{ publication.authors}}.
-                        {{ publication.title }}.
-                        <i><a href="{{ publication.conference_url }}">{{ publication.conference }}</a></i>.
-                    </p>
-                        <div> |
-                            {% for url in publication.urls %}
-                            <a href="{{url.url}}"> {{url.type}}</a> |
-                            {% endfor %}
+                        <div class="columns">
+                            <p class="column is-9"> {{ publication.authors}}.
+                                {{ publication.title }}.
+                                <i><a href="{{ publication.conference_url }}">{{ publication.conference }}</a></i>.
+                            </p>
+                            <div class="links column is-3"> |
+                                {% for url in publication.urls %}
+                                <a href="{{url.url}}"> {{url.type}}</a> |
+                                {% endfor %}
+                            </div>
                         </div>
                     </li>
                     {% endfor %}
@@ -200,12 +243,15 @@
                 <ul>
                     {% for publication in workshop_papers %}
                     <li>
-                        <p> {{ publication.authors}}.
-                            {{ publication.title }}.
-                            <i><a href="{{ publication.event_url }}">{{ publication.event_name }}</a></i>.
-                        </p>
-                        
-                        <div>Link to <a href="{{ publication.preprint_url }}">preprint</a></div>
+                        <div class="columns">
+                            <p class="column is-9"> {{ publication.authors}}.
+                                {{ publication.title }}.
+                                <i><a href="{{ publication.event_url }}">{{ publication.event_name }}</a></i>.
+                            </p>
+
+                            <div class="links column is-3"> | <a href="{{ publication.preprint_url }}">preprint</a> |
+                            </div>
+                        </div>
                     </li>
                     {% endfor %}
                 </ul>
@@ -214,11 +260,15 @@
                 <ul>
                     {% for publication in other_papers %}
                     <li>
-                        <p> {{ publication.authors}}.
-                            {{ publication.title }}.
-                        </p>
-                        
-                        <div>Link to <a href="{{ publication.preprint_url }}">preprint</a></div>
+                        <div class="columns">
+                            <p class="column is-9"> {{ publication.authors}}.
+                                {{ publication.title }}
+
+                            </p>
+
+                            <div class="links column is-3"> | <a href="{{ publication.preprint_url }}">preprint</a> |
+                            </div>
+                        </div>
                     </li>
                     {% endfor %}
                 </ul>

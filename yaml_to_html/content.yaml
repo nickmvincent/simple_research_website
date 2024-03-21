@@ -32,8 +32,8 @@ social_links:
 
 recent_news:
   - "Presented in Prof. Shilad Sen's Collective Intelligence course at Macalester College"
-  - "I recently received a SIGCHI Outstanding Dissertation Award."
-  - "Gave a talk at SFU's Digital Democracies Institute."
+  - 'I was honored to receive a SIGCHI Outstanding Dissertation Award. See more on the SFU <a href="https://www.sfu.ca/computing/newsandevents/2024/towards-equitable-ai-technologies.html"> webpage </a>.'
+  - 'Gave a talk at the <a href="https://digitaldemocracies.org">Digital Democracies Institute</a>.'
   - "I was a panelist at University of Toronto's Fair LLM workshop put on by the Data Sciences Institute."
 
 
@@ -162,6 +162,13 @@ op_eds:
     date: "January 2023"
     pub_date: "2023/01/20"
 
+  - title: "What if we could check Big Tech?: The collective voice of millions of users could be as effective as regulation."
+    authors: "Nicholas Vincent, Hanlin Li"
+    source: "Northwestern Now"
+    url: "https://news.northwestern.edu/stories/2021/03/what-if-we-could-check-big-tech/"
+    date: "March 2021"
+    pub_date: "2021/03/20"
+
 blog_posts:
   - title: "AI Technologies are System Maps, and You are a Cartographer."
     url: "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
@@ -195,9 +202,6 @@ blog_posts:
     url: "https://observablehq.com/d/685789015c21cd9a"
     date: "Last Updated April 2021"
 
-  - title: "What if we could check Big Tech?: The collective voice of millions of users could be as effective as regulation."
-    url: "https://news.northwestern.edu/stories/2021/03/what-if-we-could-check-big-tech/"
-    date: "March 2021"
 
   - title: "Why You’re an Expert \"Language Model Trainer\"!"
     url: "https://www.psagroup.org/blogposts/78"
@@ -238,6 +242,26 @@ multimedia:
     date: "July 2020"
 
 publications:
+  - conference: ACM CHI 2024
+    conference_url: 
+    title: "A Canary in the AI Coal Mine: American Jews May Be Disproportionately Harmed by Intellectual Property Dispossession in Large Language Model Training"
+    year: 2024
+    authors: "Heila Precel, Allison McDonald, Brent Hecht, Nicholas Vincent"
+    proceedings: ""
+    urls:
+      - url: "https://arxiv.org/abs/2403.13073"
+        type: "arxiv"
+  
+  - conference: ACM CHI 2024
+    conference_url: 
+    title: "Pika: Empowering Non-Programmers to Author Executable Governance Policies in Online Communities"
+    year: 2024
+    authors: "Leijie Wang, Nicholas Vincent, Julija Rukanskaitė, Amy X. Zhang"
+    proceedings: ""
+    urls: 
+      - url: "https://arxiv.org/abs/2310.04329"
+        type: arxiv
+
   - conference: ACM CSCW 2023
     conference_url: "https://cscw.acm.org/2023/"
     title: "Peer Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration"
@@ -249,7 +273,7 @@ publications:
     citation: "Ajmani, L., Vincent, N., and Chancellor, S. 2023. Peer-Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration. In ACM CSCW 2023."
     urls:
       - url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf"
-        type: "preprint pdf"
+        type: "pdf"
       - url: "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/850be5a8-7f12-4c5b-8bbd-a5f52767ea7a.pdf"
         type: slides
 
@@ -264,7 +288,7 @@ publications:
       - url: "https://arxiv.org/abs/2305.13238"
         type: "arxiv"
       - url: "https://montrealethics.ai/a-roadmap-toward-empowering-the-labor-force-behind-ai/"
-        type: "Research summary for Montreal AI Ethics Institute"
+        type: "summary"
 
   - conference: "ACM FAccT 2022"
     conference_url: "https://facctconference.org/2022/"
@@ -275,9 +299,9 @@ publications:
     citation: "Contractor, D., McDuff, D., Haines, J., Lee, J., Hines, C., Hecht, B., Vincent, N., and Li, H. 2021. Behavioral Use Licensing for Responsible AI. In ACM FAcct 2022."
     urls:
       - url: "https://dl.acm.org/doi/abs/10.1145/3531146.3533143"
-        type: "ACM DL"
+        type: "acm dl"
       - url: https://www.licenses.ai
-        type: "RAIL Initiative Website"
+        type: "website"
 
   - conference: "NeurIPS 2021 Datasets and Benchmarks Track"
     conference_url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
@@ -302,7 +326,7 @@ publications:
     doi: https://doi.org/10.1609/icwsm.v15i1.18046
     urls:
       - url: "https://koustuv.com/papers/ICWSM21_CEAM.pdf"
-        type: "preprint pdf"
+        type: "pdf"
 
   - conference: "CHI 2021"
     conference_url: "https://chi2021.acm.org/"
@@ -313,7 +337,7 @@ publications:
     citation: "Saha, K., Liu, Y., Vincent, N., Chowdhury, F.A., Neves, L., Shah, N., and Bos, M. 2021. AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems."
     urls: 
       - url: "https://koustuv.com/papers/CHI21_AdverTiming.pdf"
-        type: "pdf preprint"
+        type: "pdf"
 
   - conference: "ACM CSCW 2021"
     conference_url: "https://cscw.acm.org/2021/"
@@ -327,11 +351,11 @@ publications:
     notes: "An early version of this work was presented at WikiWorkshop 2020."
     urls:
       - url: "/static/wikiserp_cscw.pdf"
-        type: "preprint pdf"
+        type: "pdf"
       - url: "https://github.com/nickmvincent/se-scraper"
-        type: "archived code"
+        type: "code"
       - url: "https://github.com/nickmvincent/LinkCoordMin"
-        type: "newer data collection code"
+        type: "newer code"
 
   - conference: "ACM CSCW 2021"
     conference_url: "https://cscw.acm.org/2021/"
@@ -345,9 +369,9 @@ publications:
     notes: "An early version of thsi work was presented at Collective Intelligence 2020."
     urls: 
       - url: "/static/cdc_cscw.pdf"
-        type: "pdf preprint"
+        type: "pdf"
       - url: "https://github.com/nickmvincent/cdc"
-        type: "archived code"
+        type: "code"
 
   - conference: "ACM FAccT 2021"
     conference_url: "https://facctconference.org/2021/index.html"
@@ -358,7 +382,7 @@ publications:
     citation: "Vincent, N., Li, H., Tilly, N., Chancellor, S., Hecht, B. 2021. Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies. In Proceedings of the 2021 Conference on Fairness, Accountability, and Transparency."
     urls:
       - url: "/static/data_leverage.pdf"
-        type: "pdf preprint"
+        type: "pdf"
       - url: "https://arxiv.org/abs/2012.09995"
         type: "arxiv"
 
@@ -372,7 +396,7 @@ publications:
     citation: "Li, H., Vincent, N., Tsai, J., Kaye, J., and Hecht, B. 2019. How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”. CSCW 2019 / PACM Computer-Supported Cooperative Work and Social Computing."
     urls: 
       - url: "http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf"
-        type: "pdf preprint"
+        type: "pdf"
 
   - conference: "AAAI ICWSM 2019"
     conference_url: "https://icwsm.org/2019/"
@@ -383,9 +407,9 @@ publications:
     citation: "Vincent, N., Johnson, I., Sheehan, P., and Hecht, B. 2019. Measuring the Importance of User-Generated Content to Search Engines. In AAAI ICWSM 2019."
     urls:
       - url: "https://www.nickmvincent.com/static/icwsm2019_ugcinsearch_arxiv.pdf"
-        type: "pdf preprint"
+        type: "pdf"
       - url: "https://github.com/nickmvincent/you-geo-see"
-        type: "archived code"
+        type: "code"
   
   - conference: "The Web Conference 2019"
     conference_url: "https://www2019.thewebconf.org/"
@@ -397,11 +421,11 @@ publications:
     citation: "Vincent, N., Hecht, B., and Sen, S. 2019. “Data Strikes”: Evaluating the Effectiveness of New Forms of Collective Action Against Technology Platforms. In The World Wide Web Conference (WWW '19)."
     urls:
       - url: "https://dl.acm.org/citation.cfm?id=3313742"
-        type: "ACM DL"
+        type: "acm dl"
       - url: "https://www.nickmvincent.com/static/www2019_datastrike.pdf"
-        type: "pdf preprint"
-        url: "https://github.com/nickmvincent/surprise_sandbox"
-        type: "archived code"
+        type: "pdf"
+      - url: "https://github.com/nickmvincent/surprise_sandbox"
+        type: "code"
 
   - conference: "ACM CSCW 2018"
     conference_url: "http://cscw.acm.org/2018/"
@@ -415,7 +439,7 @@ publications:
     citation: "Foong, E., Vincent, N., Hecht, B., and Gerber, E. 2018. Women (Still) Ask For Less: Gender Differences in Hourly Rate in an Online Labor Marketplace. ACM CSCW 2018. "
     urls:
       - url: "http://www.brenthecht.com/publications/cscw2018_upworkgender.pdf"
-        type: "pdf preprint"
+        type: "pdf"
 
   - conference: "ACM CHI 2018"
     conference_url: "https://chi2018.acm.org/"
@@ -428,9 +452,9 @@ publications:
     notes: "Best Paper Award (Top 1% of submissions)."
     urls:
       - url: "https://www.nickmvincent.com/static/WikipediaAndOnlineCommunitiesChi18_references_fixed.pdf"
-        type: "pdf preprint"
+        type: "pdf"
       - url: "https://github.com/nickmvincent/ugc-val-est"
-        type: "archived code"
+        type: "code"
 
 workshop_papers:
   - event_name: "RegML 2023 (NeurIPS 2023 Workshop)"
@@ -439,14 +463,18 @@ workshop_papers:
     year: "2023"
     pub_date: "2023/11/19"
     authors: "Nicholas Vincent, David Bau, Sarah Schwettmann, Joshua Tan"
-    preprint_url: "https://arxiv.org/abs/2311.11350"
+    urls: 
+      - url: "https://arxiv.org/abs/2311.11350"
+        type: "arxiv"
 
   - event_name: "EAAMO 2023"
     event_url: "https://eaamo.org"
     title: "Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation"
     year: "2023"
     authors: "Nicholas Vincent, Brent Hecht"
-    preprint_url: "http://www.nickmvincent.com/static/eaamo_data_dividends.pdf"
+    urls: 
+      - url: "http://www.nickmvincent.com/static/eaamo_data_dividends.pdf"
+        type: "pdf"
     notes: "Non-archival poster track."
 
   - event_name: "CESC 2022"
@@ -454,27 +482,36 @@ workshop_papers:
     title: "Collaborative Design of Contribution Tracking Systems for Decentralized Organizations"
     year: "2022"
     authors: "Nicholas Vincent, Christine Vandevoorde"
-    preprint_url: "http://www.nickmvincent.com/static/CollabRecords___CESC_22.pdf"
+    preprint_url: 
+    urls: 
+      - url: "http://www.nickmvincent.com/static/CollabRecords___CESC_22.pdf"
+        type: "pdf"
     notes: "Non-archival conference."
 
   - event_name: "CSCW 2022 Posters"
     title: "Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users"
     year: "2022"
     authors: "Isaiah Jones, Brent Hecht, Nicholas Vincent"
-    preprint_url: "http://www.nickmvincent.com/static/Birdwatch.pdf"
+    urls: 
+      - url: "http://www.nickmvincent.com/static/Birdwatch.pdf"
+        type: "pdf"
 
   - event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
     year: "2015"
     title: "Deep learning of tissue fate features in acute ischemic stroke"
     authors: "Noah Stier, Nicholas Vincent, David Liebeskind, Fabien Scalzo"
-    preprint_url: "http://ieeexplore.ieee.org/document/7359869/"
+    urls:
+      - url: "http://ieeexplore.ieee.org/document/7359869/"
+        type: "ieee"
 
   - event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
     year: "2015"
     title: "Detection of hyperperfusion on arterial spin labeling using deep learning"
     authors: "Nicholas Vincent, Noah Stier, Songlin Yu, David S Liebeskind, Danny JJ Wang, Fabien Scalzo"
     pub_date: "2015/11/9"
-    preprint_url: "http://ieeexplore.ieee.org/document/7359870/"
+    urls:
+      - url: "http://ieeexplore.ieee.org/document/7359870/"
+        type: "ieee"
 
 other_papers:
   - title: "Twitter Engagement with Retracted Articles: Who, When, and How?"
