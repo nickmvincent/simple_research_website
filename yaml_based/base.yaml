@@ -35,6 +35,7 @@ social_links:
     url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
 
 recent_news:
+  - "2 CHI preprints on arxiv"
   - "Presented in Prof. Shilad Sen's Collective Intelligence course"
   - 'Received a SIGCHI Outstanding Dissertation Award (<a href="https://www.sfu.ca/computing/newsandevents/2024/towards-equitable-ai-technologies.html">coverage</a>).'
   - '<a href="https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/">Spoke</a> at the <a href="https://digitaldemocracies.org">Digital Democracies Institute</a>.'
@@ -42,7 +43,7 @@ recent_news:
 
 
 news_coverage:
-  - title: "Newspapers want payment for articles used to power ChatGPT"
+  - title: "Newspapers want payment for articles used to power ChatGPT."
     source: "The Washington Post"
     authors: "Nitasha Tiku"
     date: "October 2023"
@@ -60,7 +61,7 @@ news_coverage:
     date: "August 2023"
     url: "https://www.businessinsider.com/data-leverage-harry-potter-test-putting-value-data-ai-models-2023-8"
 
-  - title: "Wikipedia’s Moment of Truth"
+  - title: "Wikipedia’s Moment of Truth."
     source: "New York Times Magazine"
     authors: "Jon Gernter"
     date: "September 2023"
@@ -72,7 +73,7 @@ news_coverage:
       - url: "https://www.estadao.com.br/link/empresas/fim-da-wikipedia-enciclopedia-digital-tenta-sobreviver-a-era-da-inteligencia-artificial/"
         type: "Estadão"
 
-  - title: "We are all AI’s free data workers"
+  - title: "We are all AI’s free data workers."
     source: "MIT Technology Review"
     authors: "Melissa Heikkilä"
     date: "June 2023"
@@ -100,7 +101,7 @@ news_coverage:
     pub_date: "2021/05/05"
     url: "https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way"
 
-  - title: "How to poison the data that Big Tech use to surveil you"
+  - title: "How to poison the data that Big Tech use to surveil you."
     source: "MIT Technology Review"
     authors: "Karen Hao"
     date: "March 2021"
@@ -125,7 +126,7 @@ news_coverage:
     pub_date: "2020/07/23"
     url: "https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/"
 
-  - title: "YouTube May Add to the Burdens of Humble Wikipedia"
+  - title: "YouTube May Add to the Burdens of Humble Wikipedia."
     source: "New York Times"
     authors: "John Herrman"
     date: "March 2018"
@@ -137,14 +138,14 @@ news_coverage:
 
 op_eds:
 
-  - title: "Where Biden’s AI policies fall short in protecting workers"
+  - title: "Where Biden’s AI policies fall short in protecting workers."
     authors: "Hanlin Li, Nicholas Vincent"
     source: "Bulletin of the Atomic Scientists"
     url: "https://thebulletin.org/2024/02/where-bidens-ai-policies-fall-short-in-protecting-workers"
     date: "February 2024"
     pub_date: "2024/02/05"
 
-  - title: "How creatives can stop AI from stealing their work"
+  - title: "How creatives can stop AI from stealing their work."
     authors: "Nicholas Vincent"
     source: "Bulletin of the Atomic Scientists"
     url: "https://thebulletin.org/2023/10/how-creatives-can-stop-ai-from-stealing-their-work"

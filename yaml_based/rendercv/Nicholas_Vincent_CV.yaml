@@ -337,7 +337,7 @@ cv:
 
     academic_reviewing:
       - label: Conferences
-        details: ACM SIGCHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ACM The Web Conference; WikiWorkshop; ACM FAccT; ACM WSDM; IC2S2; ACM EAAMO
+        details: ACM SIGCHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ICML; ACM The Web Conference; WikiWorkshop; ACM FAccT; ACM WSDM; IC2S2; ACM EAAMO
       - label: Journals
         details: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
       - label: Commendations

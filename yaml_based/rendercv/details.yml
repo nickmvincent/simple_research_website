@@ -1,22 +1,6 @@
 ---
-# Personal details
-address:
-- Technology and Science Complex 1, Office 9241
-- Burnaby, BC
-- Canada
 
-urls:
-- x.com/nickmvincent
-- github.com/nickmvincent
-- https://dataleverage.substack.com/
-- https://www.linkedin.com/in/nicholas-vincent-93594a81/
-- hci.social/nickmvincent
 
-scholarly_profiles:
-- https://www.semanticscholar.org/author/Nicholas-Vincent/2065694473
-- https://scholar.google.com/citations?user=IWa_ZMcAAAAJ&hl=en
-
-# Sections
 
 intro: "Broad research goal: develop knowledge and tools to support an ecosystem of widely beneficial, highly capable AI technologies that mitigate, not exacerbate, inequalities in power and wealth."
 
@@ -26,18 +10,6 @@ interests:
 - responsible artificial intelligence
 - social computing
 
-academic_positions:
-- years: 2023--present
-  employer: Simon Fraser University, Computing Science
-  job: Assistant Professor
-  city: Burnaby, British Columbia, Canada
-- years: 2022--2023
-  employer: University of California, Davis
-  job: Postdoctoral scholar
-  city: Davis, California, USA
-  advisors:
-    - Dr. Seth Frey (UC Davis, Department of Communication)
-    - Dr. Amy X. Zhang (University of Washington, School of Computer Science and Engineering)
 
 additional_affiliations:
 - years: 2023--present
@@ -263,39 +235,13 @@ archival_publications:
   publisher:
   code_link: https://github.com/nickmvincent/ugc-val-est
 
-workshop_and_poster_papers:
-- authors: vincent
-  years: 2021
-
-workshops_organized:
-- ...
 
 book_chapters:
 - authors: vincent
   year: 2021
   title: 'From My Data to Our Data: A Proposal to Equitably Distribute Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays on the Best Ideas to Build Wealth—for Everyone'
 
-other_pubs:
-- authors: vincent
-  year: 2021
 
-public_scholarship:
-- title: 
-  url: 
-
-
-conference_reviews:
-- venue: CHI
-  year: 2023
-  reviews: 1
-
-
-undergrads:
-- name: Patrick Sheehan
-
-
-
-selected_media:
 - 
 
 
