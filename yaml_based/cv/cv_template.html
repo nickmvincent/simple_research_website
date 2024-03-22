@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="latex.css">
+</head>
+
+<body>
+
+    <div>
+        <p class="author">Nicholas Vincent <br> 2024-03-21 | March 21, 2024</p>
+        <p>{{name}} </p>
+        <p>Email: {{ email }}</p>
+        <p>Office: {{office}}</p>
+
+        <p>Weblinks: 
+            {% for social in social_links %}
+            <a href="{{ social.url }}">{{ social.platform }}</a>
+            {% endfor %}
+            {% for link in more_info_links %}
+                    <a href="{{ link.url }}">{{ link.text }}</a>
+            {% endfor %}
+        </p>
+
+        <p>
+            Scholarly profiles: {% for profile in scholarly_profiles %}
+            <a href="{{ profile.url }}">{{ profile.platform }}</a>
+            {% endfor %}
+        </p>
+
+
+    </div>
+
+    <div>
+        Research interests: {{ research_interests }}
+    </div>
+
+    <div>
+        Summary: I use HCI and ML to study the ecosystems and supply chains that
+        provide the <b> data flow</b> that makes AI work.
+    </div>
+
+    <div>
+        <p class="is-size-7">{{ position }} in the <a href="{{ department_url }}">{{ department_name }}</a> at <a
+                href="{{ university_url }}">{{ university_name }}</a>.
+        </p>
+    </div>
+
+
+    <div>
+        Past academic positions:
+
+        <div>
+            Postdoc
+        </div>
+        <div>
+            PhD Student
+        </div>
+    </div>
+
+    <div>
+        Education
+
+        <div>
+            Northwestern
+        </div>
+        <div>
+           UCLA
+        </div>
+    </div>
+
+    <div>
+        Education
+
+        <div>
+            Northwestern
+        </div>
+        <div>
+           UCLA
+        </div>
+    </div>
+
+
+    <div>
+        Work experience
+
+        <div>
+            Microsoft
+        </div>
+
+        <div>
+            Snap
+        </div>
+
+        <div>
+            Cloudbakers
+        </div>
+
+        <div>
+            SPAWAR
+        </div>
+
+        <div>
+            Cisco
+        </div>
+
+    </div>
+
+    <div>
+        Publications
+        
+        <ul>
+            {% for publication in publications %}
+            <li>
+                <div class="columns">
+                    <p class="column is-9"> {{ publication.authors}}.
+                        {{ publication.title }}.
+                        <i><a href="{{ publication.conference_url }}">{{ publication.conference }}</a></i>.
+                    </p>
+                    <div class="mono column is-3"> |
+                        {% for url in publication.urls %}
+                        <a href="{{url.url}}"> {{url.type}}</a> |
+                        {% endfor %}
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div>
+        Workshop
+
+        <ul>
+            {% for publication in workshop_papers %}
+            <li>
+                <div class="columns">
+                    <p class="column is-9"> {{ publication.authors}}.
+                        {{ publication.title }}.
+                        <i><a href="{{ publication.event_url }}">{{ publication.event_name }}</a></i>.
+                    </p>
+
+                    <div class="mono column is-3"> |
+                        {% for url in publication.urls %}
+                        <a href="{{url.url}}"> {{url.type}}</a> |
+                        {% endfor %}
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+    <div>
+        Other
+
+        <ul>
+            {% for publication in other_papers %}
+            <li>
+                <div class="columns">
+                    <p class="column is-9"> {{ publication.authors}}.
+                        {{ publication.title }}
+
+                    </p>
+
+                    <div class="mono column is-3"> | <a href="{{ publication.preprint_url }}">preprint</a>
+                        |
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div>
+        News coverage
+
+        <ul>
+            {% for news in news_coverage %}
+            <li>
+                <div class="columns">
+                    <p class="column is-9"> {{ news.authors}}.
+                        <a href="{{ news.url }}">{{ news.title }}</a>.
+                        <i>{{ news.source }}, {{news.date}}</i>
+                    </p>
+
+                </div>
+                <!-- <p> {{news.authors}} for {{ news.source }}.  </p> -->
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+
+    <div>
+        Multimedia
+
+        <ul>
+            {% for media in multimedia %}
+            <li>
+                <div class="columns">
+                    <p class="column">({{ media.type }}) <a href="{{ media.url }}">{{ media.title }}</a>, {{
+                        media.date }}.</p>
+
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div>
+        Public writing: Op-eds and invited pieces
+        <ul>
+            {% for piece in op_eds %}
+            <li>
+                <div class="columns">
+                    <p class="column is-9"> {{ piece.authors}}.
+                        {{ piece.title }}.
+                        <i><a href="{{ piece.url }}">{{ piece.source }}</a></i>
+                    </p>
+
+
+                    <!-- <p class="column is-12"><a href="{{piece.url}}">{{ piece.title }}</a>. {{piece.source}}</p> -->
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div>
+        Public Writing: blogs
+
+        <ul>
+            {% for post in blog_posts %}
+            <li>
+                <div class="columns">
+                    <p class="column is-9">
+                        <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}.
+
+                    </p>
+
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+</html>

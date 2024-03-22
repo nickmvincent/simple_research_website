@@ -1,0 +1,307 @@
+---
+# Personal details
+address:
+- Technology and Science Complex 1, Office 9241
+- Burnaby, BC
+- Canada
+
+urls:
+- x.com/nickmvincent
+- github.com/nickmvincent
+- https://dataleverage.substack.com/
+- https://www.linkedin.com/in/nicholas-vincent-93594a81/
+- hci.social/nickmvincent
+
+scholarly_profiles:
+- https://www.semanticscholar.org/author/Nicholas-Vincent/2065694473
+- https://scholar.google.com/citations?user=IWa_ZMcAAAAJ&hl=en
+
+# Sections
+
+intro: "Broad research goal: develop knowledge and tools to support an ecosystem of widely beneficial, highly capable AI technologies that mitigate, not exacerbate, inequalities in power and wealth."
+
+interests:
+- human-centered machine learning
+- human-computer interaction
+- responsible artificial intelligence
+- social computing
+
+academic_positions:
+- years: 2023--present
+  employer: Simon Fraser University, Computing Science
+  job: Assistant Professor
+  city: Burnaby, British Columbia, Canada
+- years: 2022--2023
+  employer: University of California, Davis
+  job: Postdoctoral scholar
+  city: Davis, California, USA
+  advisors:
+    - Dr. Seth Frey (UC Davis, Department of Communication)
+    - Dr. Amy X. Zhang (University of Washington, School of Computer Science and Engineering)
+
+additional_affiliations:
+- years: 2023--present
+  organization: Metagov
+  role: Research Director
+- years: 2022--present
+  organization: Responsible AI Licenses Initative
+  role: Steering Committee Member
+
+
+archival_publications:
+- title: 'Peer-Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration'
+  authors: 
+    - Leah Ajmani
+    - Nicholas Vincent
+    - Stevie Chancellor
+  doi: 10.1145/3610198
+  date: "2023-11-04"
+  journal: ACM CSCW 2023
+
+  year: 2023
+  venue: ACM CSCW 2023
+  preprint: https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf
+  publication_date: 2023/11/04
+  pages: 1--33
+  volume: 7
+  number: CSCW2
+  publisher: ACM
+  
+  
+- title: 'The Dimensions of Data Labor: A Roadmap for Activists, Researchers, and Practitioners to Empower Data Producers'
+  authors: 
+    - Hanlin Li
+    - Nicholas Vincent
+    - Stevie Chancellor
+    - Brent Hecht
+  doi:
+  date:
+  journal:
+
+  year: 2023
+  venue: Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency
+  preprint: https://arxiv.org/abs/2305.13238
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3593013.3594070
+  doi: https://doi.org/10.1145/3593013.3594070
+  publication_date: 2023/6/12
+  pages: 1151-1161
+  publisher: ACM
+- title: Behavioral Use Licensing for Responsible AI
+  authors: Danish Contractor, Daniel McDuff, Julia Katherine Haines, Jenny Lee, Christopher Hines, Brent Hecht, Nicholas Vincent, Hanlin Li
+  doi:
+  date:
+  journal:
+
+  year: 2022
+  venue: Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency
+  preprint: https://arxiv.org/abs/2011.03116
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3531146.3533143
+  doi: https://doi.org/10.1145/3531146.3533143
+  publication_date: 2022/6/21
+  pages: 778-788
+  publisher: ACM
+- title: "Addressing 'Documentation Debt' in Machine Learning Research: A Retrospective Datasheet for BookCorpus"
+  authors: Jack Bandy, Nicholas Vincent
+  doi:
+  date:
+  journal:
+
+  year: 2021
+  venue: Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track
+  preprint: https://arxiv.org/abs/2105.05241
+  acm_dl:
+  doi:
+  publication_date: 2021/5/11
+  pages:
+  publisher:
+  code_link: https://github.com/jackbandy/bookcorpus-datasheet
+  blog_link: https://towardsdatascience.com/dirty-secrets-of-bookcorpus-a-key-dataset-in-machine-learning-6ee2927e8650
+- title: "CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms"
+  authors: Farhan Asif Chowdhury, Yozen Liu, Koustuv Saha, Nicholas Vincent, Leonardo Neves, Neil Shah, Maarten W Bos
+  doi:
+  date:
+  journal:
+
+  year: 2021
+  venue: Proceedings of the international AAAI conference on web and social media
+  preprint: https://koustuv.com/papers/ICWSM21_CEAM.pdf
+  acm_dl: https://ojs.aaai.org/index.php/ICWSM/article/view/18046
+  doi: https://doi.org/10.1609/icwsm.v15i1.18046
+  publication_date: 2021/5/22
+  pages: 117-128
+  issue: 15
+  publisher: AAAI
+- title: "A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results"
+  authors: Nicholas Vincent and Brent Hecht
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: http://www.nickmvincent.com/static/wikiserp_cscw.pdf
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3449078
+  doi: https://doi.org/10.1145/3449078
+  publication_date:
+  pages:
+  publisher:
+  code_link: https://github.com/nickmvincent/se-scraper
+- title: 'Can “Conscious Data Contribution” Help Users to Exert “Data Leverage” Against Technology Companies?'
+  authors: Nicholas Vincent and Brent Hecht
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: http://www.nickmvincent.com/static/cdc_cscw.pdf
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3449177
+  doi: https://doi.org/10.1145/3449177
+  publication_date:
+  pages:
+  publisher:
+  code_link: https://github.com/nickmvincent/cdc
+- title: "AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media"
+  authors: Koustuv Saha, Yozen Liu, Nicholas Vincent, Farhan Asif Chowdhury, Leonardo Neves, Neil Shah, Maarten W Bos
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: https://koustuv.com/papers/CHI21_AdverTiming.pdf
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3411764.3445394
+  doi: https://doi.org/10.1145/3411764.3445394
+  publication_date:
+  pages:
+  publisher:
+- title: "Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies"
+  authors: Nicholas Vincent, Hanlin Li, Nicole Tilly, Stevie Chancellor, Brent Hecht
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: https://arxiv.org/abs/2012.09995
+  acm_dl: https://dl.acm.org/doi/10.1145/3442188.3445885
+  doi: https://doi.org/10.1145/3442188.3445885
+  publication_date:
+  pages:
+  publisher:
+- title: 'How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”'
+  authors: Hanlin Li, Nicholas Vincent, Janice Tsai, Jofish Kaye, Brent Hecht
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: http://www.psagroup.org/static/publications/cscw2019_protest_nonuse_camera_ready.pdf
+  acm_dl: https://dl.acm.org/doi/10.1145/3359189
+  doi: https://doi.org/10.1145/3359189
+  publication_date:
+  pages:
+  publisher:
+- title: Measuring the Importance of User-Generated Content to Search Engines
+  authors: Nicholas Vincent, Isaac Johnson, Patrick Sheehan, Brent Hecht
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: http://www.nickmvincent.com/static/icwsm2019_ugcinsearch_arxiv.pdf
+  acm_dl: https://ojs.aaai.org/index.php/ICWSM/article/view/3248
+  doi: https://doi.org/10.1609/icwsm.v13i01.3248
+  publication_date:
+  pages:
+  publisher:
+  code_link: https://github.com/nickmvincent/you-geo-see
+- title: '“Data Strikes”: Evaluating the Effectiveness of New Forms of Collective Action Against Technology Platforms'
+  authors: Nicholas Vincent, Brent Hecht, Shilad Sen
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: http://www.nickmvincent.com/static/www2019_datastrike.pdf
+  acm_dl: https://dl.acm.org/citation.cfm?id=3313742
+  doi: https://doi.org/10.1145/3308558.3313742
+  publication_date:
+  pages:
+  publisher:
+  code_link: https://github.com/nickmvincent/surprise_sandbox
+- title: "Women (still) ask for less: Gender differences in hourly rate in an online labor marketplace"
+  authors: Eureka Foong, Nicholas Vincent, Brent Hecht, Elizabeth M Gerber
+  doi:
+  date:
+  journal:
+
+  year:
+  venue:
+  preprint: http://www.brenthecht.com/publications/cscw2018_upworkgender.pdf
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3274322
+  doi: https://doi.org/10.1145/3274322
+  publication_date:
+  pages:
+  publisher:
+- title: "Examining Wikipedia with a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities"
+  authors: Nicholas Vincent, Isaac Johnson, Brent Hecht
+  doi:
+  date:
+  journal:
+  
+  year:
+  venue:
+  preprint: https://www.nickmvincent.com/static/WikipediaAndOnlineCommunitiesChi18_references_fixed.pdf
+  acm_dl: https://dl.acm.org/doi/abs/10.1145/3173574.3174140
+  doi: https://doi.org/10.1145/3173574.3174140
+  publication_date:
+  pages:
+  publisher:
+  code_link: https://github.com/nickmvincent/ugc-val-est
+
+workshop_and_poster_papers:
+- authors: vincent
+  years: 2021
+
+workshops_organized:
+- ...
+
+book_chapters:
+- authors: vincent
+  year: 2021
+  title: 'From My Data to Our Data: A Proposal to Equitably Distribute Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays on the Best Ideas to Build Wealth—for Everyone'
+
+other_pubs:
+- authors: vincent
+  year: 2021
+
+public_scholarship:
+- title: 
+  url: 
+
+
+conference_reviews:
+- venue: CHI
+  year: 2023
+  reviews: 1
+
+
+undergrads:
+- name: Patrick Sheehan
+
+
+
+selected_media:
+- 
+
+
+# Settings
+mainfont: Hoefler Text
+fontsize: 10pt
+lang: en-GB
+geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+---

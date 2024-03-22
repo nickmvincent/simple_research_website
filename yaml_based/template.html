@@ -294,8 +294,8 @@
                         {% for publication in publications %}
                         <li>
                             <div class="columns">
-                                <p class="column is-9"> {{ publication.authors}}.
-                                    {{ publication.title }}.
+                                <p class="column is-9"> {{ publication.authors | join(', ')}}.
+                                    '{{ publication.title }}'.
                                     <i><a href="{{ publication.conference_url }}">{{ publication.conference }}</a></i>.
                                 </p>
                                 <div class="mono column is-3"> |
@@ -349,6 +349,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,66 @@
+\let\nofiles\relax % This is because res says to not emit aux files,
+                   % but lastpage needs aux files.
+\documentclass[margin,line]{res}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{fourier-orns}
+\usepackage{amsmath,amssymb}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{etaremune}
+\usepackage[normalem]{ulem}
+\usepackage[style=iso]{datetime2}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\voffset -25pt
+%\topmargin -.2in
+\headsep 25pt
+\textwidth=6.0in
+\textheight=8.9in
+\itemsep=0in
+\parsep=0in
+
+% Headings
+\pagestyle{fancy}
+
+
+\lhead{{{name}} --- Curriculum Vitae (as of \today)}
+
+\chead{}
+\rhead{\thepage\ of \pageref*{LastPage}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+
+\newcommand{\myname}{{{name}}}
+
+
+\newlength{\mynamewidth}
+\settowidth{\mynamewidth}{\namefont\myname}
+
+\name{\hspace*{0.5\textwidth}\hspace{-0.5\mynamewidth} \myname \vspace*{.1in}}
+% On the first page, have no header.
+\thispagestyle{empty}
+
+\begin{resume}
+
+
+    \section{\sc Education}
+    {\bf Ph.D., Physics,} Massachusetts Institute of Technology, Cambridge, MA, USA \hfill {\bf May 2012}\\
+    \vspace*{-.1in}
+    \begin{itemize}
+    \item[ ] Dissertation Advisor: Prof.\ Scott Hughes
+    \item[ ] Dissertation Title: {\it Probes of strong-field gravity}
+    %\item[ ] G.P.A.: 4.6/5.0
+    \end{itemize}
+
+\end{resume}
+\end{document}
