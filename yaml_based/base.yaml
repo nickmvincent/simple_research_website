@@ -458,7 +458,7 @@ publications:
       - Hanlin Li
       - Nicole Tilly
       - Stevie Chancellor
-      - Brent Hecht"
+      - Brent Hecht
     doi: 10.1145/3442188.3445885
     journal: "ACM FAccT 2021"
     date: "2021"
@@ -480,7 +480,7 @@ publications:
       - Nicholas Vincent
       - Janice Tsai
       - Jofish Kaye
-      - Brent Hecht"
+      - Brent Hecht
     doi: 10.1145/3359189
     journal: "ACM CSCW 2019"
     date: "2019"
@@ -582,6 +582,12 @@ publications:
         type: "code"
 
 workshop_papers:
+  - title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study of DALL·E 2 and DALL·E 3"
+    authors:
+      - Clare Provenzano
+      - Parsa Rajabi
+      - Diana Cukierman
+      - Nicholas Vincent
   - title: "An Alternative to Regulation: The Case for Public AI"
     authors: 
       - Nicholas Vincent
@@ -703,7 +709,7 @@ other_papers:
       - Nicholas Vincent
       - Yichun Li
       - Renee Zha
-      - Brent Hecht"
+      - Brent Hecht
     date: "2019"
     journal: "arXiv preprint"
     fulldate: "2019-11-19"
@@ -729,3 +735,44 @@ events:
     pub_date: "2022/11/8"
     description: "Workshop at CSCW 2022"
     url: https://dl.acm.org/doi/abs/10.1145/3500868.3560923
+
+selected_talks:
+  - name: "A New Grand Data Bargain for Public Interest AI"
+    location: "Digital Democracies Institute Spring Speaker Series"
+    date: 2024-02
+    event_url: https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/
+  - name: "Responsive LLM Development"
+    location: "University of Toronto Data Sciences Institute: Fairness - ChatGPT Workshop"
+    date: 2024-01
+    event_url: https://datasciences.utoronto.ca/fairness-chatgpt-workshop/
+  - name: "Community Dialogue on Accountable Governance and Data"
+    location: Community Data Science Collective Community Dialogues
+    date: "2023-03"
+    event_url: https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/
+  - name: Algorithmic Contestability
+    location: Center for Advancing Safety of Machine Intelligence, Toward a Safety Science of AI
+    date: 2023-01
+    event_url: https://casmi.northwestern.edu/workshops-events/workshops/
+  - name: Public interest technologies for the ML age
+    location: "3rd Obfuscation Workshop"
+    date: 2021-05
+    event_url: https://www.easychair.org/cfp/wo2021
+  - name: "The Importance of Wikipedia to Search Engines and Other Systems"
+    location: "Wikipedia Research Showcase"
+    date: 2021-05
+    event_url: https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase
+    video_url: https://www.youtube.com/watch?v=VoX5rFNzkXs
+  - name: "Data Agency: Individual or Shared?"
+    location: RadicalxChange Panels
+    date: 2021-01
+    video_url: https://www.youtube.com/watch?v=eRo6mff6vLY
+  - name: Data Driven Economy for All)
+    location: RadicalxChange 2020 Conference
+    date: 2020-07
+    event_url: https://www.radicalxchange.org/events/2020-conference/
+    video_url: https://www.youtube.com/watch?v=77SD6r2jVhw
+  - name: The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities
+    location: Wikipedia Research Showcase
+    date: 2018-04
+    event_url: https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase
+    video_url: https://www.youtube.com/watch?v=Z1pa-pr6xis

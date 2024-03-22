@@ -9,7 +9,7 @@ template = env.get_template('template.html')
 
 output = template.render(data)
 
-with open('output.html', 'w') as file:
+with open('index.html', 'w') as file:
     file.write(output)
 
 print("Template converted successfully!")

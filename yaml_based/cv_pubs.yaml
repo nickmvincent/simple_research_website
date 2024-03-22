@@ -1,237 +1,321 @@
 archival_publications:
-- authors:
-  - Heila Precel
-  - Allison McDonald
-  - Brent Hecht
-  - Nicholas Vincent
-  date: '2024'
-  journal: ACM CHI 2024
-  title: 'A Canary in the AI Coal Mine: American Jews May Be Disproportionately Harmed
-    by Intellectual Property Dispossession in Large Language Model Training'
-- authors:
-  - Leijie Wang
-  - Nicholas Vincent
-  - "Julija Rukanskait\u0117"
-  - Amy X. Zhang
-  date: '2024'
-  journal: ACM CHI 2024
-  title: 'Pika: Empowering Non-Programmers to Author Executable Governance Policies
-    in Online Communities'
-- authors:
-  - Leah Ajmani
-  - Nicholas Vincent
-  - Stevie Chancellor
-  date: '2023'
-  doi: 10.1145/3610198
-  journal: ACM CSCW 2023
-  title: 'Peer Produced Friction: How Page Protection on Wikipedia Affects Editor
-    Engagement and Concentration'
-- authors:
-  - Hanlin Li
-  - Nicholas Vincent
-  - Stevie Chancellor
-  - Brent Hecht
-  date: '2023'
-  doi: 10.1145/3593013.3594070
-  journal: ACM FAccT 2023
-  title: 'The Dimensions of Data Labor: A Road Map for Researchers, Activists, and
-    Policymakers to Empower Data Producers'
-- authors:
-  - Danish Contractor
-  - Daniel McDuff
-  - Julia Katherine Haines
-  - Jenny Lee
-  - Christopher Hines
-  - Brent Hecht
-  - Nicholas Vincent
-  - Hanlin Li"
-  date: '2022'
-  doi: 10.1145/3531146.3533143
-  journal: ACM FAccT 2022
-  title: Behavioral Use Licensing for Responsible AI
-- authors:
-  - Farhan Asif Chowdhury
-  - Yozen Liu
-  - Koustuv Saha
-  - Nicholas Vincent
-  - Leonardo Neves
-  - Neil Shah
-  - Maarten W Bos"
-  date: '2021'
-  doi: 10.1609/icwsm.v15i1.18046
-  journal: AAAI ICWSM 2021
-  title: 'CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User
-    Behavior on Social Platforms'
-- authors:
-  - Jack Bandy
-  - Nicholas Vincent
-  date: '2021'
-  journal: NeurIPS 2021 Datasets and Benchmarks Track
-  title: 'Addressing "Documentation Debt" in Machine Learning Research: A Retrospective
-    Datasheet for BookCorpus'
-- authors:
-  - Koustuv Saha
-  - Yozen Liu
-  - Nicholas Vincent
-  - Farhan Asif Chowdhury
-  - Leonardo Neves
-  - Neil Shah
-  - Maarten W Bos
-  date: '2021-05-06'
-  doi: 10.1145/3411764.3445394
-  journal: ACM CHI 2021
-  title: 'AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations
-    on Social Media'
-- authors:
-  - Nicholas Vincent
-  - Brent Hecht
-  date: '2021'
-  doi: 10.1145/3449078
-  journal: ACM CSCW 2021
-  title: A Deeper Investigation of the Importance of Wikipedia Links to Search Engine
-    Results
-- authors:
-  - Nicholas Vincent
-  - Brent Hecht
-  date: '2021'
-  doi: 10.1145/3449177
-  journal: ACM CSCW 2021
-  title: Can "Conscious Data Contribution" Help Users to Exert "Data Leverage" Against
-    Technology Companies?
-- authors:
-  - Nicholas Vincent
-  - Hanlin Li
-  - Nicole Tilly
-  - Stevie Chancellor
-  - Brent Hecht"
-  date: '2021'
-  doi: 10.1145/3442188.3445885
-  journal: ACM FAccT 2021
-  title: 'Data Leverage: A Framework for Empowering the Public in its Relationship
-    with Technology Companies'
-- authors:
-  - Hanlin Li
-  - Nicholas Vincent
-  - Janice Tsai
-  - Jofish Kaye
-  - Brent Hecht"
-  date: '2019'
-  doi: 10.1145/3359189
-  journal: ACM CSCW 2019
-  title: "How Do People Change Their Technology Use in Protest?: Understanding \u201C\
-    Protest Users\u201D"
-- authors:
-  - Nicholas Vincent
-  - Isaac Johnson
-  - Patrick Sheehan
-  - Brent Hecht
-  date: '2019'
-  doi: 10.1609/icwsm.v13i01.3248
-  journal: AAAI ICWSM 2019
-  title: 'Measuring the Importance of User-Generated Content to Search Engines '
-- authors:
-  - Nicholas Vincent
-  - Brent Hecht
-  - Shilad Sen
-  date: '2019'
-  doi: 10.1145/3308558.3313742
-  journal: ACM The Web Conference 2019
-  title: "\u201CData Strikes\u201D: Evaluating the Effectiveness of a New Form of\
-    \ Collective Action Against Technology Companies"
-- authors:
-  - Eureka Foong
-  - Nicholas Vincent
-  - Brent Hecht
-  - Elizabeth M Gerber
-  date: '2018-11-01'
-  doi: 10.1145/3274322
-  journal: ACM CSCW 2018
-  title: 'Women (still) ask for less: Gender differences in hourly rate in an online
-    labor marketplace'
-- authors:
-  - Nicholas Vincent
-  - Isaac Johnson
-  - Brent Hecht
-  date: '2018'
-  doi: 10.1145/3173574.3174140
-  journal: ACM CHI 2018
-  title: 'Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia''s
-    Relationships with Other Large-Scale Online Communities'
+  - authors:
+      - Heila Precel
+      - Allison McDonald
+      - Brent Hecht
+      - Nicholas Vincent
+    date: '2024'
+    journal: ACM CHI 2024
+    title: 'A Canary in the AI Coal Mine: American Jews May Be Disproportionately
+      Harmed by Intellectual Property Dispossession in Large Language Model Training'
+  - authors:
+      - Leijie Wang
+      - Nicholas Vincent
+      - "Julija Rukanskait\u0117"
+      - Amy X. Zhang
+    date: '2024'
+    journal: ACM CHI 2024
+    title: 'Pika: Empowering Non-Programmers to Author Executable Governance Policies
+      in Online Communities'
+  - authors:
+      - Leah Ajmani
+      - Nicholas Vincent
+      - Stevie Chancellor
+    date: '2023'
+    doi: 10.1145/3610198
+    journal: ACM CSCW 2023
+    title: 'Peer Produced Friction: How Page Protection on Wikipedia Affects Editor
+      Engagement and Concentration'
+  - authors:
+      - Hanlin Li
+      - Nicholas Vincent
+      - Stevie Chancellor
+      - Brent Hecht
+    date: '2023'
+    doi: 10.1145/3593013.3594070
+    journal: ACM FAccT 2023
+    title: 'The Dimensions of Data Labor: A Road Map for Researchers, Activists, and
+      Policymakers to Empower Data Producers'
+  - authors:
+      - Danish Contractor
+      - Daniel McDuff
+      - Julia Katherine Haines
+      - Jenny Lee
+      - Christopher Hines
+      - Brent Hecht
+      - Nicholas Vincent
+      - Hanlin Li"
+    date: '2022'
+    doi: 10.1145/3531146.3533143
+    journal: ACM FAccT 2022
+    title: Behavioral Use Licensing for Responsible AI
+  - authors:
+      - Farhan Asif Chowdhury
+      - Yozen Liu
+      - Koustuv Saha
+      - Nicholas Vincent
+      - Leonardo Neves
+      - Neil Shah
+      - Maarten W Bos"
+    date: '2021'
+    doi: 10.1609/icwsm.v15i1.18046
+    journal: AAAI ICWSM 2021
+    title: 'CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User
+      Behavior on Social Platforms'
+  - authors:
+      - Jack Bandy
+      - Nicholas Vincent
+    date: '2021'
+    journal: NeurIPS 2021 Datasets and Benchmarks Track
+    title: 'Addressing "Documentation Debt" in Machine Learning Research: A Retrospective
+      Datasheet for BookCorpus'
+  - authors:
+      - Koustuv Saha
+      - Yozen Liu
+      - Nicholas Vincent
+      - Farhan Asif Chowdhury
+      - Leonardo Neves
+      - Neil Shah
+      - Maarten W Bos
+    date: '2021-05-06'
+    doi: 10.1145/3411764.3445394
+    journal: ACM CHI 2021
+    title: 'AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations
+      on Social Media'
+  - authors:
+      - Nicholas Vincent
+      - Brent Hecht
+    date: '2021'
+    doi: 10.1145/3449078
+    journal: ACM CSCW 2021
+    title: A Deeper Investigation of the Importance of Wikipedia Links to Search Engine
+      Results
+  - authors:
+      - Nicholas Vincent
+      - Brent Hecht
+    date: '2021'
+    doi: 10.1145/3449177
+    journal: ACM CSCW 2021
+    title: Can "Conscious Data Contribution" Help Users to Exert "Data Leverage" Against
+      Technology Companies?
+  - authors:
+      - Nicholas Vincent
+      - Hanlin Li
+      - Nicole Tilly
+      - Stevie Chancellor
+      - Brent Hecht
+    date: '2021'
+    doi: 10.1145/3442188.3445885
+    journal: ACM FAccT 2021
+    title: 'Data Leverage: A Framework for Empowering the Public in its Relationship
+      with Technology Companies'
+  - authors:
+      - Hanlin Li
+      - Nicholas Vincent
+      - Janice Tsai
+      - Jofish Kaye
+      - Brent Hecht
+    date: '2019'
+    doi: 10.1145/3359189
+    journal: ACM CSCW 2019
+    title: "How Do People Change Their Technology Use in Protest?: Understanding \u201C\
+      Protest Users\u201D"
+  - authors:
+      - Nicholas Vincent
+      - Isaac Johnson
+      - Patrick Sheehan
+      - Brent Hecht
+    date: '2019'
+    doi: 10.1609/icwsm.v13i01.3248
+    journal: AAAI ICWSM 2019
+    title: 'Measuring the Importance of User-Generated Content to Search Engines '
+  - authors:
+      - Nicholas Vincent
+      - Brent Hecht
+      - Shilad Sen
+    date: '2019'
+    doi: 10.1145/3308558.3313742
+    journal: ACM The Web Conference 2019
+    title: "\u201CData Strikes\u201D: Evaluating the Effectiveness of a New Form of\
+      \ Collective Action Against Technology Companies"
+  - authors:
+      - Eureka Foong
+      - Nicholas Vincent
+      - Brent Hecht
+      - Elizabeth M Gerber
+    date: '2018-11-01'
+    doi: 10.1145/3274322
+    journal: ACM CSCW 2018
+    title: 'Women (still) ask for less: Gender differences in hourly rate in an online
+      labor marketplace'
+  - authors:
+      - Nicholas Vincent
+      - Isaac Johnson
+      - Brent Hecht
+    date: '2018'
+    doi: 10.1145/3173574.3174140
+    journal: ACM CHI 2018
+    title: 'Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia''s
+      Relationships with Other Large-Scale Online Communities'
+news_coverage:
+  - bullet: Nitasha Tiku. [Newspapers want payment for articles used to power ChatGPT](https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/).
+      The Washington Post, October 2023
+  - bullet: Kali Hays and Alistair Barr. [AI is killing the grand bargain at the heart
+      of the web. 'We're in a different world.'](https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8).
+      Business Insider, January 2024
+  - bullet: 'Alistar Barr. [''Data leverage'' and the Harry Potter test: How much
+      is a single book worth to a giant AI model?](https://www.businessinsider.com/data-leverage-harry-potter-test-putting-value-data-ai-models-2023-8).
+      Business Insider, August 2023'
+  - bullet: "Jon Gernter. [Wikipedia\u2019s Moment of Truth](https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html).\
+      \ New York Times Magazine, September 2023"
+  - bullet: "Melissa Heikkil\xE4. [We are all AI\u2019s free data workers](https://www.technologyreview.com/2023/06/13/1074560/we-are-all-ais-free-data-workers/).\
+      \ MIT Technology Review, June 2023"
+  - bullet: "Aur\xE9lien Defer. [Internet users are 'poisoning' their personal data\
+      \ in the fight against online surveillance.](https://www.lemonde.fr/en/pixels/article/2022/04/30/internet-users-are-poisoning-their-personal-data-in-the-fight-against-online-surveillance_5982052_13.html).\
+      \ Le Monde, April 2022"
+  - bullet: "Rebecca Heilweil. [Got the same name as a serial killer? Google might\
+      \ think you\u2019re the same person.](https://www.vox.com/recode/22550555/google-search-knowledge-panels-serial-killer-misinformation-knowledge-graph).\
+      \ Vox, June 2021"
+  - bullet: "Peter Coy. [Facebook and Others Should Pay Us for Our Data. Here\u2019\
+      s One Way.](https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way).\
+      \ Bloomberg, May 2021"
+  - bullet: Karen Hao. [How to poison the data that Big Tech use to surveil you](https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/).
+      MIT Technology Review, March 2021
+  - bullet: Jonathan Vanian and Jeremy Kahn. [Your data is a weapon that can help
+      change corporate behavior.](https://fortune.com/2021/02/23/your-data-is-a-weapon-that-can-help-change-corporate-behavior/).
+      Fortune, February 2021
+  - bullet: "Nicol\xE1s Rivero. [Is it time for Netflix subscribers to go on strike?](https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/).\
+      \ Quartz, July 2020"
+  - bullet: John Herrman. [YouTube May Add to the Burdens of Humble Wikipedia](https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html).
+      New York Times, March 2018
 other_publications:
-- authors:
-  - Rod Abhari
-  - Nicholas Vincent
-  - Henry K Dambanemuya
-  - Herminio Bodon
-  - "Em\u0151ke-\xC1gnes Horv\xE1t\""
-  date: '2022'
-  journal: arXiv preprint
-  title: 'Twitter Engagement with Retracted Articles: Who, When, and How?'
-- authors:
-  - Yakov Feygin
-  - Hanlin Li
-  - Chirag Lala
-  - Brent Hecht
-  - Nicholas Vincent
-  - Luisa Scarcella
-  - Matthew Prewitt"
-  date: '2021'
-  journal: Berggruen Institute white paper
-  title: 'A Data Dividend that Works: Steps Toward Building an Equitable Data Economy'
-- authors:
-  - Nicholas Vincent
-  - Yichun Li
-  - Renee Zha
-  - Brent Hecht"
-  date: '2019'
-  journal: arXiv preprint
-  title: Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing
-    the Profits of Artificial Intelligence.
+  - authors:
+      - Rod Abhari
+      - Nicholas Vincent
+      - Henry K Dambanemuya
+      - Herminio Bodon
+      - "Em\u0151ke-\xC1gnes Horv\xE1t\""
+    date: '2022'
+    journal: arXiv preprint
+    title: 'Twitter Engagement with Retracted Articles: Who, When, and How?'
+  - authors:
+      - Yakov Feygin
+      - Hanlin Li
+      - Chirag Lala
+      - Brent Hecht
+      - Nicholas Vincent
+      - Luisa Scarcella
+      - Matthew Prewitt"
+    date: '2021'
+    journal: Berggruen Institute white paper
+    title: 'A Data Dividend that Works: Steps Toward Building an Equitable Data Economy'
+  - authors:
+      - Nicholas Vincent
+      - Yichun Li
+      - Renee Zha
+      - Brent Hecht
+    date: '2019'
+    journal: arXiv preprint
+    title: Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing
+      the Profits of Artificial Intelligence.
+
+selected_talks:
+  - date: 2024-02
+    highlights:
+      - 'Event: [Digital Democracies Institute Spring Speaker Series](https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/)'
+    name: A New Grand Data Bargain for Public Interest AI
+  - date: 2024-01
+    highlights:
+      - 'Event: [University of Toronto Data Sciences Institute: Fairness - ChatGPT
+        Workshop](https://datasciences.utoronto.ca/fairness-chatgpt-workshop/)'
+    name: Responsive LLM Development
+  - date: 2023-03
+    highlights:
+      - 'Event: [Community Data Science Collective Community Dialogues](https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/)'
+    name: Community Dialogue on Accountable Governance and Data
+  - date: 2023-01
+    highlights:
+      - 'Event: [Northwestern University, Center for Advancing Safety of Machine Intelligence,
+        Toward a Safety Science of AI](https://casmi.northwestern.edu/workshops-events/workshops/)'
+    name: Algorithmic Contestability
+  - date: 2021-05
+    highlights:
+      - 'Event: [3rd Obfuscation Workshop](https://www.easychair.org/cfp/wo2021)'
+    name: Public interest technologies for the ML age
+  - date: 2021-05
+    highlights:
+      - 'Event: [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase)
+        ([Video](entry.video_url))'
+    name: The Importance of Wikipedia to Search Engines and Other Systems
+  - date: 2021-01
+    highlights:
+      - 'Event: RadicalxChange Panels ([Video](entry.video_url))'
+    name: 'Data Agency: Individual or Shared?'
+  - date: 2020-07
+    highlights:
+      - 'Event: [RadicalxChange 2020 Conference](https://www.radicalxchange.org/events/2020-conference/)
+        ([Video](entry.video_url))'
+    name: Data Driven Economy for All)
+  - date: 2018-04
+    highlights:
+      - 'Event: [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase)
+        ([Video](entry.video_url))'
+    name: The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale
+      Online Communities
+
 workshop_publications:
-- authors:
-  - Nicholas Vincent
-  - David Bau
-  - Sarah Schwettmann
-  - Joshua Tan
-  date: '2023'
-  journal: RegML 2023 (NeurIPS 2023 Workshop)
-  title: 'An Alternative to Regulation: The Case for Public AI'
-- authors:
-  - Nicholas Vincent
-  - Brent Hecht
-  date: '2023'
-  journal: EAAMO 2023
-  title: 'Sharing the Winnings of AI with Data Dividends: Challenges with ''Meritocratic''
-    Data Valuation'
-- authors:
-  - Nicholas Vincent
-  - Christine Vandevoorde
-  date: '2022'
-  journal: CESC 2022 @ UC Berkeley
-  title: Collaborative Design of Contribution Tracking Systems for Decentralized Organizations
-- authors:
-  - Isaiah Jones
-  - Brent Hecht
-  - Nicholas Vincent
-  date: '2022'
-  journal: ACM CSCW 2022 Posters
-  title: 'Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter
-    Birdwatch Users'
-- authors:
-  - Noah Stier
-  - Nicholas Vincent
-  - David Liebeskind
-  - Fabien Scalzo"
-  date: '2015'
-  journal: BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning
-  title: Deep learning of tissue fate features in acute ischemic stroke
-- authors:
-  - Nicholas Vincent
-  - Noah Stier
-  - Songlin Yu
-  - David S Liebeskind
-  - Danny JJ Wang
-  - Fabien Scalzo"
-  date: '2015'
-  journal: BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning
-  title: Detection of hyperperfusion on arterial spin labeling using deep learning
+  - authors:
+      - Clare Provenzano
+      - Parsa Rajabi
+      - Diana Cukierman
+      - Nicholas Vincent
+    title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study\
+      \ of DALL\xB7E 2 and DALL\xB7E 3"
+  - authors:
+      - Nicholas Vincent
+      - David Bau
+      - Sarah Schwettmann
+      - Joshua Tan
+    date: '2023'
+    journal: RegML 2023 (NeurIPS 2023 Workshop)
+    title: 'An Alternative to Regulation: The Case for Public AI'
+  - authors:
+      - Nicholas Vincent
+      - Brent Hecht
+    date: '2023'
+    journal: EAAMO 2023
+    title: 'Sharing the Winnings of AI with Data Dividends: Challenges with ''Meritocratic''
+      Data Valuation'
+  - authors:
+      - Nicholas Vincent
+      - Christine Vandevoorde
+    date: '2022'
+    journal: CESC 2022 @ UC Berkeley
+    title: Collaborative Design of Contribution Tracking Systems for Decentralized
+      Organizations
+  - authors:
+      - Isaiah Jones
+      - Brent Hecht
+      - Nicholas Vincent
+    date: '2022'
+    journal: ACM CSCW 2022 Posters
+    title: 'Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter
+      Birdwatch Users'
+  - authors:
+      - Noah Stier
+      - Nicholas Vincent
+      - David Liebeskind
+      - Fabien Scalzo"
+    date: '2015'
+    journal: BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning
+    title: Deep learning of tissue fate features in acute ischemic stroke
+  - authors:
+      - Nicholas Vincent
+      - Noah Stier
+      - Songlin Yu
+      - David S Liebeskind
+      - Danny JJ Wang
+      - Fabien Scalzo"
+    date: '2015'
+    journal: BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning
+    title: Detection of hyperperfusion on arterial spin labeling using deep learning

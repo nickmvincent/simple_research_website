@@ -5,16 +5,16 @@
 - Website: [www.nickmvincent.com](https://www.nickmvincent.com/)
 
 
-# Summary
+# Research Interests
 
-Research interests: Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, Social Computing
+Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, Social Computing
 
 # Academic Appointments
 
-## Simon Fraser University School of Computing Science, Assistant Professor
+## Simon Fraser University, School of Computing Science, Assistant Professor
 
 - Aug. 2023 to present 
-- Burnaby, BC 
+- Burnaby, BC, Canada 
 
 ## University of California, Davis, Postdoctoral Scholar
 
@@ -28,10 +28,11 @@ Research interests: Responsible Artificial Intelligence, Human-computer Interact
 
 - Sept. 2017 to Dec. 2022 
 
-- Thesis: 'Data Leverage: A Framework for Empowering the Public to Mitigate Harms of Artificial Intelligence'; Departmental Dissertation Award, SIGCHI 2024 Outstanding Dissertation Award, [link](https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en)
 - Advisor: [Brent Hecht](https://brenthecht.com/)
+- [Dissertation](https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en) - Data Leverage: A Framework for Empowering the Public to Mitigate Harms of Artificial Intelligence
+- SIGCHI 2024 Outstanding Dissertation Award, Department of Communication Dissertation Award
 
-## UCLA, BS in Electrical Engineering
+## University of California, Los Angeles, BS in Electrical Engineering
 
 - Sept. 2012 to June 2016 
 
@@ -160,7 +161,7 @@ Research interests: Responsible Artificial Intelligence, Human-computer Interact
 - Sept. 2016 to June 2017 
 - Chicago, IL, USA 
 
-## Space and Naval Warfare Systems Command - Pacific (now NAVWAR), NREIP Naval Research Intern
+## Space and Naval Warfare Systems Command (now NAVWAR), NREIP Naval Research Intern
 
 - June 2016 to Aug. 2016 
 - San Diego, CA, USA 
@@ -174,63 +175,91 @@ Research interests: Responsible Artificial Intelligence, Human-computer Interact
 
 # Teaching Experience
 
-## CMPT 419
+## Simon Fraser University, School of Computing Science, Primary Instructor
 
-- Jan. 2024 - SFU - Primary instructor, Special Topics in AI, Human and Data-centered AI, 50 students
+- Jan. 2024 to Apr. 2024 
 
-## CMPT 120
+- [CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI, 50 students.
 
-- Sept. 2023 - SFU - Primary instructor, Introduction to Computing Science and Programming, 200 students
+## Simon Fraser University, School of Computing Science, Primary Instructor
 
-## [Statistics and Statistical Programming](https://wiki.communitydata.science/Statistics_and_Statistical_Programming_(Fall_2020))
+- Sept. 2023 to Dec. 2023 
 
-- Sept. 2020 - Northwestern University - Teaching Assistant
+- [CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming, 200 students.
 
+## Northwestern University, Teaching Assistant
+
+- Sept. 2020 to Dec. 2020 
+
+- [MTS 525](https://wiki.communitydata.science/Workshops_and_Classes), Statistics and Statistical Programming
+
+# Academic Reviewing
+
+- Conferences: ACM SIGCHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ACM The Web Conference; WikiWorkshop; ACM FAccT; ACM WSDM; IC2S2; ACM EAAMO
+- Journals: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
+- Commendations: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
 # Service Roles
 
 ## California Data Dividends Working Group
 
-- 2019-2022 - Co-organizer of a working group formed to study and prepare a report on the "data dividends" concept
+- 2019-2022 - Co-organizer of a working group formed to study and prepare a report on "data dividends"
 
 ## Northwestern University Artificial Intelligence Journal Club
 
-- 2019-2021 - Co-organizer of a journal club
+- 2019-2021 - Co-organizer
 
 ## Northwestern University, Computer Science Ph.D. Advisory Council
 
 - Jan. 2018 
 ## InfoSocial Graduate Student Conference
 
-- 2018-2019 - Served as one of two co-chairs for the [InfoSocial](https://infosocial.soc.northwestern.edu/) student-run conference. Organized the conference, which included papers sessions, panels with faculty and community organizations, and networking opportunities.
+- 2018-2019 - Served as one of two co-chairs for the [InfoSocial](https://infosocial.soc.northwestern.edu/) student-run conference, which included paper sessions, panels, and networking opportunities.
 
-# Selected Talks
+# Undergraduate Research Mentoring
 
-## Community Dialogue on Accountable Governance and Data ([webpage](https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/))
-
-- Mar. 2023 - Community Data Science Collective 
-## Algorithmic Contestability
-
-- Jan. 2023 - Northwestern University, Center for Advancing Safety of Machine Intelligence (CASMI), [Toward a Safety Science of AI](https://casmi.northwestern.edu/workshops-events/workshops/) 
-## Public interest technologies for the ML age
-
-- May 2021 - [3rd Obfuscation Workshop](https://www.easychair.org/cfp/wo2021) 
-## The Importance of Wikipedia to Search Engines and Other Systems (on [YouTube](https://www.youtube.com/watch?v=VoX5rFNzkXs))
-
-- May 2021 - [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase) 
-## Data Agency: Individual or Shared? (on [YouTube](https://www.youtube.com/watch?v=eRo6mff6vLY))
-
-- Jan. 2021 - RadicalxChange Panels 
-## Data Driven Economy for All (on [YouTube](https://www.youtube.com/watch?v=77SD6r2jVhw))
-
-- July 2020 - [RadicalxChange 2020 Conference](https://www.radicalxchange.org/events/2020-conference/) 
-## The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities (on [YouTube](https://www.youtube.com/watch?v=Z1pa-pr6xis))
-
-- Apr. 2018 - [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase) 
+- At Northwestern University (People, Space, and Algorithms Research Group): Patrick Sheehan (co-wrote a conf. paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
+- At Simon Fraser University (People and Data Computing Group): Clare Provezano (first author of a workshop paper)
 # Awards
 
-- Graduate Dissertation Award, Northwestern University School of Communication, 2023, [link](https://honors-convocation.soc.northwestern.edu/department-of-communication-studies/)
+- ACM SIGCHI Outstanding Dissertation [Award](https://medium.com/sigchi/announcing-the-2024-acm-sigchi-awards-8cac7abda8be), 2024
+- Northwestern University School of Communication Graduate Dissertation [Award](https://honors-convocation.soc.northwestern.edu/department-of-communication-studies/), 2023
 - President Fellowship Finalist, Northwestern University, 2019
 - NSF-GRFP Honorable Mention, 2018
-- Best Reviewer, ICWSM, 2022
-- Outstanding Reviewer, NeurIPS Datasets and Benchmarks, 2022
-- Highly useful reviewer, CSCW, 2022
+# Selected Talks
+
+## A New Grand Data Bargain for Public Interest AI
+
+- Feb. 2024 - Event: [Digital Democracies Institute Spring Speaker Series](https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/)
+
+## Responsive LLM Development
+
+- Jan. 2024 - Event: [University of Toronto Data Sciences Institute: Fairness - ChatGPT Workshop](https://datasciences.utoronto.ca/fairness-chatgpt-workshop/)
+
+## Community Dialogue on Accountable Governance and Data
+
+- Mar. 2023 - Event: [Community Data Science Collective Community Dialogues](https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/)
+
+## Algorithmic Contestability
+
+- Jan. 2023 - Event: [Center for Advancing Safety of Machine Intelligence, Toward a Safety Science of AI](https://casmi.northwestern.edu/workshops-events/workshops/)
+
+## Public interest technologies for the ML age
+
+- May 2021 - Event: [3rd Obfuscation Workshop](https://www.easychair.org/cfp/wo2021)
+
+## The Importance of Wikipedia to Search Engines and Other Systems
+
+- May 2021 - Event: [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase) ([Video](entry.video_url))
+
+## Data Agency: Individual or Shared?
+
+- Jan. 2021 - Event: RadicalxChange Panels ([Video](entry.video_url))
+
+## Data Driven Economy for All)
+
+- July 2020 - Event: [RadicalxChange 2020 Conference](https://www.radicalxchange.org/events/2020-conference/) ([Video](entry.video_url))
+
+## The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities
+
+- Apr. 2018 - Event: [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase) ([Video](entry.video_url))
+
