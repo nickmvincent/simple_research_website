@@ -75,7 +75,7 @@
                     </figure>
                 </div>
 
-                <div class="column is-4 bordered-bottom">
+                <div class="column is-4 bordered-bottom bordered-right">
                     <span class="subtitle is-bold">Affiliation</span>
                     <p class="is-size-7">{{ position }} in the <a href="{{ department_url }}">{{ department_name }}</a> at <a
                             href="{{ university_url }}">{{ university_name }}</a>.
@@ -84,7 +84,7 @@
             </div>
 
             <div class="columns">
-                <div class="column is-2">
+                <div class="column is-2 bordered-left">
                     <span class="subtitle is-bold is-size-5">Contact</span>
                     <p class="is-size-7">{{ email }}</p>
                 </div>
@@ -114,7 +114,7 @@
                     {% endfor %}
                 </div>
 
-                <div class="column is-2">
+                <div class="column is-2 bordered-right">
                     <span class="subtitle is-bold">More</span>
                     {% for link in more_info_links %}
                     <p class="mono is-size-7"><a href="{{ link.url }}">{{ link.text }}</a></p>
