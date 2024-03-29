@@ -175,6 +175,34 @@ op_eds:
     pub_date: "2021/03/20"
 
 blog_posts:
+  - title: "Building a Data Pipeworks for Democratic AI: From Human Knowledge to Records to AI Systems"
+    url: "https://dataleverage.substack.com/p/building-a-data-pipeworks-for-democratic"
+    date: "November 2023"
+
+  - title: "Will the New York Times Data Strike Have a Large Impact on ChatGPT?"
+    url: "https://dataleverage.substack.com/p/will-the-new-york-times-data-strike"
+    date: "September 2023"
+
+  - title: "A Harbinger of the Future of Content? The New York Times Starts a Data Strike"
+    url: "https://dataleverage.substack.com/p/a-harbinger-of-the-future-of-content"
+    date: "August 2023"
+
+  - title: "The WGA Strike is a Canary in the Coal Mine for AI Labor Concerns"
+    url: "https://dataleverage.substack.com/p/the-wga-strike-is-a-canary-in-the"
+    date: "May 2023"
+
+  - title: "Reddit, StackOverflow, and Europe: All Trending Towards Data Dignity"
+    url: "https://dataleverage.substack.com/p/reddit-stackoverflow-and-europe-all" 
+    date: "May 2023"
+
+  - title: "Bing Rewards for the AI Age"
+    url: https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age
+    date: "March 2023"
+
+  - title: "Plural AI Data Alignment"
+    url: https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines
+    date: "March 2023"
+
   - title: "AI Technologies are System Maps, and You are a Cartographer."
     url: "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
     date: "February 2023"
@@ -199,14 +227,9 @@ blog_posts:
     url: "https://medium.com/technically-social/apple-now-lets-you-opt-out-of-tracking-will-this-give-you-more-influence-over-tech-companies-f7eec970aec1"
     date: "July 2021"
 
-  - title: "A Casual Introduction to Public Goods and Collective Action Problems. Guest post for the Govrnance Substack."
-    url: "https://govrnance.substack.com/p/deliberate-public-goods-games"
-    date: "June 2021"
-
   - title: "Powerful Technologies and Their Power Laws: Estimating Machine Learning Systems' Data Leverage Vulnerabilities."
     url: "https://observablehq.com/d/685789015c21cd9a"
     date: "Last Updated April 2021"
-
 
   - title: "Why You’re an Expert \"Language Model Trainer\"!"
     url: "https://www.psagroup.org/blogposts/78"
@@ -582,13 +605,17 @@ publications:
       - url: "https://github.com/nickmvincent/ugc-val-est"
         type: "code"
 
-workshop_papers:
+workshop_papers:  
   - title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study of DALL·E 2 and DALL·E 3"
     authors:
       - Clare Provenzano
       - Parsa Rajabi
       - Diana Cukierman
       - Nicholas Vincent
+    journal: "GenAICHI @ CHI 2024"
+    date: "2024"
+    fulldate: "2024-05-11"
+
   - title: "An Alternative to Regulation: The Case for Public AI"
     authors: 
       - Nicholas Vincent
@@ -714,7 +741,9 @@ other_papers:
     date: "2019"
     journal: "arXiv preprint"
     fulldate: "2019-11-19"
-    preprint_url: "https://arxiv.org/abs/1912.00757"
+    urls:
+      - url: "https://arxiv.org/abs/1912.00757"
+        type: "arxiv"
 
 
 events:
@@ -767,11 +796,13 @@ selected_talks:
     location: RadicalxChange Panels
     date: 2021-01
     video_url: https://www.youtube.com/watch?v=eRo6mff6vLY
-  - name: Data Driven Economy for All)
+
+  - name: "Data Driven Economy for All"
     location: RadicalxChange 2020 Conference
     date: 2020-07
     event_url: https://www.radicalxchange.org/events/2020-conference/
     video_url: https://www.youtube.com/watch?v=77SD6r2jVhw
+
   - name: The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities
     location: Wikipedia Research Showcase
     date: 2018-04

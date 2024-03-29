@@ -1,16 +1,5 @@
 ---
 
-
-
-intro: "Broad research goal: develop knowledge and tools to support an ecosystem of widely beneficial, highly capable AI technologies that mitigate, not exacerbate, inequalities in power and wealth."
-
-interests:
-- human-centered machine learning
-- human-computer interaction
-- responsible artificial intelligence
-- social computing
-
-
 additional_affiliations:
 - years: 2023--present
   organization: Metagov
@@ -21,43 +10,6 @@ additional_affiliations:
 
 
 archival_publications:
-- title: 'Peer-Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration'
-  authors: 
-    - Leah Ajmani
-    - Nicholas Vincent
-    - Stevie Chancellor
-  doi: 10.1145/3610198
-  date: "2023-11-04"
-  journal: ACM CSCW 2023
-
-  year: 2023
-  venue: ACM CSCW 2023
-  preprint: https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf
-  publication_date: 2023/11/04
-  pages: 1--33
-  volume: 7
-  number: CSCW2
-  publisher: ACM
-  
-  
-- title: 'The Dimensions of Data Labor: A Roadmap for Activists, Researchers, and Practitioners to Empower Data Producers'
-  authors: 
-    - Hanlin Li
-    - Nicholas Vincent
-    - Stevie Chancellor
-    - Brent Hecht
-  doi:
-  date:
-  journal:
-
-  year: 2023
-  venue: Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency
-  preprint: https://arxiv.org/abs/2305.13238
-  acm_dl: https://dl.acm.org/doi/abs/10.1145/3593013.3594070
-  doi: https://doi.org/10.1145/3593013.3594070
-  publication_date: 2023/6/12
-  pages: 1151-1161
-  publisher: ACM
 - title: Behavioral Use Licensing for Responsible AI
   authors: Danish Contractor, Daniel McDuff, Julia Katherine Haines, Jenny Lee, Christopher Hines, Brent Hecht, Nicholas Vincent, Hanlin Li
   doi:

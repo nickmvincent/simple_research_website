@@ -258,7 +258,7 @@
                         {% endfor %}
                     </ul>
 
-                    <h2 class="is-size-5">Blog Posts and Op-eds</h2>
+                    <h2 class="is-size-5">Selected Blog Posts</h2>
                     <ul>
                         {% for post in blog_posts %}
                         <li>
@@ -314,7 +314,7 @@
                         {% for publication in workshop_papers %}
                         <li>
                             <div class="columns">
-                                <p class="column is-9"> {{ publication.authors}}.
+                                <p class="column is-9"> {{ publication.authors | join(', ')}}.
                                     {{ publication.title }}.
                                     <i><a href="{{ publication.event_url }}">{{ publication.event_name }}</a></i>.
                                 </p>
@@ -334,13 +334,15 @@
                         {% for publication in other_papers %}
                         <li>
                             <div class="columns">
-                                <p class="column is-9"> {{ publication.authors}}.
+                                <p class="column is-9"> {{ publication.authors | join(', ')}}.
                                     {{ publication.title }}
 
                                 </p>
 
-                                <div class="mono column is-3"> | <a href="{{ publication.preprint_url }}">preprint</a>
-                                    |
+                                <div class="mono column is-3"> |
+                                    {% for url in publication.urls %}
+                                    <a href="{{url.url}}"> {{url.type}}</a> |
+                                    {% endfor %}
                                 </div>
                             </div>
                         </li>
