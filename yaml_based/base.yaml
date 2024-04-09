@@ -43,6 +43,19 @@ recent_news:
 
 
 news_coverage:
+  - title: Is this AI? See if you can spot the technology in your everyday life.
+    source: The Washington Post
+    authors: Kevin Shaul
+    date: April 2024
+    url: https://www.washingtonpost.com/technology/interactive/2024/what-is-ai/
+
+  - title: "Jews have always been prolific writers. Has AI wound up with too much of their work?"
+    source: Jewish Telegraphic Agency
+    authors: Asaf Elia-Shalev 
+    date: March 2024
+    url: https://www.jta.org/2024/03/25/culture/jews-have-always-been-prolific-writers-has-ai-wound-up-with-too-much-of-their-work 
+
+
   - title: "Newspapers want payment for articles used to power ChatGPT."
     source: "The Washington Post"
     authors: "Nitasha Tiku"
@@ -606,6 +619,15 @@ publications:
         type: "code"
 
 workshop_papers:  
+  - title: "..."
+    authors:
+      - Tim Baek
+      - Nicholas Vincent
+      - Lawrence Kim
+    journal: "HEAL @ CHI 2024"
+    date: "2024"
+    fulldate: "2024-05-11"
+
   - title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study of DALL·E 2 and DALL·E 3"
     authors:
       - Clare Provenzano
