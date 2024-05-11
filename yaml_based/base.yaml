@@ -619,9 +619,9 @@ publications:
         type: "code"
 
 workshop_papers:  
-  - title: "..."
+  - title: "Designing an open-source LLM interface and social platforms for collectively driven LLM evaluation and auditing"
     authors:
-      - Tim Baek
+      - Timothy J. Baek
       - Nicholas Vincent
       - Lawrence Kim
     journal: "HEAL @ CHI 2024"
@@ -637,6 +637,12 @@ workshop_papers:
     journal: "GenAICHI @ CHI 2024"
     date: "2024"
     fulldate: "2024-05-11"
+
+    event_name: GenAICHI @ CHI 2024
+    event_url: "https://generativeaiandhci.github.io/"
+    urls: 
+      - url: "https://nickmvincent.com/static/genai_at_chi_dalle_audit.pdf"
+        type: "pdf"
 
   - title: "An Alternative to Regulation: The Case for Public AI"
     authors: 
