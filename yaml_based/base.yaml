@@ -49,6 +49,13 @@ news_coverage:
     date: April 2024
     url: https://www.washingtonpost.com/technology/interactive/2024/what-is-ai/
 
+  - title: Nicholas Vincent explains why robots.txt is no longer enough to protect against web scraping
+    source: IT Brew
+    authors: Tom McKay
+    date: March 2024
+    url: https://www.itbrew.com/stories/2024/03/21/prof-nicholas-vincent-explains-why-robots-txt-is-no-longer-enough-to-protect-against-web-scraping
+
+
   - title: "Jews have always been prolific writers. Has AI wound up with too much of their work?"
     source: Jewish Telegraphic Agency
     authors: Asaf Elia-Shalev 
@@ -627,6 +634,13 @@ workshop_papers:
     journal: "HEAL @ CHI 2024"
     date: "2024"
     fulldate: "2024-05-11"
+
+    event: "HEAL @ CHI 2024"
+    event_url: https://heal-workshop.github.io/
+
+    urls: 
+      - url: "https://docs.openwebui.com/"
+        type: "project"
 
   - title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study of DALL·E 2 and DALL·E 3"
     authors:
