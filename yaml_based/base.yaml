@@ -35,8 +35,7 @@ social_links:
     url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
 
 recent_news:
-  - "2 CHI preprints on arxiv"
-  - "Presented in Prof. Shilad Sen's Collective Intelligence course"
+  - "Attended CHI 2024."
   - 'Received a SIGCHI Outstanding Dissertation Award (<a href="https://www.sfu.ca/computing/newsandevents/2024/towards-equitable-ai-technologies.html">coverage</a>).'
   - '<a href="https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/">Spoke</a> at the <a href="https://digitaldemocracies.org">Digital Democracies Institute</a>.'
   - 'Panelist at University of Toronto <a href="https://datasciences.utoronto.ca/fairness-chatgpt-workshop/">Fairness - ChatGPT workshop </a> put on by the Data Sciences Institute.'
@@ -54,7 +53,6 @@ news_coverage:
     authors: Tom McKay
     date: March 2024
     url: https://www.itbrew.com/stories/2024/03/21/prof-nicholas-vincent-explains-why-robots-txt-is-no-longer-enough-to-protect-against-web-scraping
-
 
   - title: "Jews have always been prolific writers. Has AI wound up with too much of their work?"
     source: Jewish Telegraphic Agency
