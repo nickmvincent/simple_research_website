@@ -35,7 +35,9 @@ social_links:
     url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
 
 recent_news:
-  - "Attended CHI 2024."
+  - 'New preprint on a framework for <a href="https://arxiv.org/abs/2405.14614">attentional agency</a>.'
+  - 'Attended ICWSM 2024 (helped organize the <a href="https://sites.google.com/stanford.edu/icwsm-2024-data-challenge/home">Data Challenge</a>).'
+  - 'Attended CHI 2024 (where students presented work on OpenWebUI, auditing GenAI, data consent issues, and tools for governance).'
   - 'Received a SIGCHI Outstanding Dissertation Award (<a href="https://www.sfu.ca/computing/newsandevents/2024/towards-equitable-ai-technologies.html">coverage</a>).'
   - '<a href="https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/">Spoke</a> at the <a href="https://digitaldemocracies.org">Digital Democracies Institute</a>.'
   - 'Panelist at University of Toronto <a href="https://datasciences.utoronto.ca/fairness-chatgpt-workshop/">Fairness - ChatGPT workshop </a> put on by the Data Sciences Institute.'
@@ -59,7 +61,6 @@ news_coverage:
     authors: Asaf Elia-Shalev 
     date: March 2024
     url: https://www.jta.org/2024/03/25/culture/jews-have-always-been-prolific-writers-has-ai-wound-up-with-too-much-of-their-work 
-
 
   - title: "Newspapers want payment for articles used to power ChatGPT."
     source: "The Washington Post"
@@ -629,11 +630,11 @@ workshop_papers:
       - Timothy J. Baek
       - Nicholas Vincent
       - Lawrence Kim
-    journal: "HEAL @ CHI 2024"
+    journal: "HEAL Workshop @ CHI 2024"
     date: "2024"
     fulldate: "2024-05-11"
 
-    event: "HEAL @ CHI 2024"
+    event_name: "HEAL Workshop @ CHI 2024"
     event_url: https://heal-workshop.github.io/
 
     urls: 
@@ -650,7 +651,7 @@ workshop_papers:
     date: "2024"
     fulldate: "2024-05-11"
 
-    event_name: GenAICHI @ CHI 2024
+    event_name: GenAICHI Workshop @ CHI 2024
     event_url: "https://generativeaiandhci.github.io/"
     urls: 
       - url: "https://nickmvincent.com/static/genai_at_chi_dalle_audit.pdf"
@@ -662,11 +663,11 @@ workshop_papers:
       - David Bau
       - Sarah Schwettmann
       - Joshua Tan
-    journal: RegML 2023 (NeurIPS 2023 Workshop)
+    journal: RegML 2023 Workshop @ NeurIPS 2023 Workshop
     date: "2023"
     fulldate: "2023-11-19"
 
-    event_name: RegML 2023 (NeurIPS 2023 Workshop)
+    event_name: RegML 2023 Workshop @ NeurIPS 2023 Workshop
     event_url: "https://regulatableml.github.io/"
     urls: 
       - url: "https://arxiv.org/abs/2311.11350"
@@ -679,7 +680,7 @@ workshop_papers:
     journal: "EAAMO 2023"
     date: "2023"
 
-    event_name: "EAAMO 2023"
+    event_name: "EAAMO 2023 non-archival track"
     event_url: "https://eaamo.org"
     urls: 
       - url: "http://www.nickmvincent.com/static/eaamo_data_dividends.pdf"
@@ -743,13 +744,25 @@ workshop_papers:
         type: "ieee"
 
 other_papers:
+  - title: "Push and Pull: A Framework for Measuring Attentional Agency"
+    authors:
+      - Zachary Wojtowicz
+      - Shrey Jain
+      - Nicholas Vincent
+    journal: "arXiv preprint"
+    date: "2024"
+    fulldate: "2024-05-23"
+    urls: 
+      - url: "https://arxiv.org/abs/2405.14614"
+        type: "arxiv"
+
   - title: "Twitter Engagement with Retracted Articles: Who, When, and How?"
     authors:
       - Rod Abhari
       - Nicholas Vincent
       - Henry K Dambanemuya
       - Herminio Bodon
-      - Emőke-Ágnes Horvát"
+      - Emőke-Ágnes Horvát
     journal: "arXiv preprint"
     date: "2022"
     fulldate: "2022-03-08"
