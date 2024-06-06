@@ -344,6 +344,10 @@ cv:
         details: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
 
     service_roles:
+      - name: ICWSM 2024 Data Challenge Co-chair
+        date: 2024 
+        highlights:
+          - Organized the Data Challenge conference track at ICWSM 2024
       - name: California Data Dividends Working Group
         date: 2019-2022 
         highlights:

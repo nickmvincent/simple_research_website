@@ -770,6 +770,18 @@ other_papers:
       - url: "https://arxiv.org/abs/2203.04228"
         type: "arxiv"
 
+  - title: "Book Chapter: From My Data to Our Data: A Proposal to Equitably Distribute Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays on the Best Ideas to Build Wealth—for Everyone"
+    authors: 
+      - Yakov Feygin
+      - Nicholas Vincent
+      - Hanlin Li
+      - Chirag Lala
+      - Luisa Scarcella
+    date: "2021"
+    urls:
+      - url: https://futureofwealth.org/the-book/
+        type: "book webpage"
+
   - title: "A Data Dividend that Works: Steps Toward Building an Equitable Data Economy"
     authors:
       - Yakov Feygin
@@ -820,6 +832,10 @@ events:
     url: https://dl.acm.org/doi/abs/10.1145/3500868.3560923
 
 selected_talks:
+  - name: "Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges from and to AI?" 
+    location: "SIGCHI 2024 Outstanding Dissertation Award"
+    date: 2024-05
+    event_url: https://programs.sigchi.org/chi/2024/program/content/156745
   - name: "A New Grand Data Bargain for Public Interest AI"
     location: "Digital Democracies Institute Spring Speaker Series"
     date: 2024-02

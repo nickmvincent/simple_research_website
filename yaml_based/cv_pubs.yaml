@@ -158,7 +158,16 @@ archival_publications:
     title: 'Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia''s
       Relationships with Other Large-Scale Online Communities'
 news_coverage:
-  - bullet: Nitasha Tiku. [Newspapers want payment for articles used to power ChatGPT](https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/).
+  - bullet: Kevin Shaul. [Is this AI? See if you can spot the technology in your everyday
+      life.](https://www.washingtonpost.com/technology/interactive/2024/what-is-ai/).
+      The Washington Post, April 2024
+  - bullet: Tom McKay. [Nicholas Vincent explains why robots.txt is no longer enough
+      to protect against web scraping](https://www.itbrew.com/stories/2024/03/21/prof-nicholas-vincent-explains-why-robots-txt-is-no-longer-enough-to-protect-against-web-scraping).
+      IT Brew, March 2024
+  - bullet: Asaf Elia-Shalev. [Jews have always been prolific writers. Has AI wound
+      up with too much of their work?](https://www.jta.org/2024/03/25/culture/jews-have-always-been-prolific-writers-has-ai-wound-up-with-too-much-of-their-work).
+      Jewish Telegraphic Agency, March 2024
+  - bullet: Nitasha Tiku. [Newspapers want payment for articles used to power ChatGPT.](https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/).
       The Washington Post, October 2023
   - bullet: Kali Hays and Alistair Barr. [AI is killing the grand bargain at the heart
       of the web. 'We're in a different world.'](https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8).
@@ -166,9 +175,9 @@ news_coverage:
   - bullet: 'Alistar Barr. [''Data leverage'' and the Harry Potter test: How much
       is a single book worth to a giant AI model?](https://www.businessinsider.com/data-leverage-harry-potter-test-putting-value-data-ai-models-2023-8).
       Business Insider, August 2023'
-  - bullet: "Jon Gernter. [Wikipedia\u2019s Moment of Truth](https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html).\
+  - bullet: "Jon Gernter. [Wikipedia\u2019s Moment of Truth.](https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html).\
       \ New York Times Magazine, September 2023"
-  - bullet: "Melissa Heikkil\xE4. [We are all AI\u2019s free data workers](https://www.technologyreview.com/2023/06/13/1074560/we-are-all-ais-free-data-workers/).\
+  - bullet: "Melissa Heikkil\xE4. [We are all AI\u2019s free data workers.](https://www.technologyreview.com/2023/06/13/1074560/we-are-all-ais-free-data-workers/).\
       \ MIT Technology Review, June 2023"
   - bullet: "Aur\xE9lien Defer. [Internet users are 'poisoning' their personal data\
       \ in the fight against online surveillance.](https://www.lemonde.fr/en/pixels/article/2022/04/30/internet-users-are-poisoning-their-personal-data-in-the-fight-against-online-surveillance_5982052_13.html).\
@@ -179,25 +188,42 @@ news_coverage:
   - bullet: "Peter Coy. [Facebook and Others Should Pay Us for Our Data. Here\u2019\
       s One Way.](https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way).\
       \ Bloomberg, May 2021"
-  - bullet: Karen Hao. [How to poison the data that Big Tech use to surveil you](https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/).
+  - bullet: Karen Hao. [How to poison the data that Big Tech use to surveil you.](https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/).
       MIT Technology Review, March 2021
   - bullet: Jonathan Vanian and Jeremy Kahn. [Your data is a weapon that can help
       change corporate behavior.](https://fortune.com/2021/02/23/your-data-is-a-weapon-that-can-help-change-corporate-behavior/).
       Fortune, February 2021
   - bullet: "Nicol\xE1s Rivero. [Is it time for Netflix subscribers to go on strike?](https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/).\
       \ Quartz, July 2020"
-  - bullet: John Herrman. [YouTube May Add to the Burdens of Humble Wikipedia](https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html).
+  - bullet: John Herrman. [YouTube May Add to the Burdens of Humble Wikipedia.](https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html).
       New York Times, March 2018
 other_publications:
+  - authors:
+      - Zachary Wojtowicz
+      - Shrey Jain
+      - Nicholas Vincent
+    date: '2024'
+    journal: arXiv preprint
+    title: 'Push and Pull: A Framework for Measuring Attentional Agency'
   - authors:
       - Rod Abhari
       - Nicholas Vincent
       - Henry K Dambanemuya
       - Herminio Bodon
-      - "Em\u0151ke-\xC1gnes Horv\xE1t\""
+      - "Em\u0151ke-\xC1gnes Horv\xE1t"
     date: '2022'
     journal: arXiv preprint
     title: 'Twitter Engagement with Retracted Articles: Who, When, and How?'
+  - authors:
+      - Yakov Feygin
+      - Nicholas Vincent
+      - Hanlin Li
+      - Chirag Lala
+      - Luisa Scarcella
+    date: '2021'
+    title: "Book Chapter: From My Data to Our Data: A Proposal to Equitably Distribute\
+      \ Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays\
+      \ on the Best Ideas to Build Wealth\u2014for Everyone"
   - authors:
       - Yakov Feygin
       - Hanlin Li
@@ -218,8 +244,12 @@ other_publications:
     journal: arXiv preprint
     title: Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing
       the Profits of Artificial Intelligence.
-
 selected_talks:
+  - date: 2024-05
+    highlights:
+      - 'Event: [SIGCHI 2024 Outstanding Dissertation Award](https://programs.sigchi.org/chi/2024/program/content/156745)'
+    name: 'Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges
+      from and to AI?'
   - date: 2024-02
     highlights:
       - 'Event: [Digital Democracies Institute Spring Speaker Series](https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/)'
@@ -235,8 +265,8 @@ selected_talks:
     name: Community Dialogue on Accountable Governance and Data
   - date: 2023-01
     highlights:
-      - 'Event: [Northwestern University, Center for Advancing Safety of Machine Intelligence,
-        Toward a Safety Science of AI](https://casmi.northwestern.edu/workshops-events/workshops/)'
+      - 'Event: [Center for Advancing Safety of Machine Intelligence, Toward a Safety
+        Science of AI](https://casmi.northwestern.edu/workshops-events/workshops/)'
     name: Algorithmic Contestability
   - date: 2021-05
     highlights:
@@ -255,20 +285,29 @@ selected_talks:
     highlights:
       - 'Event: [RadicalxChange 2020 Conference](https://www.radicalxchange.org/events/2020-conference/)
         ([Video](entry.video_url))'
-    name: Data Driven Economy for All)
+    name: Data Driven Economy for All
   - date: 2018-04
     highlights:
       - 'Event: [Wikipedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase)
         ([Video](entry.video_url))'
     name: The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale
       Online Communities
-
 workshop_publications:
+  - authors:
+      - Timothy J. Baek
+      - Nicholas Vincent
+      - Lawrence Kim
+    date: '2024'
+    journal: HEAL Workshop @ CHI 2024
+    title: Designing an open-source LLM interface and social platforms for collectively
+      driven LLM evaluation and auditing
   - authors:
       - Clare Provenzano
       - Parsa Rajabi
       - Diana Cukierman
       - Nicholas Vincent
+    date: '2024'
+    journal: GenAICHI @ CHI 2024
     title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study\
       \ of DALL\xB7E 2 and DALL\xB7E 3"
   - authors:
@@ -277,7 +316,7 @@ workshop_publications:
       - Sarah Schwettmann
       - Joshua Tan
     date: '2023'
-    journal: RegML 2023 (NeurIPS 2023 Workshop)
+    journal: RegML 2023 Workshop @ NeurIPS 2023 Workshop
     title: 'An Alternative to Regulation: The Case for Public AI'
   - authors:
       - Nicholas Vincent
