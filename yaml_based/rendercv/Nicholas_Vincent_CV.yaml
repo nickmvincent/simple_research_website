@@ -344,14 +344,18 @@ cv:
         details: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
 
     service_roles:
+      - name: AI Palace Organizer
+        date: 2023 - 2024
+        highlights:
+          - Organized the AI Palace conference in Bückeberg, Germany in 2023 and 2024.
       - name: ICWSM 2024 Data Challenge Co-chair
         date: 2024 
         highlights:
-          - Organized the Data Challenge conference track at ICWSM 2024
+          - Organized the Data Challenge conference track at ICWSM 2024.
       - name: California Data Dividends Working Group
         date: 2019-2022 
         highlights:
-          - Co-organizer of a working group formed to study and prepare a report on "data dividends"
+          - Co-organizer of a working group formed to study and prepare a report on "data dividends".
       - name: Northwestern University Artificial Intelligence Journal Club
         date: 2019-2021
         highlights:
@@ -374,8 +378,6 @@ cv:
       - bullet: Northwestern University School of Communication Graduate Dissertation [Award](https://honors-convocation.soc.northwestern.edu/department-of-communication-studies/), 2023
       - bullet: President Fellowship Finalist, Northwestern University, 2019
       - bullet: NSF-GRFP Honorable Mention, 2018
-
-
 
     selected_talks:
       - date: 2024-02

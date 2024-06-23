@@ -1,6 +1,5 @@
 import yaml
 
-
 with open('base.yaml', 'r') as file:
     data = yaml.safe_load(file)
 

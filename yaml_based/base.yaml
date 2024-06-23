@@ -194,6 +194,10 @@ op_eds:
     pub_date: "2021/03/20"
 
 blog_posts:
+  - title: "Project Spotlight: CollectiveVoice"
+    url: https://metagov.substack.com/p/metagov-project-spotlight-collectivevoice
+    date: "February 2024"
+
   - title: "Building a Data Pipeworks for Democratic AI: From Human Knowledge to Records to AI Systems"
     url: "https://dataleverage.substack.com/p/building-a-data-pipeworks-for-democratic"
     date: "November 2023"
