@@ -452,7 +452,8 @@ publications:
       - Maarten W Bos
     doi: 10.1145/3411764.3445394
     journal: "ACM CHI 2021"
-    date: "2021-05-06"
+    date: "2021"
+    fulldate: "2021-05-06"
 
     conference: "ACM CHI 2021"
     conference_url: "https://chi2021.acm.org/"
@@ -602,7 +603,7 @@ publications:
 
     doi: 10.1145/3274322
     journal: "ACM CSCW 2018"
-    date: "2018-11-01"
+    date: "2018"
 
     conference: "ACM CSCW 2018"
     conference_url: "http://cscw.acm.org/2018/"
@@ -676,11 +677,11 @@ workshop_papers:
       - David Bau
       - Sarah Schwettmann
       - Joshua Tan
-    journal: RegML 2023 Workshop @ NeurIPS 2023 Workshop
+    journal: RegML 2023 Workshop @ NeurIPS 2023
     date: "2023"
     fulldate: "2023-11-19"
 
-    event_name: RegML 2023 Workshop @ NeurIPS 2023 Workshop
+    event_name: RegML 2023 Workshop @ NeurIPS 2023
     event_url: "https://regulatableml.github.io/"
     urls: 
       - url: "https://arxiv.org/abs/2311.11350"
@@ -704,7 +705,7 @@ workshop_papers:
     authors: 
       - Nicholas Vincent
       - Christine Vandevoorde
-    journal: "CESC 2022 @ UC Berkeley"
+    journal: "CESC 2022"
     date: "2022"
 
     event_name: "CESC 2022"
@@ -783,7 +784,7 @@ other_papers:
       - url: "https://arxiv.org/abs/2203.04228"
         type: "arxiv"
 
-  - title: "Book Chapter: From My Data to Our Data: A Proposal to Equitably Distribute Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays on the Best Ideas to Build Wealth—for Everyone"
+  - title: "From My Data to Our Data"
     authors: 
       - Yakov Feygin
       - Nicholas Vincent
@@ -794,6 +795,7 @@ other_papers:
     urls:
       - url: https://futureofwealth.org/the-book/
         type: "book webpage"
+    journal: "Book Chapter in A Proposal to Equitably Distribute Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays on the Best Ideas to Build Wealth—for Everyone"
 
   - title: "A Data Dividend that Works: Steps Toward Building an Equitable Data Economy"
     authors:
@@ -803,7 +805,7 @@ other_papers:
       - Brent Hecht
       - Nicholas Vincent
       - Luisa Scarcella
-      - Matthew Prewitt"
+      - Matthew Prewitt
     date: "2021"
     journal: "Berggruen Institute white paper"
     urls:

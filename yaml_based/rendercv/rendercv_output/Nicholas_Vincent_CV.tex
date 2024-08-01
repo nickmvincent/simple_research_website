@@ -1,604 +1,1447 @@
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
-%------------------------
-
 \documentclass[10pt, letterpaper]{article}
 
+% Packages:
 \usepackage[
-        ignoreheadfoot, % set margins without considering header and footer
-        top=2 cm, % seperation between body and page edge from the top
-        bottom=2 cm, % seperation between body and page edge from the bottom
-        left=2 cm, % seperation between body and page edge from the left
-        right=2 cm, % seperation between body and page edge from the right
-        footskip=1.0 cm, % seperation between body and footer
-        % showframe % for debugging 
-    ]{geometry} % for adjusting page geometry
-\usepackage{latexsym}
-\usepackage[nobottomtitles*]{titlesec}
-\usepackage{marvosym}
-\usepackage{verbatim}
-\usepackage{setspace}
-\usepackage{xcolor}
-\usepackage{enumitem}
-\usepackage[
-  hidelinks,
-  pdftitle={Nicholas Vincent's CV},
-  pdfauthor={Nicholas Vincent}
-]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{ifthen}
-\usepackage{fontawesome5}
-\usepackage{calc} % for calculating lengths
-\usepackage[pscoord]{eso-pic} % for floating text on the page
-\usepackage{lastpage} % for getting the total number of pages
-\input{glyphtounicode}
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot[CO]{\color{gray}\textit{\small Nicholas Vincent - Page \thepage{} of \pageref*{LastPage}}}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
 \definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Nicholas Vincent's CV},
+    pdfauthor={Nicholas Vincent},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
 
-\urlstyle{same}
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
 
+
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
 \setcounter{secnumdepth}{0} % no section numbering
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Nicholas Vincent - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
 
-% \raggedbottom
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
- \scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-
-\newcolumntype{R}[1]{
-    >{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}
-} % right-aligned fixed width column type
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
-        % left space:
-        0pt
-    }{
-        % top space:
-        0.3 cm - 0.1cm
-    }{
-        % bottom space:
-        0.2 cm
-    } % section title spacing
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
 
-%-------------------------
-% Custom commands
+\renewcommand\labelitemi{$\circ$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.1 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
         \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in March 2024}\hspace{\widthof{Last updated in March 2024}}
+        \small\color{gray}\textit{Last updated in August 2024}\hspace{\widthof{Last updated in August 2024}}
     }}}%
   }%
 }%
 
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \ifthenelse{\equal{#1}{}}{#2}{\textbf{#1}{: #2}}
-  }
-}
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
 
-\newcommand{\resumeItemWithoutBullet}[2]{
-  \item[]\small{
-    \ifthenelse{\equal{#1}{}}{#2}{\textbf{#1}{: #2}}
-  }
-}
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
 
-\newcommand{\resumeSubheading}[4]{
- \item
-    \begin{tabularx}{0.98\textwidth-0.4 cm}[t]{X R{4.1 cm}}
-      \textbf{#1} & \textit{\small\ifthenelse{\equal{#2}{}}{#4}{#2}} \\
-      \textit{\small#3} & \textit{\small\ifthenelse{\equal{#2}{}}{}{#4}} \\
-    \end{tabularx}
-}
-
-\newcommand{\resumeNormalSubheading}[2]{
- \item
-    \begin{tabularx}{0.98\textwidth-0.4 cm}[t]{X R{4.1 cm}}
-      \textbf{#1} & \textit{\small #2}
-    \end{tabularx}
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
-
-\newcommand{\resumeSubItemWithoutBullet}[2]{\resumeItemWithoutBullet{#1}{#2}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[left=0.2 cm, topsep=0pt, parsep=0.2 cm, partopsep=0pt, rightmargin=0.2 cm]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\vspace{0.10 cm}\begin{itemize}[left=0.4 cm, topsep=-0.2 cm, itemsep=0.10 cm, partopsep=0pt, rightmargin=0cm]}
-\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 \begin{document}
-    \placelastupdatedtext
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
 
-    {
-        \centering
-        \textbf{\fontsize{24 pt}{24 pt}\selectfont
-            Nicholas Vincent
-        } \\ \vspace{3pt}
-        \small
+    \placelastupdatedtext
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Nicholas Vincent}
 
         \vspace{0.3 cm}
-        
-        \begin{spacing}{1.6}
-        \mbox{\href{mailto:nvincent@sfu.ca}{{\small\faEnvelope[regular]}\hspace{4pt}nvincent@sfu.ca}}
-        \hspace{0.5 cm}
-        \mbox{{\small\faMapMarker*}\hspace{4pt}Office 9241, Technology and Science Complex 1, Burnaby, BC, Canada}
-        \hspace{0.5 cm}
-        \mbox{\href{https://www.nickmvincent.com/}{{\small\faLink}\hspace{4pt}www.nickmvincent.com}}
-        \hspace{0.5 cm}
-        \end{spacing}
-        \par
-    }
 
-    \vspace{0.3 cm}
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Office 9241, Technology and Science Complex 1, Burnaby, BC, Canada}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto:nvincent@sfu.ca}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}nvincent@sfu.ca}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://www.nickmvincent.com/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}www.nickmvincent.com}}%
+    \end{header}
 
-    % save the original href command in a new command:
-    \let\hrefWithoutArrow\href
-    % new command for external links:
-    \renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\color{primaryColor}\mbox{\ifthenelse{\equal{#2}{}}{}{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}}
+    \vspace{0.3 cm - 0.3 cm}
+
 
     \section{Research Interests}
-        \resumeSubHeadingListStart
-
-        \resumeSubItemWithoutBullet{}{Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, Social Computing}
 
 
-    \resumeSubHeadingListEnd
+
+        
+        \begin{onecolentry}
+            Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, Social Computing
+        \end{onecolentry}
+
+
+    
     \section{Academic Appointments}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {Simon Fraser University, School of Computing Science}{Burnaby, BC, Canada}
-            {Assistant Professor}{Aug. 2023 to present}
-
-
-        \resumeSubheading
-            {University of California, Davis}{Davis, CA, USA}
-            {Postdoctoral Scholar}{Jan. 2022 to Aug. 2022}
-            \resumeItemListStart
-                \resumeItem{}{Co-advised by \href{https://communication.ucdavis.edu/people/seth-frey}{Seth Frey} (UC Davis, Department of Communication) and \href{https://homes.cs.washington.edu/~axz/}{Amy X. Zhang} (University of Washington, School of Computer Science and Engineering)}
-            \resumeItemListEnd
 
 
 
-    \resumeSubHeadingListEnd
+        
+        \begin{twocolentry}{
+        \textit{Burnaby, BC, Canada}    
+            
+        \textit{July 2023 – present}}
+            \textbf{Assistant Professor}
+            
+            \textit{Simon Fraser University, School of Computing Science}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{Davis, CA, USA}    
+            
+        \textit{Jan 2022 – July 2022}}
+            \textbf{Postdoctoral Scholar}
+            
+            \textit{University of California, Davis}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Co-advised by \href{https://communication.ucdavis.edu/people/seth-frey}{Seth Frey} (UC Davis, Department of Communication) and \href{https://homes.cs.washington.edu/~axz/}{Amy X. Zhang} (University of Washington, School of Computer Science and Engineering)
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
     \section{Education}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {Northwestern University}{}
-            {PhD in Technology and Social Behavior (joint degree, Computer Science and Communication)}{Sept. 2017 to Dec. 2022}
-            \resumeItemListStart
-                \resumeItem{}{Advisor: \href{https://brenthecht.com/}{Brent Hecht}}
-                \resumeItem{}{\href{https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en}{Dissertation} - Data Leverage: A Framework for Empowering the Public to Mitigate Harms of Artificial Intelligence}
-                \resumeItem{}{SIGCHI 2024 Outstanding Dissertation Award, Department of Communication Dissertation Award}
-            \resumeItemListEnd
-
-
-        \resumeSubheading
-            {University of California, Los Angeles}{}
-            {BS in Electrical Engineering}{Sept. 2012 to June 2016}
-            \resumeItemListStart
-                \resumeItem{}{Magna Cum Laude}
-            \resumeItemListEnd
 
 
 
-    \resumeSubHeadingListEnd
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{Sept 2017 – Dec 2022}}
+            \textbf{Northwestern University}
+
+            \textit{PhD in Technology and Social Behavior (joint degree, Computer Science and Communication)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Advisor: \href{https://brenthecht.com/}{Brent Hecht}
+                \item \href{https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en}{Dissertation} - Data Leverage: A Framework for Empowering the Public to Mitigate Harms of Artificial Intelligence. Received SIGCHI 2024 Outstanding Dissertation Award and Northwestern University Department of Communication Dissertation Award
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Sept 2012 – June 2016}}
+            \textbf{University of California, Los Angeles}
+
+            \textit{BS in Electrical Engineering}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Magna Cum Laude
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
     \section{Archival Publications}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {A Canary in the AI Coal Mine: American Jews May Be Disproportionately Harmed by Intellectual Property Dispossession in Large Language Model Training}{2024}
-            {ACM CHI 2024}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Heila Precel}, \mbox{Allison McDonald}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Pika: Empowering Non-Programmers to Author Executable Governance Policies in Online Communities}{2024}
-            {ACM CHI 2024}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Leijie Wang}, \mbox{Nicholas Vincent}, \mbox{Julija Rukanskaitė}, \mbox{Amy X. Zhang} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Peer Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration}{2023}
-            {\href{https://doi.org/10.1145/3610198}{10.1145/3610198} (ACM CSCW 2023)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Leah Ajmani}, \mbox{Nicholas Vincent}, \mbox{Stevie Chancellor} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers}{2023}
-            {\href{https://doi.org/10.1145/3593013.3594070}{10.1145/3593013.3594070} (ACM FAccT 2023)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Hanlin Li}, \mbox{Nicholas Vincent}, \mbox{Stevie Chancellor}, \mbox{Brent Hecht} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Behavioral Use Licensing for Responsible AI}{2022}
-            {\href{https://doi.org/10.1145/3531146.3533143}{10.1145/3531146.3533143} (ACM FAccT 2022)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Danish Contractor}, \mbox{Daniel McDuff}, \mbox{Julia Katherine Haines}, \mbox{Jenny Lee}, \mbox{Christopher Hines}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent}, \mbox{Hanlin Li"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms}{2021}
-            {\href{https://doi.org/10.1609/icwsm.v15i1.18046}{10.1609/icwsm.v15i1.18046} (AAAI ICWSM 2021)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Farhan Asif Chowdhury}, \mbox{Yozen Liu}, \mbox{Koustuv Saha}, \mbox{Nicholas Vincent}, \mbox{Leonardo Neves}, \mbox{Neil Shah}, \mbox{Maarten W Bos"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Addressing "Documentation Debt" in Machine Learning Research: A Retrospective Datasheet for BookCorpus}{2021}
-            {NeurIPS 2021 Datasets and Benchmarks Track}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Jack Bandy}, \mbox{Nicholas Vincent} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media}{May 2021}
-            {\href{https://doi.org/10.1145/3411764.3445394}{10.1145/3411764.3445394} (ACM CHI 2021)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Koustuv Saha}, \mbox{Yozen Liu}, \mbox{Nicholas Vincent}, \mbox{Farhan Asif Chowdhury}, \mbox{Leonardo Neves}, \mbox{Neil Shah}, \mbox{Maarten W Bos} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results}{2021}
-            {\href{https://doi.org/10.1145/3449078}{10.1145/3449078} (ACM CSCW 2021)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Brent Hecht} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Can "Conscious Data Contribution" Help Users to Exert "Data Leverage" Against Technology Companies?}{2021}
-            {\href{https://doi.org/10.1145/3449177}{10.1145/3449177} (ACM CSCW 2021)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Brent Hecht} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies}{2021}
-            {\href{https://doi.org/10.1145/3442188.3445885}{10.1145/3442188.3445885} (ACM FAccT 2021)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Hanlin Li}, \mbox{Nicole Tilly}, \mbox{Stevie Chancellor}, \mbox{Brent Hecht"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”}{2019}
-            {\href{https://doi.org/10.1145/3359189}{10.1145/3359189} (ACM CSCW 2019)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Hanlin Li}, \mbox{Nicholas Vincent}, \mbox{Janice Tsai}, \mbox{Jofish Kaye}, \mbox{Brent Hecht"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Measuring the Importance of User-Generated Content to Search Engines }{2019}
-            {\href{https://doi.org/10.1609/icwsm.v13i01.3248}{10.1609/icwsm.v13i01.3248} (AAAI ICWSM 2019)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Isaac Johnson}, \mbox{Patrick Sheehan}, \mbox{Brent Hecht} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {“Data Strikes”: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies}{2019}
-            {\href{https://doi.org/10.1145/3308558.3313742}{10.1145/3308558.3313742} (ACM The Web Conference 2019)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Brent Hecht}, \mbox{Shilad Sen} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Women (still) ask for less: Gender differences in hourly rate in an online labor marketplace}{Nov. 2018}
-            {\href{https://doi.org/10.1145/3274322}{10.1145/3274322} (ACM CSCW 2018)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Eureka Foong}, \mbox{Nicholas Vincent}, \mbox{Brent Hecht}, \mbox{Elizabeth M Gerber} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities}{2018}
-            {\href{https://doi.org/10.1145/3173574.3174140}{10.1145/3173574.3174140} (ACM CHI 2018)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Isaac Johnson}, \mbox{Brent Hecht} \par}
-            \resumeItemListEnd
 
 
-    \resumeSubHeadingListEnd
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                2024
+            }
+                \textbf{Pika: Empowering Non-Programmers to Author Executable Governance Policies in Online Communities}
+
+                \vspace{0.10 cm}
+
+                \mbox{Leijie Wang}, \mbox{Nicholas Vincent}, \mbox{Julija Rukanskaitė}, \mbox{Amy X. Zhang}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        ACM CHI 2024    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2024
+            }
+                \textbf{A Canary in the AI Coal Mine: American Jews May Be Disproportionately Harmed by Intellectual Property Dispossession in Large Language Model Training}
+
+                \vspace{0.10 cm}
+
+                \mbox{Heila Precel}, \mbox{Allison McDonald}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        ACM CHI 2024    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2023
+            }
+                \textbf{Peer Produced Friction: How Page Protection on Wikipedia Affects Editor Engagement and Concentration}
+
+                \vspace{0.10 cm}
+
+                \mbox{Leah Ajmani}, \mbox{Nicholas Vincent}, \mbox{Stevie Chancellor}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3610198}{10.1145/3610198}
+         (ACM CSCW 2023)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2023
+            }
+                \textbf{The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers}
+
+                \vspace{0.10 cm}
+
+                \mbox{Hanlin Li}, \mbox{Nicholas Vincent}, \mbox{Stevie Chancellor}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3593013.3594070}{10.1145/3593013.3594070}
+         (ACM FAccT 2023)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2022
+            }
+                \textbf{Behavioral Use Licensing for Responsible AI}
+
+                \vspace{0.10 cm}
+
+                \mbox{Danish Contractor}, \mbox{Daniel McDuff}, \mbox{Julia Katherine Haines}, \mbox{Jenny Lee}, \mbox{Christopher Hines}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent}, \mbox{Hanlin Li"}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3531146.3533143}{10.1145/3531146.3533143}
+         (ACM FAccT 2022)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms}
+
+                \vspace{0.10 cm}
+
+                \mbox{Farhan Asif Chowdhury}, \mbox{Yozen Liu}, \mbox{Koustuv Saha}, \mbox{Nicholas Vincent}, \mbox{Leonardo Neves}, \mbox{Neil Shah}, \mbox{Maarten W Bos"}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1609/icwsm.v15i1.18046}{10.1609/icwsm.v15i1.18046}
+         (AAAI ICWSM 2021)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{Addressing "Documentation Debt" in Machine Learning Research: A Retrospective Datasheet for BookCorpus}
+
+                \vspace{0.10 cm}
+
+                \mbox{Jack Bandy}, \mbox{Nicholas Vincent}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        NeurIPS 2021 Datasets and Benchmarks Track    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media}
+
+                \vspace{0.10 cm}
+
+                \mbox{Koustuv Saha}, \mbox{Yozen Liu}, \mbox{Nicholas Vincent}, \mbox{Farhan Asif Chowdhury}, \mbox{Leonardo Neves}, \mbox{Neil Shah}, \mbox{Maarten W Bos}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3411764.3445394}{10.1145/3411764.3445394}
+         (ACM CHI 2021)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{A Deeper Investigation of the Importance of Wikipedia Links to Search Engine Results}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3449078}{10.1145/3449078}
+         (ACM CSCW 2021)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{Can "Conscious Data Contribution" Help Users to Exert "Data Leverage" Against Technology Companies?}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3449177}{10.1145/3449177}
+         (ACM CSCW 2021)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Hanlin Li}, \mbox{Nicole Tilly}, \mbox{Stevie Chancellor}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3442188.3445885}{10.1145/3442188.3445885}
+         (ACM FAccT 2021)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2019
+            }
+                \textbf{How Do People Change Their Technology Use in Protest?: Understanding “Protest Users”}
+
+                \vspace{0.10 cm}
+
+                \mbox{Hanlin Li}, \mbox{Nicholas Vincent}, \mbox{Janice Tsai}, \mbox{Jofish Kaye}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3359189}{10.1145/3359189}
+         (ACM CSCW 2019)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2019
+            }
+                \textbf{Measuring the Importance of User-Generated Content to Search Engines }
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Isaac Johnson}, \mbox{Patrick Sheehan}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1609/icwsm.v13i01.3248}{10.1609/icwsm.v13i01.3248}
+         (AAAI ICWSM 2019)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2019
+            }
+                \textbf{“Data Strikes”: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Brent Hecht}, \mbox{Shilad Sen}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3308558.3313742}{10.1145/3308558.3313742}
+         (ACM The Web Conference 2019)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2018
+            }
+                \textbf{Women (still) ask for less: Gender differences in hourly rate in an online labor marketplace}
+
+                \vspace{0.10 cm}
+
+                \mbox{Eureka Foong}, \mbox{Nicholas Vincent}, \mbox{Brent Hecht}, \mbox{Elizabeth M Gerber}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3274322}{10.1145/3274322}
+         (ACM CSCW 2018)    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2018
+            }
+                \textbf{Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia's Relationships with Other Large-Scale Online Communities}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Isaac Johnson}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        \href{https://doi.org/10.1145/3173574.3174140}{10.1145/3173574.3174140}
+         (ACM CHI 2018)    \end{onecolentry}
+        \end{samepage}
+
+
+    
     \section{Workshop Publications}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {An Alternative to Regulation: The Case for Public AI}{2023}
-            {RegML 2023 (NeurIPS 2023 Workshop)}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{David Bau}, \mbox{Sarah Schwettmann}, \mbox{Joshua Tan} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation}{2023}
-            {EAAMO 2023}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Brent Hecht} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Collaborative Design of Contribution Tracking Systems for Decentralized Organizations}{2022}
-            {CESC 2022 @ UC Berkeley}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Christine Vandevoorde} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users}{2022}
-            {ACM CSCW 2022 Posters}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Isaiah Jones}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Deep learning of tissue fate features in acute ischemic stroke}{2015}
-            {BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Noah Stier}, \mbox{Nicholas Vincent}, \mbox{David Liebeskind}, \mbox{Fabien Scalzo"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Detection of hyperperfusion on arterial spin labeling using deep learning}{2015}
-            {BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Noah Stier}, \mbox{Songlin Yu}, \mbox{David S Liebeskind}, \mbox{Danny JJ Wang}, \mbox{Fabien Scalzo"} \par}
-            \resumeItemListEnd
 
 
-    \resumeSubHeadingListEnd
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                2024
+            }
+                \textbf{Designing an open-source LLM interface and social platforms for collectively driven LLM evaluation and auditing}
+
+                \vspace{0.10 cm}
+
+                \mbox{Timothy J. Baek}, \mbox{Nicholas Vincent}, \mbox{Lawrence Kim}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        HEAL Workshop @ CHI 2024    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2024
+            }
+                \textbf{The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study of DALL·E 2 and DALL·E 3}
+
+                \vspace{0.10 cm}
+
+                \mbox{Clare Provenzano}, \mbox{Parsa Rajabi}, \mbox{Diana Cukierman}, \mbox{Nicholas Vincent}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        GenAICHI @ CHI 2024    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2023
+            }
+                \textbf{An Alternative to Regulation: The Case for Public AI}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{David Bau}, \mbox{Sarah Schwettmann}, \mbox{Joshua Tan}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        RegML 2023 Workshop @ NeurIPS 2023    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2023
+            }
+                \textbf{Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        EAAMO 2023    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2022
+            }
+                \textbf{Collaborative Design of Contribution Tracking Systems for Decentralized Organizations}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Christine Vandevoorde}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        CESC 2022 @ UC Berkeley    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2022
+            }
+                \textbf{Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users}
+
+                \vspace{0.10 cm}
+
+                \mbox{Isaiah Jones}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        ACM CSCW 2022 Posters    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2015
+            }
+                \textbf{Deep learning of tissue fate features in acute ischemic stroke}
+
+                \vspace{0.10 cm}
+
+                \mbox{Noah Stier}, \mbox{Nicholas Vincent}, \mbox{David Liebeskind}, \mbox{Fabien Scalzo}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2015
+            }
+                \textbf{Detection of hyperperfusion on arterial spin labeling using deep learning}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Noah Stier}, \mbox{Songlin Yu}, \mbox{David S Liebeskind}, \mbox{Danny JJ Wang}, \mbox{Fabien Scalzo}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning    \end{onecolentry}
+        \end{samepage}
+
+
+    
     \section{Other Publications}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {Twitter Engagement with Retracted Articles: Who, When, and How?}{2022}
-            {arXiv preprint}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Rod Abhari}, \mbox{Nicholas Vincent}, \mbox{Henry K Dambanemuya}, \mbox{Herminio Bodon}, \mbox{Emőke-Ágnes Horvát"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {A Data Dividend that Works: Steps Toward Building an Equitable Data Economy}{2021}
-            {Berggruen Institute white paper}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Yakov Feygin}, \mbox{Hanlin Li}, \mbox{Chirag Lala}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent}, \mbox{Luisa Scarcella}, \mbox{Matthew Prewitt"} \par}
-            \resumeItemListEnd
-
-        \resumeSubheading
-            {Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing the Profits of Artificial Intelligence.}{2019}
-            {arXiv preprint}{}
-            \resumeItemListStart
-                \resumeItem{}{\raggedright \mbox{Nicholas Vincent}, \mbox{Yichun Li}, \mbox{Renee Zha}, \mbox{Brent Hecht"} \par}
-            \resumeItemListEnd
 
 
-    \resumeSubHeadingListEnd
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                2024
+            }
+                \textbf{Push and Pull: A Framework for Measuring Attentional Agency}
+
+                \vspace{0.10 cm}
+
+                \mbox{Zachary Wojtowicz}, \mbox{Shrey Jain}, \mbox{Nicholas Vincent}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        arXiv preprint    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2022
+            }
+                \textbf{Twitter Engagement with Retracted Articles: Who, When, and How?}
+
+                \vspace{0.10 cm}
+
+                \mbox{Rod Abhari}, \mbox{Nicholas Vincent}, \mbox{Henry K Dambanemuya}, \mbox{Herminio Bodon}, \mbox{Emőke-Ágnes Horvát}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        arXiv preprint    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{From My Data to Our Data: A Proposal to Equitably Distribute Wealth in a Digital Economy, in The Future of Building Wealth: Brief Essays on the Best Ideas to Build Wealth—for Everyone}
+
+                \vspace{0.10 cm}
+
+                \mbox{Yakov Feygin}, \mbox{Nicholas Vincent}, \mbox{Hanlin Li}, \mbox{Chirag Lala}, \mbox{Luisa Scarcella}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        Book Chapter    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2021
+            }
+                \textbf{A Data Dividend that Works: Steps Toward Building an Equitable Data Economy}
+
+                \vspace{0.10 cm}
+
+                \mbox{Yakov Feygin}, \mbox{Hanlin Li}, \mbox{Chirag Lala}, \mbox{Brent Hecht}, \mbox{Nicholas Vincent}, \mbox{Luisa Scarcella}, \mbox{Matthew Prewitt}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        Berggruen Institute white paper    \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2019
+            }
+                \textbf{Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing the Profits of Artificial Intelligence.}
+
+                \vspace{0.10 cm}
+
+                \mbox{Nicholas Vincent}, \mbox{Yichun Li}, \mbox{Renee Zha}, \mbox{Brent Hecht}
+            \end{twocolentry}
+
+
+            \vspace{0.10 cm}
+
+            \begin{onecolentry}
+        arXiv preprint    \end{onecolentry}
+        \end{samepage}
+
+
+    
+    \section{News Coverage}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+
+
+        \item Richard Mylles. \href{https://www.ubs.com/global/en/sustainability-impact/sustainability-insights/2024/is-data-supply-ais-achilles-heel.html}{Is data supply AI’s Achilles’ heel?}. UBS, June 2024
+
+        \item Kevin Shaul. \href{https://www.washingtonpost.com/technology/interactive/2024/what-is-ai/}{Is this AI? See if you can spot the technology in your everyday life.}. The Washington Post, April 2024
+
+        \item Tom McKay. \href{https://www.itbrew.com/stories/2024/03/21/prof-nicholas-vincent-explains-why-robots-txt-is-no-longer-enough-to-protect-against-web-scraping}{Nicholas Vincent explains why robots.txt is no longer enough to protect against web scraping}. IT Brew, March 2024
+
+        \item Asaf Elia-Shalev. \href{https://www.jta.org/2024/03/25/culture/jews-have-always-been-prolific-writers-has-ai-wound-up-with-too-much-of-their-work}{Jews have always been prolific writers. Has AI wound up with too much of their work?}. Jewish Telegraphic Agency, March 2024
+
+        \item Nitasha Tiku. \href{https://www.washingtonpost.com/technology/2023/10/20/artificial-intelligence-battle-online-data/}{Newspapers want payment for articles used to power ChatGPT.}. The Washington Post, October 2023
+
+        \item Kali Hays and Alistair Barr. \href{https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8}{AI is killing the grand bargain at the heart of the web. 'We're in a different world.'}. Business Insider, January 2024
+
+        \item Alistar Barr. \href{https://www.businessinsider.com/data-leverage-harry-potter-test-putting-value-data-ai-models-2023-8}{'Data leverage' and the Harry Potter test: How much is a single book worth to a giant AI model?}. Business Insider, August 2023
+
+        \item Jon Gernter. \href{https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html}{Wikipedia’s Moment of Truth.}. New York Times Magazine, September 2023
+
+        \item Melissa Heikkilä. \href{https://www.technologyreview.com/2023/06/13/1074560/we-are-all-ais-free-data-workers/}{We are all AI’s free data workers.}. MIT Technology Review, June 2023
+
+        \item Aurélien Defer. \href{https://www.lemonde.fr/en/pixels/article/2022/04/30/internet-users-are-poisoning-their-personal-data-in-the-fight-against-online-surveillance_5982052_13.html}{Internet users are 'poisoning' their personal data in the fight against online surveillance.}. Le Monde, April 2022
+
+        \item Rebecca Heilweil. \href{https://www.vox.com/recode/22550555/google-search-knowledge-panels-serial-killer-misinformation-knowledge-graph}{Got the same name as a serial killer? Google might think you’re the same person.}. Vox, June 2021
+
+        \item Peter Coy. \href{https://www.bloomberg.com/news/articles/2021-05-05/facebook-and-others-should-pay-us-for-our-data-here-s-one-way}{Facebook and Others Should Pay Us for Our Data. Here’s One Way.}. Bloomberg, May 2021
+
+        \item Karen Hao. \href{https://www.technologyreview.com/2021/03/05/1020376/resist-big-tech-surveillance-data/}{How to poison the data that Big Tech use to surveil you.}. MIT Technology Review, March 2021
+
+        \item Jonathan Vanian and Jeremy Kahn. \href{https://fortune.com/2021/02/23/your-data-is-a-weapon-that-can-help-change-corporate-behavior/}{Your data is a weapon that can help change corporate behavior.}. Fortune, February 2021
+
+        \item Nicolás Rivero. \href{https://qz.com/1883697/is-it-time-for-netflix-subscribers-to-go-on-strike/}{Is it time for Netflix subscribers to go on strike?}. Quartz, July 2020
+
+        \item John Herrman. \href{https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html}{YouTube May Add to the Burdens of Humble Wikipedia.}. New York Times, March 2018
+
+
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{Grants}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{NSERC Discovery Grant:} Empowering Data Creators to Advance Responsible Artificial Intelligence. Prinical investigator. 2024-2029. 125,000 CAD.
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Breaking Barriers Interdisciplinary Incentive Grant:} Data Empowerment through Data Sharing in the Humanities. Co-investigator. 2024. With Michelle Levy, Sheelagh Carpendale, Denise Oleksijczuk. 60,000 CAD.
+        \end{onecolentry}
+
+
+    
     \section{Professional Experience}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {Microsoft}{Redmond, WA, USA}
-            {Research Intern (Office of the CTO)}{May 2021 to Aug. 2021}
-
-
-        \resumeSubheading
-            {Snap Inc}{Santa Monica, CA, USA}
-            {Research Intern (Computational Social Science)}{Mar. 2021 to June 2021}
-
-
-        \resumeSubheading
-            {Cloudbakers}{Chicago, IL, USA}
-            {Cloud Programming Specialist}{Sept. 2016 to June 2017}
-
-
-        \resumeSubheading
-            {Space and Naval Warfare Systems Command (now NAVWAR)}{San Diego, CA, USA}
-            {NREIP Naval Research Intern}{June 2016 to Aug. 2016}
-            \resumeItemListStart
-                \resumeItem{}{Also interned in 2015}
-            \resumeItemListEnd
-
-
-        \resumeSubheading
-            {Cisco Systems}{San Jose, CA, USA}
-            {Software Engineer Intern}{June 2014 to Sept. 2014}
-            \resumeItemListStart
-                \resumeItem{}{Also interned in 2013 (Cross Functional Intern)}
-            \resumeItemListEnd
 
 
 
-    \resumeSubHeadingListEnd
+        
+        \begin{twocolentry}{
+        \textit{Redmond, WA, USA}    
+            
+        \textit{May 2021 – Aug 2021}}
+            \textbf{Research Intern (Office of the CTO)}
+            
+            \textit{Microsoft}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{Santa Monica, CA, USA}    
+            
+        \textit{Mar 2021 – June 2021}}
+            \textbf{Research Intern (Computational Social Science)}
+            
+            \textit{Snap Inc}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{Chicago, IL, USA}    
+            
+        \textit{Sept 2016 – June 2017}}
+            \textbf{Cloud Programming Specialist}
+            
+            \textit{Cloudbakers}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{San Diego, CA, USA}    
+            
+        \textit{June 2016 – Aug 2016}}
+            \textbf{NREIP Naval Research Intern}
+            
+            \textit{Space and Naval Warfare Systems Command (now NAVWAR)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Also interned in 2015
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{San Jose, CA, USA}    
+            
+        \textit{June 2014 – Sept 2014}}
+            \textbf{Software Engineer Intern}
+            
+            \textit{Cisco Systems}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Also interned in 2013 (Cross Functional Intern)
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
     \section{Teaching Experience}
-        \resumeSubHeadingListStart
-
-        \resumeSubheading
-            {Simon Fraser University, School of Computing Science}{}
-            {Primary Instructor}{Jan. 2024 to Apr. 2024}
-            \resumeItemListStart
-                \resumeItem{}{\href{http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200}{CMPT 419}, Special Topics in AI: Human and Data-centered AI, 50 students.}
-            \resumeItemListEnd
-
-
-        \resumeSubheading
-            {Simon Fraser University, School of Computing Science}{}
-            {Primary Instructor}{Sept. 2023 to Dec. 2023}
-            \resumeItemListStart
-                \resumeItem{}{\href{https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100}{CMPT 120}, Introduction to Computing Science and Programming, 200 students.}
-            \resumeItemListEnd
-
-
-        \resumeSubheading
-            {Northwestern University}{}
-            {Teaching Assistant}{Sept. 2020 to Dec. 2020}
-            \resumeItemListStart
-                \resumeItem{}{\href{https://wiki.communitydata.science/Workshops_and_Classes}{MTS 525}, Statistics and Statistical Programming}
-            \resumeItemListEnd
 
 
 
-    \resumeSubHeadingListEnd
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2024 – Apr 2024}}
+            \textbf{Primary Instructor}
+            
+            \textit{Simon Fraser University, School of Computing Science}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \href{http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200}{CMPT 419}, Special Topics in AI: Human and Data-centered AI, 50 students.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Sept 2023 – Dec 2023}}
+            \textbf{Primary Instructor}
+            
+            \textit{Simon Fraser University, School of Computing Science}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \href{https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100}{CMPT 120}, Introduction to Computing Science and Programming, 200 students.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Sept 2020 – Dec 2020}}
+            \textbf{Teaching Assistant}
+            
+            \textit{Northwestern University}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \href{https://wiki.communitydata.science/Workshops_and_Classes}{MTS 525}, Statistics and Statistical Programming
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
     \section{Academic Reviewing}
-        \resumeSubHeadingListStart
-
-        \vspace{0.08cm}
-        \resumeSubItem{Conferences}
-            {ACM SIGCHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ACM The Web Conference; WikiWorkshop; ACM FAccT; ACM WSDM; IC2S2; ACM EAAMO}
-
-        \resumeSubItem{Journals}
-            {Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing}
-
-        \resumeSubItem{Commendations}
-            {Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022}
-
-
-    \resumeSubHeadingListEnd
-    \section{Service Roles}
-        \resumeSubHeadingListStart
-
-        \resumeNormalSubheading
-            {California Data Dividends Working Group}{2019-2022}
-            \resumeItemListStart
-                \resumeItem{}{Co-organizer of a working group formed to study and prepare a report on "data dividends"}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Northwestern University Artificial Intelligence Journal Club}{2019-2021}
-            \resumeItemListStart
-                \resumeItem{}{Co-organizer}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Northwestern University, Computer Science Ph.D. Advisory Council}{Jan. 2018}
-
-
-        \resumeNormalSubheading
-            {InfoSocial Graduate Student Conference}{2018-2019}
-            \resumeItemListStart
-                \resumeItem{}{Served as one of two co-chairs for the \href{https://infosocial.soc.northwestern.edu/}{InfoSocial} student-run conference, which included paper sessions, panels, and networking opportunities.}
-            \resumeItemListEnd
 
 
 
-    \resumeSubHeadingListEnd
+        
+        \begin{onecolentry}
+            \textbf{Conference Meta-reviews:} AAAI ICWSM (2023), ACM EAAMO (2023)
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Conferences:} ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ICML; ACM The Web Conference, Web and Society Track (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Journals:} Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Funding:} Wikimedia Foundation Research Fund
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Commendations:} Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
+        \end{onecolentry}
+
+
+    
+    \section{Conference Service}
+
+
+
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{2023 - 2024}}
+            \textbf{AI Palace Organizer}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Organized the AI Palace conference in Bückeberg, Germany in 2023 and 2024.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{2024}}
+            \textbf{ICWSM 2024 Data Challenge Co-chair}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Organized the Data Challenge conference track at ICWSM 2024.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{2018}}
+            \textbf{InfoSocial Graduate Student Conference General Chair}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Served as one of two co-chairs for the \href{https://infosocial.soc.northwestern.edu/}{InfoSocial} student-run conference, which included paper sessions, panels, and networking opportunities.
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Workshops Organized}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+
+
+        \item Hanlin Li, Nicholas Vincent, Yacine Jernite, Nick Merrill, Jesse Josua Benjamin, Alek Tarkowski. \href{https://dl.acm.org/doi/abs/10.1145/3584931.3611276}{Can Licensing Mitigate the Negative Implications of Commercial Web Scraping?}. Workshop at CSCW 2023, 2023
+
+        \item Leah Ajmani, Mo Houtti, Jasmine C Foriest, Michael Ann Devito, Nicholas Vincent, Isaac Johnson. \href{https://dl.acm.org/doi/abs/10.1145/3584931.3611280}{Epistemic Injustice in Online Communities: Unpacking the Values of Knowledge Creation and Curation within CSCW Applications}. Workshop at CSCW 2023, 2023
+
+        \item Hanlin Li, Leah Ajmani, Moyan Zhou, Nicholas Vincent, Sohyeon Hwang, Tiziano Piccardi, Sneha Narayan, Sherae Daniel, Veniamin Veselovsky. \href{https://dl.acm.org/doi/abs/10.1145/3500868.3560923}{Ethical Tensions, Norms, and Directions in the Extraction of Online Volunteer Work}. Workshop at CSCW 2022, 2022
+
+
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{Other Service}
+
+
+
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{2019-2022}}
+            \textbf{California Data Dividends Working Group, Organizer}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{2019-2021}}
+            \textbf{Northwestern University Artificial Intelligence Journal Club, Organizer}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{2018}}
+            \textbf{Northwestern University, Computer Science Ph.D. Advisory Council}
+        \end{twocolentry}
+
+
+
+
+    
+    \section{Graduate Research Mentoring}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{MSc Students at Simon Fraser University:} Parsa Rajabi (Examiner), Mahdie Ghane (Committee Member)
+        \end{onecolentry}
+
+
+    
     \section{Undergraduate Research Mentoring}
-        \resumeSubHeadingListStart
-
-        \vspace{0.08cm}
-        \resumeSubItem{At Northwestern University (People, Space, and Algorithms Research Group)}
-            {Patrick Sheehan (co-wrote a conf. paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)}
-
-        \resumeSubItem{At Simon Fraser University (People and Data Computing Group)}
-            {Clare Provezano (first author of a workshop paper)}
 
 
-    \resumeSubHeadingListEnd
+
+        
+        \begin{onecolentry}
+            \textbf{At Northwestern University (People, Space, and Algorithms Research Group):} Patrick Sheehan (co-wrote a conference paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{At Simon Fraser University (People and Data Computing Group):} Clare Provezano (first author of a workshop paper), Patrick Zhao
+        \end{onecolentry}
+
+
+    
     \section{Awards}
-        \resumeSubHeadingListStart
 
-        \resumeSubItem{}{ACM SIGCHI Outstanding Dissertation \href{https://medium.com/sigchi/announcing-the-2024-acm-sigchi-awards-8cac7abda8be}{Award}, 2024}
-
-        \resumeSubItem{}{Northwestern University School of Communication Graduate Dissertation \href{https://honors-convocation.soc.northwestern.edu/department-of-communication-studies/}{Award}, 2023}
-
-        \resumeSubItem{}{President Fellowship Finalist, Northwestern University, 2019}
-
-        \resumeSubItem{}{NSF-GRFP Honorable Mention, 2018}
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
 
 
-    \resumeSubHeadingListEnd
+        \item ACM SIGCHI Outstanding Dissertation \href{https://medium.com/sigchi/announcing-the-2024-acm-sigchi-awards-8cac7abda8be}{Award}, 2024
+
+        \item Northwestern University School of Communication Graduate Dissertation \href{https://honors-convocation.soc.northwestern.edu/department-of-communication-studies/}{Award}, 2023
+
+        \item President Fellowship Finalist, Northwestern University, 2019
+
+        \item NSF-GRFP Honorable Mention, 2018
+
+
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
     \section{Selected Talks}
-        \resumeSubHeadingListStart
-
-        \resumeNormalSubheading
-            {A New Grand Data Bargain for Public Interest AI}{Feb. 2024}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/}{Digital Democracies Institute Spring Speaker Series}}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Responsive LLM Development}{Jan. 2024}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://datasciences.utoronto.ca/fairness-chatgpt-workshop/}{University of Toronto Data Sciences Institute: Fairness - ChatGPT Workshop}}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Community Dialogue on Accountable Governance and Data}{Mar. 2023}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/}{Community Data Science Collective Community Dialogues}}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Algorithmic Contestability}{Jan. 2023}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://casmi.northwestern.edu/workshops-events/workshops/}{Center for Advancing Safety of Machine Intelligence, Toward a Safety Science of AI}}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Public interest technologies for the ML age}{May 2021}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://www.easychair.org/cfp/wo2021}{3rd Obfuscation Workshop}}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {The Importance of Wikipedia to Search Engines and Other Systems}{May 2021}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase}{Wikipedia Research Showcase} (\href{entry.video_url}{Video})}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Data Agency: Individual or Shared?}{Jan. 2021}
-            \resumeItemListStart
-                \resumeItem{}{Event: RadicalxChange Panels (\href{entry.video_url}{Video})}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {Data Driven Economy for All)}{July 2020}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://www.radicalxchange.org/events/2020-conference/}{RadicalxChange 2020 Conference} (\href{entry.video_url}{Video})}
-            \resumeItemListEnd
-
-
-        \resumeNormalSubheading
-            {The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities}{Apr. 2018}
-            \resumeItemListStart
-                \resumeItem{}{Event: \href{https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase}{Wikipedia Research Showcase} (\href{entry.video_url}{Video})}
-            \resumeItemListEnd
 
 
 
-    \resumeSubHeadingListEnd
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{May 2024}}
+            \textbf{Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges from and to AI?}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://programs.sigchi.org/chi/2024/program/content/156745}{SIGCHI 2024 Outstanding Dissertation Award}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Feb 2024}}
+            \textbf{A New Grand Data Bargain for Public Interest AI}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://digitaldemocracies.org/calendar/ddi-spring-speaker-series-dr-nick-vincent-2/}{Digital Democracies Institute Spring Speaker Series}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2024}}
+            \textbf{Responsive LLM Development}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://datasciences.utoronto.ca/fairness-chatgpt-workshop/}{University of Toronto Data Sciences Institute: Fairness - ChatGPT Workshop}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Mar 2023}}
+            \textbf{Community Dialogue on Accountable Governance and Data}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/}{Community Data Science Collective Community Dialogues}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2023}}
+            \textbf{Algorithmic Contestability}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://casmi.northwestern.edu/workshops-events/workshops/}{Center for Advancing Safety of Machine Intelligence, Toward a Safety Science of AI}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{May 2021}}
+            \textbf{Public interest technologies for the ML age}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://www.easychair.org/cfp/wo2021}{3rd Obfuscation Workshop}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{May 2021}}
+            \textbf{The Importance of Wikipedia to Search Engines and Other Systems}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase}{Wikipedia Research Showcase} (\href{entry.video_url}{Video})
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Jan 2021}}
+            \textbf{Data Agency: Individual or Shared?}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: RadicalxChange Panels (\href{entry.video_url}{Video})
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{July 2020}}
+            \textbf{Data Driven Economy for All}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://www.radicalxchange.org/events/2020-conference/}{RadicalxChange 2020 Conference} (\href{entry.video_url}{Video})
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Apr 2018}}
+            \textbf{The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Event: \href{https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase}{Wikipedia Research Showcase} (\href{entry.video_url}{Video})
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
 
 \end{document}

@@ -65,7 +65,7 @@ for entry in data['workshops_organized']:
     new_entry = {
         "bullet": "{}. [{}]({}). {}, {}".format(entry["authors"], entry['title'], entry['url'], entry['description'], entry['year'])
     }
-    news_coverage.append(new_entry)
+    workshops_organized.append(new_entry)
 
         
 
