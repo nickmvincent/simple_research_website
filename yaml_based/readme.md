@@ -1,4 +1,11 @@
-# FILL ME IN
+# YAML based system for personal website and CV
+
+
+## Workflow for updating website
+
+- Manually update `base.yaml`
+- Run `convert.py`
+- Upload `index.html` (and any new static files) to website.
 
 
 ## Current workflow
