@@ -8,14 +8,14 @@ cv:
       - "Responsible Artificial Intelligence, Human-computer Interaction, Human-centered Machine Learning, Social Computing"
     
     academic_appointments:
-      - start_date: 2023-08
+      - start_date: 2023-07
         end_date: present
         location: Burnaby, BC, Canada
         company: Simon Fraser University, School of Computing Science
         position: Assistant Professor
 
       - start_date: 2022-01
-        end_date: 2022-08
+        end_date: 2022-07
         location: Davis, CA, USA
         company: University of California, Davis 
         position: Postdoctoral Scholar
@@ -281,6 +281,11 @@ cv:
         title: Mapping the Potential and Pitfalls of 'Data Dividends' as a Means of Sharing
           the Profits of Artificial Intelligence.
 
+    grants:
+      - label: NSERC Discovery Grant
+        details: "Empowering Data Creators to Advance Responsible Artificial Intelligence. 2024-2029. $125,000."
+      - label: Breaking Barriers Interdisciplinary Incentive Grant
+        details: "Data Empowerment through Data Sharing in the Humanities. 2024. With Michelle Levy, Sheelagh Carpendale, Denise Oleksijczuk."
 
     professional_experience:
       - start_date: 2021-05
@@ -336,18 +341,29 @@ cv:
           - "[MTS 525](https://wiki.communitydata.science/Workshops_and_Classes), Statistics and Statistical Programming"
 
     academic_reviewing:
+      - label: Conference Meta-reviews
+        details: AAAI ICWSM (2023), ACM EAAMO (2023)
       - label: Conferences
-        details: ACM SIGCHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ICML; ACM The Web Conference; WikiWorkshop; ACM FAccT; ACM WSDM; IC2S2; ACM EAAMO
+        details: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ICML; ACM The Web Conference, Web and Society Track (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC - 3 papers); IC2S2 (2023); ACM EAAMO
       - label: Journals
         details: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
+      - label: Funding
+        details: Wikimedia Foundation Research Fund
       - label: Commendations
         details: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
+      
 
-    service_roles:
+    conference_service:
       - name: AI Palace Organizer
         date: 2023 - 2024
         highlights:
           - Organized the AI Palace conference in Bückeberg, Germany in 2023 and 2024.
+      - name: InfoSocial Graduate Student Conference
+        date: 2018-2019
+        highlights:
+          - "Served as one of two co-chairs for the [InfoSocial](https://infosocial.soc.northwestern.edu/) student-run conference, which included paper sessions, panels, and networking opportunities."
+    
+    other_service:
       - name: ICWSM 2024 Data Challenge Co-chair
         date: 2024 
         highlights:
@@ -362,16 +378,19 @@ cv:
           - Co-organizer
       - name: Northwestern University, Computer Science Ph.D. Advisory Council
         date: "2018"
-      - name: InfoSocial Graduate Student Conference
-        date: 2018-2019
-        highlights:
-          - "Served as one of two co-chairs for the [InfoSocial](https://infosocial.soc.northwestern.edu/) student-run conference, which included paper sessions, panels, and networking opportunities."
+      
+
+    graduate_research_mentoring:
+      - label: Examiner
+        details: Parsa Rajabi (Ms.C.)
+      - label: Committee Member
+        details: 
     
     undergraduate_research_mentoring:
       - label: At Northwestern University (People, Space, and Algorithms Research Group)
-        details: Patrick Sheehan (co-wrote a conf. paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
+        details: Patrick Sheehan (co-wrote a conference paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
       - label: At Simon Fraser University (People and Data Computing Group)
-        details: Clare Provezano (first author of a workshop paper)
+        details: Clare Provezano (first author of a workshop paper), Patrick Zhao
 
     awards:
       - bullet: ACM SIGCHI Outstanding Dissertation [Award](https://medium.com/sigchi/announcing-the-2024-acm-sigchi-awards-8cac7abda8be), 2024
