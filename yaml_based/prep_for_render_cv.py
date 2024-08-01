@@ -59,6 +59,14 @@ for entry in data['selected_talks']:
     }
     selected_talks.append(new_entry)
     
+
+workshops_organized = []
+for entry in data['workshops_organized']:
+    new_entry = {
+        "bullet": "{}. [{}]({}). {}, {}".format(entry["authors"], entry['title'], entry['url'], entry['description'], entry['year'])
+    }
+    news_coverage.append(new_entry)
+
         
 
 new_data = {
@@ -66,7 +74,8 @@ new_data = {
     'workshop_publications': workshop_pubs,
     'other_publications': other_pubs,
     'news_coverage': news_coverage,
-    'selected_talks': selected_talks
+    'selected_talks': selected_talks,
+    'workshops_organized': workshops_organized
 }
 
 class MyDumper(yaml.Dumper):
