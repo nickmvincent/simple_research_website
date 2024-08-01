@@ -27,5 +27,4 @@
 
 ### Things in the details.yaml file
 
-- Book chapter
 - additional affiliations

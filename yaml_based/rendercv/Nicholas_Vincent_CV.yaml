@@ -378,13 +378,12 @@ cv:
           - Co-organizer
       - name: Northwestern University, Computer Science Ph.D. Advisory Council
         date: "2018"
-      
 
     graduate_research_mentoring:
       - label: Examiner
         details: Parsa Rajabi (Ms.C.)
       - label: Committee Member
-        details: 
+        details: Mahdie Ghane
     
     undergraduate_research_mentoring:
       - label: At Northwestern University (People, Space, and Algorithms Research Group)
