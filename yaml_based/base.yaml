@@ -44,6 +44,12 @@ recent_news:
 
 
 news_coverage:
+  - title: Is data supply AI’s Achilles’ heel? 
+    source: UBS
+    authors: Richard Mylles 
+    date: June 2024
+    url: https://www.ubs.com/global/en/sustainability-impact/sustainability-insights/2024/is-data-supply-ais-achilles-heel.html
+
   - title: Is this AI? See if you can spot the technology in your everyday life.
     source: The Washington Post
     authors: Kevin Shaul
@@ -268,6 +274,11 @@ blog_posts:
 
 multimedia:
   - type: "Video"
+    title: A New Grand Data Bargain for Public Interest AI - Talk Recording for SFU DDI
+    url: https://www.youtube.com/watch?v=nWPU6Equ1fE
+    date: March 2024
+
+  - type: "Video"
     title: "Does the rise of AI need us to adopt new data licensing policies?"
     url: "https://www.youtube.com/watch?v=EZ4XQanYuXo"
     date: "December 2022"
@@ -389,8 +400,6 @@ publications:
         type: "acm dl"
       - url: https://www.licenses.ai
         type: "website"
-
-  
 
   - title: "CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms"
     authors: 
@@ -722,7 +731,7 @@ workshop_papers:
       - Noah Stier
       - Nicholas Vincent
       - David Liebeskind
-      - Fabien Scalzo"
+      - Fabien Scalzo
     journal: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
     date: "2015"
     event_name: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"    
@@ -737,7 +746,7 @@ workshop_papers:
       - Songlin Yu
       - David S Liebeskind
       - Danny JJ Wang
-      - Fabien Scalzo"
+      - Fabien Scalzo
     journal: "BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning"
     date: "2015"
 
@@ -815,7 +824,7 @@ other_papers:
         type: "arxiv"
 
 
-events:
+workshops_organized:
   - title: "Can Licensing Mitigate the Negative Implications of Commercial Web Scraping?"
     authors: "Hanlin Li, Nicholas Vincent, Yacine Jernite, Nick Merrill, Jesse Josua Benjamin, Alek Tarkowski"
     year: "2023"
@@ -869,13 +878,11 @@ selected_talks:
     location: RadicalxChange Panels
     date: 2021-01
     video_url: https://www.youtube.com/watch?v=eRo6mff6vLY
-
   - name: "Data Driven Economy for All"
     location: RadicalxChange 2020 Conference
     date: 2020-07
     event_url: https://www.radicalxchange.org/events/2020-conference/
     video_url: https://www.youtube.com/watch?v=77SD6r2jVhw
-
   - name: The Critical Relationship of Volunteer-Created Wikipedia Content to Large-Scale Online Communities
     location: Wikipedia Research Showcase
     date: 2018-04
