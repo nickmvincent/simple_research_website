@@ -14,8 +14,8 @@ cv:
         company: Simon Fraser University, School of Computing Science
         position: Assistant Professor
 
-      - start_date: 2022-01
-        end_date: 2022-07
+      - start_date: 2023-01
+        end_date: 2023-07
         location: Davis, CA, USA
         company: University of California, Davis 
         position: Postdoctoral Scholar
@@ -455,6 +455,8 @@ cv:
           Workshop at CSCW 2022, 2022
 
     other_service:
+      - name: Simon Fraser University, Undergraduate Program Committee
+        date: 2023-2024
       - name: California Data Dividends Working Group, Organizer
         date: 2019-2022 
       - name: Northwestern University Artificial Intelligence Journal Club, Organizer
@@ -470,7 +472,7 @@ cv:
       - label: At Northwestern University (People, Space, and Algorithms Research Group)
         details: Patrick Sheehan (co-wrote a conference paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
       - label: At Simon Fraser University (People and Data Computing Group)
-        details: Clare Provezano (first author of a workshop paper), Patrick Zhao
+        details: Clare Provezano (first author of a workshop paper), Patrick Zhao, Jashandeep Kaur, Laksh Agarwal
 
     awards:
       - bullet: ACM SIGCHI Outstanding Dissertation [Award](https://medium.com/sigchi/announcing-the-2024-acm-sigchi-awards-8cac7abda8be), 2024
