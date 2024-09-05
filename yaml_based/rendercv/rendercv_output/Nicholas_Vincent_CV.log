@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  1 AUG 2024 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  20 AUG 2024 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,7 +676,7 @@ nput line 167.
 -packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/tex/latex/fontaw
 esome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-18.
+05.
 
 (/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/site
 -packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/tex/latex/lm/oml
@@ -684,7 +684,7 @@ lmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-218.
+205.
 
 (/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/site
 -packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/tex/latex/lm/oms
@@ -692,7 +692,7 @@ lmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-218.
+205.
 
 (/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/site
 -packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/tex/latex/lm/omx
@@ -700,11 +700,14 @@ lmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 218.
+(Font)              <10> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 218.
+(Font)              <7> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 218.
+(Font)              <5> on input line 205.
+
+Overfull \vbox (0.697pt too high) has occurred while \output is active []
+
  [1
 
 {/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/site
@@ -719,17 +722,17 @@ derer/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.
 enc}{/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/
 site-packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dv
 ips/lm/lm-mathsy.enc}]
-Overfull \hbox (20.74931pt too wide) in paragraph at lines 364--365
+Overfull \hbox (20.74931pt too wide) in paragraph at lines 370--371
 [][]\OT1/lmr/m/n/10 , [], [], [], [],
  []
 
 
-Overfull \hbox (4.72101pt too wide) in paragraph at lines 385--386
+Overfull \hbox (4.72101pt too wide) in paragraph at lines 391--392
 [][]\OT1/lmr/m/n/10 , [], [], [], [],
  []
 
 
-Overfull \hbox (4.72101pt too wide) in paragraph at lines 426--427
+Overfull \hbox (4.72101pt too wide) in paragraph at lines 432--433
 [][]\OT1/lmr/m/n/10 , [], [], [], [],
  []
 
@@ -742,41 +745,41 @@ Overfull \vbox (2.89308pt too high) has occurred while \output is active []
 
 [2]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
-36.
+42.
 
 (/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/site
 -packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/tex/latex/lm/ts1
 lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (37.69386pt too wide) in paragraph at lines 760--761
+Overfull \hbox (37.69386pt too wide) in paragraph at lines 766--767
 [][]\OT1/lmr/m/n/10 , [], [], [], [], []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
 
-Overfull \hbox (45.60876pt too wide) in paragraph at lines 805--806
+Overfull \hbox (45.60876pt too wide) in paragraph at lines 811--812
 [][]\OT1/lmr/m/n/10 , [], [], [], []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 805--806
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
 
  []
 
 [3{/Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/si
 te-packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dvip
 s/lm/lm-ts1.enc}]
-Overfull \hbox (0.94328pt too wide) in paragraph at lines 845--846
+Overfull \hbox (0.94328pt too wide) in paragraph at lines 851--852
 [][]\OT1/lmr/m/n/10 , [], [], [], [], [],
  []
 
 [4] [5] [6]
-Overfull \hbox (4.70242pt too wide) in paragraph at lines 1433--1434
+Overfull \hbox (4.70242pt too wide) in paragraph at lines 1450--1451
 []\OT1/lmr/bx/n/10 The Crit-i-cal Re-la-tion-ship of Volunteer-Created Wikipedi
 a Con-tent to Large-
  []
@@ -792,11 +795,11 @@ L3 programming layer <2024-03-14>
 Here is how much of TeX's memory you used:
  14892 strings out of 476002
  275639 string characters out of 5788363
- 1952496 words of memory out of 5000000
+ 1953496 words of memory out of 5000000
  36807 multiletter control sequences out of 15000+600000
  593509 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,10n,79p,560b,815s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,646b,815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/python3.12/si
 te-packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/pu
 blic/fontawesome5/FontAwesome5Free-Regular.pfb></Users/nmvg/Documents/GitHub/si
@@ -816,7 +819,7 @@ packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/publi
 c/lm/lmri9.pfb></Users/nmvg/Documents/GitHub/simple_research_website/.venv/lib/
 python3.12/site-packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/f
 onts/type1/public/lm/lmsy10.pfb>
-Output written on Nicholas_Vincent_CV.pdf (7 pages, 211963 bytes).
+Output written on Nicholas_Vincent_CV.pdf (7 pages, 211907 bytes).
 PDF statistics:
  234 PDF objects out of 1000 (max. 8388607)
  204 compressed objects within 3 object streams

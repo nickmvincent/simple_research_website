@@ -15,10 +15,11 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 - July 2023 – present
 - Burnaby, BC, Canada
+- Associate Member in the School of Public Policy
 
 ## University of California, Davis, Postdoctoral Scholar
 
-- Jan 2022 – July 2022
+- Jan 2023 – July 2023
 - Davis, CA, USA
 - Co-advised by [Seth Frey](https://communication.ucdavis.edu/people/seth-frey) (UC Davis, Department of Communication) and [Amy X. Zhang](https://homes.cs.washington.edu/~axz/) (University of Washington, School of Computer Science and Engineering)
 
@@ -59,12 +60,12 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 ## Behavioral Use Licensing for Responsible AI ([10.1145/3531146.3533143](https://doi.org/10.1145/3531146.3533143))
 - 2022
-- Danish Contractor, Daniel McDuff, Julia Katherine Haines, Jenny Lee, Christopher Hines, Brent Hecht, Nicholas Vincent, Hanlin Li"
+- Danish Contractor, Daniel McDuff, Julia Katherine Haines, Jenny Lee, Christopher Hines, Brent Hecht, Nicholas Vincent, Hanlin Li
 - ACM FAccT 2022
 
 ## CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms ([10.1609/icwsm.v15i1.18046](https://doi.org/10.1609/icwsm.v15i1.18046))
 - 2021
-- Farhan Asif Chowdhury, Yozen Liu, Koustuv Saha, Nicholas Vincent, Leonardo Neves, Neil Shah, Maarten W Bos"
+- Farhan Asif Chowdhury, Yozen Liu, Koustuv Saha, Nicholas Vincent, Leonardo Neves, Neil Shah, Maarten W Bos
 - AAAI ICWSM 2021
 
 ## Addressing "Documentation Debt" in Machine Learning Research: A Retrospective Datasheet for BookCorpus 
@@ -127,17 +128,17 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 ## The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study of DALL·E 2 and DALL·E 3 
 - 2024
 - Clare Provenzano, Parsa Rajabi, Diana Cukierman, Nicholas Vincent
-- GenAICHI @ CHI 2024
+- GenAICHI Workshop @ CHI 2024
 
 ## An Alternative to Regulation: The Case for Public AI 
 - 2023
 - Nicholas Vincent, David Bau, Sarah Schwettmann, Joshua Tan
-- RegML 2023 Workshop @ NeurIPS 2023
+- RegML Workshop @ NeurIPS 2023
 
 ## Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation 
 - 2023
 - Nicholas Vincent, Brent Hecht
-- EAAMO 2023
+- Poster track @ EAAMO 2023
 
 ## Collaborative Design of Contribution Tracking Systems for Decentralized Organizations 
 - 2022
@@ -147,7 +148,7 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 ## Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter Birdwatch Users 
 - 2022
 - Isaiah Jones, Brent Hecht, Nicholas Vincent
-- ACM CSCW 2022 Posters
+- Poster track @ ACM CSCW 2022
 
 ## Deep learning of tissue fate features in acute ischemic stroke 
 - 2015
@@ -217,7 +218,7 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 ## Snap Inc, Research Intern (Computational Social Science)
 
-- Mar 2021 – June 2021
+- Mar 2020 – June 2020
 - Santa Monica, CA, USA
 
 ## Cloudbakers, Cloud Programming Specialist
@@ -241,13 +242,13 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 ## Simon Fraser University, School of Computing Science, Primary Instructor
 
-- Jan 2024 – Apr 2024
-- [CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI, 50 students.
+- Spring 2024
+- [CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI
 
 ## Simon Fraser University, School of Computing Science, Primary Instructor
 
 - Sept 2023 – Dec 2023
-- [CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming, 200 students.
+- [CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming
 
 ## Northwestern University, Teaching Assistant
 
@@ -257,7 +258,7 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 # Academic Reviewing
 
 - Conference Meta-reviews: AAAI ICWSM (2023), ACM EAAMO (2023)
-- Conferences: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ICML; ACM The Web Conference, Web and Society Track (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
+- Conferences: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks Track (2021, 2022, 2023, 2024); ICML (2024); ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
 - Journals: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
 - Funding: Wikimedia Foundation Research Fund
 - Commendations: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
@@ -285,6 +286,10 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 - Hanlin Li, Leah Ajmani, Moyan Zhou, Nicholas Vincent, Sohyeon Hwang, Tiziano Piccardi, Sneha Narayan, Sherae Daniel, Veniamin Veselovsky. [Ethical Tensions, Norms, and Directions in the Extraction of Online Volunteer Work](https://dl.acm.org/doi/abs/10.1145/3500868.3560923). Workshop at CSCW 2022, 2022
 # Other Service
 
+## Simon Fraser University, Undergraduate Program Committee
+
+- 2023-2024
+
 ## California Data Dividends Working Group, Organizer
 
 - 2019-2022
@@ -297,13 +302,13 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 - 2018
 
-# Graduate Research Mentoring
+# Graduate Student Research Mentoring
 
 - MSc Students at Simon Fraser University: Parsa Rajabi (Examiner), Mahdie Ghane (Committee Member)
-# Undergraduate Research Mentoring
+# Undergraduate Student Research Mentoring
 
 - At Northwestern University (People, Space, and Algorithms Research Group): Patrick Sheehan (co-wrote a conference paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
-- At Simon Fraser University (People and Data Computing Group): Clare Provezano (first author of a workshop paper), Patrick Zhao
+- At Simon Fraser University (People and Data Computing Group): Clare Provezano (first author of a workshop paper), Patrick Zhao, Jashandeep Kaur, Laksh Agarwal
 # Awards
 
 - ACM SIGCHI Outstanding Dissertation [Award](https://medium.com/sigchi/announcing-the-2024-acm-sigchi-awards-8cac7abda8be), 2024

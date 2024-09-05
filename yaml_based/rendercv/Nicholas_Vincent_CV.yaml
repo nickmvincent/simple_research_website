@@ -13,6 +13,8 @@ cv:
         location: Burnaby, BC, Canada
         company: Simon Fraser University, School of Computing Science
         position: Assistant Professor
+        highlights:
+          - Associate Member in the School of Public Policy
 
       - start_date: 2023-01
         end_date: 2023-07
@@ -86,7 +88,7 @@ cv:
           - Christopher Hines
           - Brent Hecht
           - Nicholas Vincent
-          - Hanlin Li"
+          - Hanlin Li
         date: '2022'
         doi: 10.1145/3531146.3533143
         journal: ACM FAccT 2022
@@ -98,7 +100,7 @@ cv:
           - Nicholas Vincent
           - Leonardo Neves
           - Neil Shah
-          - Maarten W Bos"
+          - Maarten W Bos
         date: '2021'
         doi: 10.1609/icwsm.v15i1.18046
         journal: AAAI ICWSM 2021
@@ -214,7 +216,7 @@ cv:
           - Diana Cukierman
           - Nicholas Vincent
         date: '2024'
-        journal: GenAICHI @ CHI 2024
+        journal: GenAICHI Workshop @ CHI 2024
         title: "The Need for Flexible Interfaces for Text-to-Image Auditing: A Case Study\
           \ of DALL\xB7E 2 and DALL\xB7E 3"
       - authors:
@@ -223,14 +225,14 @@ cv:
           - Sarah Schwettmann
           - Joshua Tan
         date: '2023'
-        journal: RegML 2023 Workshop @ NeurIPS 2023
+        journal: RegML Workshop @ NeurIPS 2023
         title: 'An Alternative to Regulation: The Case for Public AI'
       - authors:
           - Nicholas Vincent
           - Brent Hecht
         date: '2023'
-        journal: EAAMO 2023
-        title: 'Sharing the Winnings of AI with Data Dividends: Challenges with ''Meritocratic''
+        journal: Poster track @ EAAMO 2023
+        title: 'Sharing the Winnings of AI with Data Dividends: Challenges with "Meritocratic"
           Data Valuation'
       - authors:
           - Nicholas Vincent
@@ -244,7 +246,7 @@ cv:
           - Brent Hecht
           - Nicholas Vincent
         date: '2022'
-        journal: ACM CSCW 2022 Posters
+        journal: Poster track @ ACM CSCW 2022
         title: 'Misleading Tweets and Helpful Notes: Investigating Data Labor by Twitter
           Birdwatch Users'
       - authors:
@@ -357,18 +359,18 @@ cv:
           New York Times, March 2018
     grants:
       - label: NSERC Discovery Grant
-        details: "Empowering Data Creators to Advance Responsible Artificial Intelligence. Prinical investigator. 2024-2029. 125,000 CAD."
+        details: "Empowering Data Creators to Advance Responsible Artificial Intelligence. Prinical investigator. 2024-04-01 to 2029-03-31. 125,000 CAD."
       - label: Breaking Barriers Interdisciplinary Incentive Grant
         details: "Data Empowerment through Data Sharing in the Humanities. Co-investigator. 2024. With Michelle Levy, Sheelagh Carpendale, Denise Oleksijczuk. 60,000 CAD."
 
     professional_experience:
-      - start_date: 2021-05
-        end_date: 2021-08
+      - start_date: "2021-05-01"
+        end_date: "2021-08-27"
         location: Redmond, WA, USA
         company: Microsoft
         position: Research Intern (Office of the CTO)
-      - start_date: 2021-03
-        end_date: 2021-06
+      - start_date: "2020-03-23"
+        end_date: "2020-06-12"
         location: Santa Monica, CA, USA
         company: Snap Inc
         position: Research Intern (Computational Social Science)
@@ -395,17 +397,15 @@ cv:
     teaching_experience:
       - company: Simon Fraser University, School of Computing Science
         position: Primary Instructor
-        start_date: 2024-01
-        end_date: 2024-04
+        date: Spring 2024 # 2024-01-08 to 2024-04-16
         highlights:
-          - "[CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI, 50 students."
+          - "[CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI. 54 students."
         
       - company: Simon Fraser University, School of Computing Science
         position: Primary Instructor
-        start_date: 2023-09
-        end_date: 2023-12
+        date: Fall 2023, Fall 2024 # 2023-09-06 to 2023-12-18
         highlights:
-          - "[CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming, 200 students."
+          - "[CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming. 188 students."
         
       - company: Northwestern University
         position: Teaching Assistant
@@ -418,7 +418,7 @@ cv:
       - label: Conference Meta-reviews
         details: AAAI ICWSM (2023), ACM EAAMO (2023)
       - label: Conferences
-        details: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS; NeurIPS Datasets and Benchmarks Track; ICML; ACM The Web Conference, Web and Society Track (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
+        details: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks Track (2021, 2022, 2023, 2024); ICML (2024); ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
       - label: Journals
         details: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
       - label: Funding
@@ -464,11 +464,11 @@ cv:
       - name: Northwestern University, Computer Science Ph.D. Advisory Council
         date: "2018"
 
-    graduate_research_mentoring:
+    graduate_student_research_mentoring:
       - label: MSc Students at Simon Fraser University
         details: Parsa Rajabi (Examiner), Mahdie Ghane (Committee Member)
     
-    undergraduate_research_mentoring:
+    undergraduate_student_research_mentoring:
       - label: At Northwestern University (People, Space, and Algorithms Research Group)
         details: Patrick Sheehan (co-wrote a conference paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
       - label: At Simon Fraser University (People and Data Computing Group)
