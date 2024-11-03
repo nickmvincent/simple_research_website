@@ -269,6 +269,20 @@ cv:
         title: Detection of hyperperfusion on arterial spin labeling using deep learning
     other_publications:
       - authors:
+          - Mahasweta Chakraborti
+          - Bert Joseph Prestoza
+          - Nicholas Vincent
+          - Seth Frey
+        date: '2024'
+        journal: arXiv preprint
+        title: 'Responsible AI in Open Ecosystems: Reconciling Innovation with Risk Assessment
+          and Disclosure'
+      - authors:
+          - Nicholas Vincent
+        date: 2024
+        journal: Nature Machine Intelligence, News & Views
+        title: A step forward in tracing and documenting dataset provenance
+      - authors:
           - Zachary Wojtowicz
           - Shrey Jain
           - Nicholas Vincent
@@ -359,7 +373,7 @@ cv:
           New York Times, March 2018
     grants:
       - label: NSERC Discovery Grant
-        details: "Empowering Data Creators to Advance Responsible Artificial Intelligence. Prinical investigator. 2024-04-01 to 2029-03-31. 125,000 CAD."
+        details: "Empowering Data Creators to Advance Responsible Artificial Intelligence. Principal investigator. 2024-04-01 to 2029-03-31. 125,000 CAD."
       - label: Breaking Barriers Interdisciplinary Incentive Grant
         details: "Data Empowerment through Data Sharing in the Humanities. Co-investigator. 2024. With Michelle Levy, Sheelagh Carpendale, Denise Oleksijczuk. 60,000 CAD."
 
@@ -416,7 +430,7 @@ cv:
 
     academic_reviewing:
       - label: Conference Meta-reviews
-        details: AAAI ICWSM (2023), ACM EAAMO (2023)
+        details: AAAI ICWSM (2023), ACM EAAMO (2023), ACM CHI (2024 PC member)
       - label: Conferences
         details: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks Track (2021, 2022, 2023, 2024); ICML (2024); ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
       - label: Journals
@@ -424,7 +438,7 @@ cv:
       - label: Funding
         details: Wikimedia Foundation Research Fund
       - label: Commendations
-        details: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
+        details: Best Reviewer - ICWSM 2021, Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Highly useful reviewer - CSCW 2022
       
     conference_service:
       - name: AI Palace Organizer
@@ -455,6 +469,8 @@ cv:
           Workshop at CSCW 2022, 2022
 
     other_service:
+      - name: Simon Fraser University, Media, Communication, and Events Committee
+        date: 2024-2025
       - name: Simon Fraser University, Undergraduate Program Committee
         date: 2023-2024
       - name: California Data Dividends Working Group, Organizer
@@ -481,6 +497,10 @@ cv:
       - bullet: NSF-GRFP Honorable Mention, 2018
 
     selected_talks:
+    - date: 2024-09
+      highlights:
+        - 'Event: [Human-Centered AI Conference @ Pepperdine University](https://seaver.pepperdine.edu/events/human-centered-ai-conference/)
+      name: "Human-Centered AI Research and New Paradigms for Generative AI Data"
     - date: 2024-05
       highlights:
         - 'Event: [SIGCHI 2024 Outstanding Dissertation Award](https://programs.sigchi.org/chi/2024/program/content/156745)'
@@ -499,6 +519,10 @@ cv:
       highlights:
         - 'Event: [Community Data Science Collective Community Dialogues](https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/)'
       name: Community Dialogue on Accountable Governance and Data
+    - date: 2023-02
+      highlights:
+        - 'Event: [Stanford Social NLP Reading Group Talks](https://sites.google.com/view/social-nlp)'
+      name: "Human-centered data and language models: Privacy, data as labor, and licensing"
     - date: 2023-01
       highlights:
         - 'Event: [Center for Advancing Safety of Machine Intelligence, Toward a Safety

@@ -758,6 +758,29 @@ workshop_papers:
         type: "ieee"
 
 other_papers:
+  - title: "Responsible AI in Open Ecosystems: Reconciling Innovation with Risk Assessment and Disclosure"
+    authors:
+      - Mahasweta Chakraborti
+      - Bert Joseph Prestoza
+      - Nicholas Vincent
+      - Seth Frey
+    journal: "arXiv preprint"
+    date: "2024"
+    fulldate: "2024-09-27"
+    urls: 
+      - url: "https://arxiv.org/abs/2409.19104"
+        type: "arxiv"
+    
+  - title: A step forward in tracing and documenting dataset provenance
+    authors: 
+      - Nicholas Vincent
+    journal: "Nature Machine Intelligence, News & Views"
+    date: 2024
+    pub_date: "2024-08-30"
+    urls:
+      - url: https://www.nature.com/articles/s42256-024-00884-w
+        type: journal webpage
+
   - title: "Push and Pull: A Framework for Measuring Attentional Agency"
     authors:
       - Zachary Wojtowicz
@@ -847,6 +870,12 @@ workshops_organized:
     url: https://dl.acm.org/doi/abs/10.1145/3500868.3560923
 
 selected_talks:
+  - name: "Human-Centered AI Research and New Paradigms for Generative AI Data"
+    location: Human-Centered AI Conference @ Pepperdine University
+    date: "2024-09"
+    event_url: https://seaver.pepperdine.edu/events/human-centered-ai-conference/
+  - name:
+
   - name: "Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges from and to AI?" 
     location: "SIGCHI 2024 Outstanding Dissertation Award"
     date: 2024-05
@@ -863,6 +892,10 @@ selected_talks:
     location: Community Data Science Collective Community Dialogues
     date: "2023-03"
     event_url: https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/
+  - name: Human-centered data and language models: Privacy, data as labor, and licensing
+    date: 2023-02
+    location: Stanford Social NLP Reading Group Talks
+    event_url: https://sites.google.com/view/social-nlp
   - name: Algorithmic Contestability
     location: Center for Advancing Safety of Machine Intelligence, Toward a Safety Science of AI
     date: 2023-01
