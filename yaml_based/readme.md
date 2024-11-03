@@ -26,11 +26,6 @@
 - When you're done, write a commit message that captures the changes
 
 
-
-### Things in the rendercv folder that are NOT in base.yaml
-
-
-
 ### Things in the details.yaml file
 
 - additional affiliations

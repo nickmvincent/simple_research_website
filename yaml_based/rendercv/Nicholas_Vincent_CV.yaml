@@ -14,7 +14,8 @@ cv:
         company: Simon Fraser University, School of Computing Science
         position: Assistant Professor
         highlights:
-          - Associate Member in the School of Public Policy
+          - Associate Member in the School of Public Policy (September 2024 - present)
+          - Research Director at Metagov (2023 - present)
 
       - start_date: 2023-01
         end_date: 2023-07
@@ -429,10 +430,12 @@ cv:
           - "[MTS 525](https://wiki.communitydata.science/Workshops_and_Classes), Statistics and Statistical Programming"
 
     academic_reviewing:
-      - label: Conference Meta-reviews
-        details: AAAI ICWSM (2023), ACM EAAMO (2023), ACM CHI (2024 PC member)
-      - label: Conferences
-        details: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks Track (2021, 2022, 2023, 2024); ICML (2024); ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
+      - label: Conference Meta-reviews and Program Committee Contributions
+        details: AAAI ICWSM (2023), ACM EAAMO (2023 Area Chair), ACM CHI (2024 PC member)
+      - label: HCI and Social Computing Conference Reviews
+        details: ACM CHI; ACM CSCW; AAAI ICWSM; ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); IC2S2 (2023)
+      - label: ML Conferences Reviews
+        details:  NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks (2021, 2022, 2023, 2024); ICML (2024); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); AAAI (2024); ICLR (2024)
       - label: Journals
         details: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
       - label: Funding
