@@ -11,15 +11,16 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 # Academic Appointments
 
-## Simon Fraser University, School of Computing Science, Assistant Professor
+## Simon Fraser University, [School of Computing Science](https://www.sfu.ca/fas/schools/computing-science/), Assistant Professor
 
 - July 2023 – present
 - Burnaby, BC, Canada
-- Associate Member in the School of Public Policy
+- Associate Member in the [School of Public Policy](https://www.sfu.ca/policy-school.html) (September 2024 - present)
+- Research Director at [Metagov](https://metagov.org/) (July 2023 - present)
 
 ## University of California, Davis, Postdoctoral Scholar
 
-- Jan 2023 – July 2023
+- Dec 2022 – July 2023
 - Davis, CA, USA
 - Co-advised by [Seth Frey](https://communication.ucdavis.edu/people/seth-frey) (UC Davis, Department of Communication) and [Amy X. Zhang](https://homes.cs.washington.edu/~axz/) (University of Washington, School of Computer Science and Engineering)
 
@@ -27,7 +28,7 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 ## Northwestern University, PhD in Technology and Social Behavior (joint degree, Computer Science and Communication)
 
-- Sept 2017 – Dec 2022
+- Sept 2017 – Nov 2022
 - Advisor: [Brent Hecht](https://brenthecht.com/)
 - [Dissertation](https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en) - Data Leverage: A Framework for Empowering the Public to Mitigate Harms of Artificial Intelligence. Received SIGCHI 2024 Outstanding Dissertation Award and Northwestern University Department of Communication Dissertation Award
 
@@ -135,7 +136,7 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 - Nicholas Vincent, David Bau, Sarah Schwettmann, Joshua Tan
 - RegML Workshop @ NeurIPS 2023
 
-## Sharing the Winnings of AI with Data Dividends: Challenges with 'Meritocratic' Data Valuation 
+## Sharing the Winnings of AI with Data Dividends: Challenges with "Meritocratic" Data Valuation 
 - 2023
 - Nicholas Vincent, Brent Hecht
 - Poster track @ EAAMO 2023
@@ -161,6 +162,16 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 - BIBM 2015 Workshop on Biomedical Visual Search and Deep Learning
 
 # Other Publications
+
+## Responsible AI in Open Ecosystems: Reconciling Innovation with Risk Assessment and Disclosure 
+- 2024
+- Mahasweta Chakraborti, Bert Joseph Prestoza, Nicholas Vincent, Seth Frey
+- arXiv preprint
+
+## A step forward in tracing and documenting dataset provenance 
+- 2024
+- Nicholas Vincent
+- Nature Machine Intelligence, News & Views
 
 ## Push and Pull: A Framework for Measuring Attentional Agency 
 - 2024
@@ -207,48 +218,46 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 - John Herrman. [YouTube May Add to the Burdens of Humble Wikipedia.](https://www.nytimes.com/2018/03/19/business/media/youtube-wikipedia.html). New York Times, March 2018
 # Grants
 
-- NSERC Discovery Grant: Empowering Data Creators to Advance Responsible Artificial Intelligence. Prinical investigator. 2024-2029. 125,000 CAD.
+- NSERC Discovery Grant: Empowering Data Creators to Advance Responsible Artificial Intelligence. Principal investigator. 2024-04-01 to 2029-03-31. 125,000 CAD.
 - Breaking Barriers Interdisciplinary Incentive Grant: Data Empowerment through Data Sharing in the Humanities. Co-investigator. 2024. With Michelle Levy, Sheelagh Carpendale, Denise Oleksijczuk. 60,000 CAD.
 # Professional Experience
 
 ## Microsoft, Research Intern (Office of the CTO)
 
 - May 2021 – Aug 2021
-- Redmond, WA, USA
+- Redmond, WA
 
 ## Snap Inc, Research Intern (Computational Social Science)
 
 - Mar 2020 – June 2020
-- Santa Monica, CA, USA
+- Santa Monica, CA
 
 ## Cloudbakers, Cloud Programming Specialist
 
 - Sept 2016 – June 2017
-- Chicago, IL, USA
+- Chicago, IL
 
 ## Space and Naval Warfare Systems Command (now NAVWAR), NREIP Naval Research Intern
 
-- June 2016 – Aug 2016
-- San Diego, CA, USA
-- Also interned in 2015
+- Summer 2015 and 2016
+- San Diego, CA
 
-## Cisco Systems, Software Engineer Intern
+## Cisco Systems, Cross Functional Intern (2013), Software Engineer Intern (2014)
 
-- June 2014 – Sept 2014
-- San Jose, CA, USA
-- Also interned in 2013 (Cross Functional Intern)
+- Summer 2013 and 2014
+- San Jose, CA
 
 # Teaching Experience
 
 ## Simon Fraser University, School of Computing Science, Primary Instructor
 
-- Spring 2024
-- [CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI
+- Spring 2024, Spring 2025
+- [CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI. 54 students.
 
 ## Simon Fraser University, School of Computing Science, Primary Instructor
 
-- Sept 2023 – Dec 2023
-- [CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming
+- Fall 2023, Fall 2024
+- [CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming. 188 students.
 
 ## Northwestern University, Teaching Assistant
 
@@ -257,17 +266,18 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 # Academic Reviewing
 
-- Conference Meta-reviews: AAAI ICWSM (2023), ACM EAAMO (2023)
-- Conferences: ACM CHI; ACM CSCW; AAAI ICWSM; NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks Track (2021, 2022, 2023, 2024); ICML (2024); ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); IC2S2 (2023); ACM EAAMO
+- Conference Meta-reviews and Program Committee Contributions: AAAI ICWSM (2023), ACM EAAMO (2023 Area Chair), ACM CHI (2024 PC member)
+- HCI and Social Computing Conference Reviews: ACM CHI; ACM CSCW; AAAI ICWSM; ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); IC2S2 (2023)
+- ML Conferences Reviews: NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks (2021, 2022, 2023, 2024); ICML (2024); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); AAAI (2024); ICLR (2024)
 - Journals: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
 - Funding: Wikimedia Foundation Research Fund
-- Commendations: Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Best Reviewer - ICWSM 2021, Highly useful reviewer - CSCW 2022
+- Commendations: Best Reviewer - ICWSM 2021, Best Reviewer - ICWSM 2022, Outstanding Reviewer - NeurIPS Datasets and Benchmarks 2022, Highly useful reviewer - CSCW 2022
 # Conference Service
 
 ## AI Palace Organizer
 
-- 2023 - 2024
-- Organized the AI Palace conference in Bückeberg, Germany in 2023 and 2024.
+- 2023 -- present
+- Organized the AI Palace conference in Bückeberg, Germany in Summer 2023 and Summer 2024.
 
 ## ICWSM 2024 Data Challenge Co-chair
 
@@ -285,6 +295,10 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 - Leah Ajmani, Mo Houtti, Jasmine C Foriest, Michael Ann Devito, Nicholas Vincent, Isaac Johnson. [Epistemic Injustice in Online Communities: Unpacking the Values of Knowledge Creation and Curation within CSCW Applications](https://dl.acm.org/doi/abs/10.1145/3584931.3611280). Workshop at CSCW 2023, 2023
 - Hanlin Li, Leah Ajmani, Moyan Zhou, Nicholas Vincent, Sohyeon Hwang, Tiziano Piccardi, Sneha Narayan, Sherae Daniel, Veniamin Veselovsky. [Ethical Tensions, Norms, and Directions in the Extraction of Online Volunteer Work](https://dl.acm.org/doi/abs/10.1145/3500868.3560923). Workshop at CSCW 2022, 2022
 # Other Service
+
+## Simon Fraser University, Media, Communication, and Events Committee
+
+- 2024-2025
 
 ## Simon Fraser University, Undergraduate Program Committee
 
@@ -317,6 +331,11 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 - NSF-GRFP Honorable Mention, 2018
 # Selected Talks
 
+## Human-Centered AI Research and New Paradigms for Generative AI Data
+
+- Sept 2024
+- Event: [Human-Centered AI Conference @ Pepperdine University](https://seaver.pepperdine.edu/events/human-centered-ai-conference/)
+
 ## Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges from and to AI?
 
 - May 2024
@@ -336,6 +355,11 @@ Responsible Artificial Intelligence, Human-computer Interaction, Human-centered 
 
 - Mar 2023
 - Event: [Community Data Science Collective Community Dialogues](https://blog.communitydata.science/community-dialogue-on-accountable-governance-and-data/)
+
+## Human-centered data and language models: Privacy, data as labor, and licensing
+
+- Feb 2023
+- Event: [Stanford Social NLP Reading Group Talks](https://sites.google.com/view/social-nlp)
 
 ## Algorithmic Contestability
 

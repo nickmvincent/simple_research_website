@@ -11,13 +11,13 @@ cv:
       - start_date: 2023-07
         end_date: present
         location: Burnaby, BC, Canada
-        company: Simon Fraser University, School of Computing Science
+        company: Simon Fraser University, [School of Computing Science](https://www.sfu.ca/fas/schools/computing-science/)
         position: Assistant Professor
         highlights:
-          - Associate Member in the School of Public Policy (September 2024 - present)
-          - Research Director at Metagov (2023 - present)
+          - Associate Member in the [School of Public Policy](https://www.sfu.ca/policy-school.html) (September 2024 - present)
+          - Research Director at [Metagov](https://metagov.org/) (July 2023 - present)
 
-      - start_date: 2023-01
+      - start_date: 2022-12
         end_date: 2023-07
         location: Davis, CA, USA
         company: University of California, Davis 
@@ -27,7 +27,7 @@ cv:
     
     education:
       - start_date: 2017-09
-        end_date: 2022-12
+        end_date: 2022-11
         highlights:
           - "Advisor: [Brent Hecht](https://brenthecht.com/)"
           - "[Dissertation](https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en) - Data Leverage: A Framework for Empowering the Public to Mitigate Harms of Artificial Intelligence. Received SIGCHI 2024 Outstanding Dissertation Award and Northwestern University Department of Communication Dissertation Award"
@@ -381,38 +381,35 @@ cv:
     professional_experience:
       - start_date: "2021-05-01"
         end_date: "2021-08-27"
-        location: Redmond, WA, USA
+        location: Redmond, WA
         company: Microsoft
         position: Research Intern (Office of the CTO)
       - start_date: "2020-03-23"
         end_date: "2020-06-12"
-        location: Santa Monica, CA, USA
+        location: Santa Monica, CA
         company: Snap Inc
         position: Research Intern (Computational Social Science)
       - start_date: 2016-09
         end_date: 2017-06
-        location: Chicago, IL, USA
+        location: Chicago, IL
         company: Cloudbakers
         position: Cloud Programming Specialist
-      - start_date: 2016-06
-        end_date: 2016-08
-        highlights:
-          - Also interned in 2015
-        location: San Diego, CA, USA
+      - date: Summer 2015 and 2016
+        # date: "June 2015 - August 2016 and June 2016 - August 2016"
+        location: San Diego, CA
         company: Space and Naval Warfare Systems Command (now NAVWAR)
         position: NREIP Naval Research Intern
-      - start_date: 2014-06
-        end_date: 2014-09
-        highlights:
-          - Also interned in 2013 (Cross Functional Intern)
-        location: San Jose, CA, USA
+      - date: Summer 2013 and 2014
+        #start_date: 2014-06
+        # end_date: 2014-09
+        location: San Jose, CA
         company: Cisco Systems
-        position: Software Engineer Intern
+        position: Cross Functional Intern (2013), Software Engineer Intern (2014)
 
     teaching_experience:
       - company: Simon Fraser University, School of Computing Science
         position: Primary Instructor
-        date: Spring 2024 # 2024-01-08 to 2024-04-16
+        date: Spring 2024, Spring 2025 # 2024-01-08 to 2024-04-16
         highlights:
           - "[CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI. 54 students."
         
@@ -445,9 +442,9 @@ cv:
       
     conference_service:
       - name: AI Palace Organizer
-        date: 2023 - 2024
+        date: 2023 -- present
         highlights:
-          - Organized the AI Palace conference in Bückeberg, Germany in 2023 and 2024.
+          - Organized the AI Palace conference in Bückeberg, Germany in Summer 2023 and Summer 2024.
       - name: ICWSM 2024 Data Challenge Co-chair
         date: "2024" 
         highlights:
@@ -502,11 +499,11 @@ cv:
     selected_talks:
     - date: 2024-09
       highlights:
-        - 'Event: [Human-Centered AI Conference @ Pepperdine University](https://seaver.pepperdine.edu/events/human-centered-ai-conference/)
+        - "Event: [Human-Centered AI Conference @ Pepperdine University](https://seaver.pepperdine.edu/events/human-centered-ai-conference/)"
       name: "Human-Centered AI Research and New Paradigms for Generative AI Data"
-    - date: 2024-05
+    - date: "2024-05"
       highlights:
-        - 'Event: [SIGCHI 2024 Outstanding Dissertation Award](https://programs.sigchi.org/chi/2024/program/content/156745)'
+        - "Event: [SIGCHI 2024 Outstanding Dissertation Award](https://programs.sigchi.org/chi/2024/program/content/156745)"
       name: 'Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges
         from and to AI?'
     - date: 2024-02
