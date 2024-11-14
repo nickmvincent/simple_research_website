@@ -411,27 +411,27 @@ cv:
         position: Primary Instructor
         date: Spring 2024, Spring 2025 # 2024-01-08 to 2024-04-16
         highlights:
-          - "[CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI. 54 students."
+          - "[CMPT 419](http://www.sfu.ca/outlines.html?2024/spring/cmpt/419/e200), Special Topics in AI: Human and Data-centered AI. 53 undergraduate students."
         
       - company: Simon Fraser University, School of Computing Science
         position: Primary Instructor
         date: Fall 2023, Fall 2024 # 2023-09-06 to 2023-12-18
         highlights:
-          - "[CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming. 188 students."
+          - "[CMPT 120](https://www.sfu.ca/outlines.html?2023/fall/cmpt/120/d100), Introduction to Computing Science and Programming. Fall 2023: 188 undergraduate students. Fall 2024: 169 students."
         
       - company: Northwestern University
         position: Teaching Assistant
         start_date: 2020-09
         end_date: 2020-12
         highlights:
-          - "[MTS 525](https://wiki.communitydata.science/Workshops_and_Classes), Statistics and Statistical Programming"
+          - "[MTS 525](https://wiki.communitydata.science/Workshops_and_Classes), Statistics and Statistical Programming (graduate)."
 
     academic_reviewing:
       - label: Conference Meta-reviews and Program Committee Contributions
         details: AAAI ICWSM (2023), ACM EAAMO (2023 Area Chair), ACM CHI (2024 PC member)
-      - label: HCI and Social Computing Conference Reviews
+      - label: HCI and Social Computing Conferences, Individual Reviews
         details: ACM CHI; ACM CSCW; AAAI ICWSM; ACM The Web Conference (2022 PC and 2023 PC); WikiWorkshop (2023 PC); IC2S2 (2023)
-      - label: ML Conferences Reviews
+      - label: ML Conferences, Individual Reviews
         details:  NeurIPS (2023, 2024); NeurIPS Datasets and Benchmarks (2021, 2022, 2023, 2024); ICML (2024); ACM FAccT (2022, 2023, and 2024 PC); ACM WSDM (2023 PC); AAAI (2024); ICLR (2024)
       - label: Journals
         details: Nature Machine Intelligence; PLOS One; Patterns; Information, Communication, and Society; ACM Journal on Responsible Computing
@@ -444,11 +444,11 @@ cv:
       - name: AI Palace Organizer
         date: 2023 -- present
         highlights:
-          - Organized the AI Palace conference in Bückeberg, Germany in Summer 2023 and Summer 2024.
+          - Organizer of the AI Palace conference/residency in Bückeberg, Germany in Summer 2023 and Summer 2024.
       - name: ICWSM 2024 Data Challenge Co-chair
         date: "2024" 
         highlights:
-          - Organized the Data Challenge conference track at ICWSM 2024.
+          - Organized the Data Challenge track at ICWSM 2024.
       - name: InfoSocial Graduate Student Conference General Chair
         date: "2018"
         highlights:
@@ -478,7 +478,7 @@ cv:
       - name: Northwestern University Artificial Intelligence Journal Club, Organizer
         date: 2019-2021
       - name: Northwestern University, Computer Science Ph.D. Advisory Council
-        date: "2018"
+        date: 2018
 
     graduate_student_research_mentoring:
       - label: MSc Students at Simon Fraser University
@@ -486,7 +486,7 @@ cv:
     
     undergraduate_student_research_mentoring:
       - label: At Northwestern University (People, Space, and Algorithms Research Group)
-        details: Patrick Sheehan (co-wrote a conference paper), Ramish Zaidi, Alan Li (co-wrote a preprint), Renee Zha (co-wrote a preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
+        details: Patrick Sheehan (co-authored ICWSM paper), Ramish Zaidi, Alan Li (co-authored preprint), Renee Zha (co-authored preprint), Neil Vakharia, Isaiah Jones (first author of a workshop paper)
       - label: At Simon Fraser University (People and Data Computing Group)
         details: Clare Provezano (first author of a workshop paper), Patrick Zhao, Jashandeep Kaur, Laksh Agarwal
 
