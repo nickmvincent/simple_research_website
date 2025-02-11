@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ website_and_cv.name }} – Curriculum Vitae</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 2cm;
+        text-align: justify;
+        line-height: 1.4;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 1em;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 0.3em 0;
+      }
+      .section-title {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid #aaa;
+        padding-bottom: 0.2em;
+      }
+      .entry {
+        margin-bottom: 0.8em;
+      }
+      .entry-header { font-weight: bold; }
+      .entry-date {
+        float: right;
+        font-style: italic;
+      }
+      .clear { clear: both; }
+      ul {
+        margin: 0.5em 0;
+        padding-left: 1.2em;
+      }
+      a {
+        color: #0645ad;
+        text-decoration: none;
+      }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ website_and_cv.name }}</h1>
+      <p>
+        {{ website_and_cv.university_location }} | 
+        <a href="mailto:{{ website_and_cv.email }}">{{ website_and_cv.email }}</a> | 
+        <a href="{{ website_and_cv.website }}">{{ website_and_cv.website }}</a>
+      </p>
+    </header>
+
+    <!-- Publications: Include all (archival, workshop, other) -->
+    <section>
+      <div class="section-title">Publications</div>
+      <h3>Archival Publications</h3>
+      <ul>
+        {% for pub in website_and_cv.publications.archival %}
+        <li>
+          {{ pub.authors | join(', ') }}. <i>{{ pub.title }}</i>, {{ pub.journal }}, {{ pub.date }}.
+          {% if pub.doi %} DOI: {{ pub.doi }}{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <h3>Workshop Publications</h3>
+      <ul>
+        {% for pub in website_and_cv.publications.workshop %}
+        <li>
+          {{ pub.authors | join(', ') }}. <i>{{ pub.title }}</i>, {{ pub.journal }}, {{ pub.date }}.
+        </li>
+        {% endfor %}
+      </ul>
+      <h3>Other Publications</h3>
+      <ul>
+        {% for pub in website_and_cv.publications.other %}
+        <li>
+          {{ pub.authors | join(', ') }}. <i>{{ pub.title }}</i>, {{ pub.journal }}, {{ pub.date }}.
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <!-- CV-only Sections -->
+    {% set cv = cv_only %}
+    {% if cv.academic_reviewing %}
+    <section>
+      <div class="section-title">Academic Reviewing</div>
+      <ul>
+        {% for review in cv.academic_reviewing %}
+        <li><strong>{{ review.label }}</strong>: {{ review.details }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if cv.conference_service %}
+    <section>
+      <div class="section-title">Conference Service</div>
+      <ul>
+        {% for serv in cv.conference_service %}
+        <li>
+          <strong>{{ serv.name }}</strong> ({{ serv.date }})
+          {% if serv.highlights %}
+          <ul>
+            {% for item in serv.highlights %}
+            <li>{{ item | safe }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if cv.workshops_organized %}
+    <section>
+      <div class="section-title">Workshops Organized</div>
+      <ul>
+        {% for ws in cv.workshops_organized %}
+        <li>{{ ws.bullet | safe }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if cv.other_service %}
+    <section>
+      <div class="section-title">Other Service</div>
+      <ul>
+        {% for serv in cv.other_service %}
+        <li><strong>{{ serv.name }}</strong> ({{ serv.date }})</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if cv.student_research_mentoring %}
+    <section>
+      <div class="section-title">Student Research Mentoring</div>
+      {% if cv.student_research_mentoring.graduate %}
+      <p><strong>Graduate:</strong></p>
+      <ul>
+        {% for mentor in cv.student_research_mentoring.graduate %}
+        <li><strong>{{ mentor.label }}</strong>: {{ mentor.details }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if cv.student_research_mentoring.undergraduate %}
+      <p><strong>Undergraduate:</strong></p>
+      <ul>
+        {% for mentor in cv.student_research_mentoring.undergraduate %}
+        <li><strong>{{ mentor.label }}</strong>: {{ mentor.details }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if cv.awards %}
+    <section>
+      <div class="section-title">Awards</div>
+      <ul>
+        {% for award in cv.awards %}
+        <li>{{ award.bullet | safe }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if cv.selected_talks %}
+    <section>
+      <div class="section-title">Selected Talks</div>
+      <ul>
+        {% for talk in cv.selected_talks %}
+        <li>
+          <strong>{{ talk.name }}</strong> ({{ talk.date }})<br>
+          Location: {{ talk.location }}<br>
+          {% if talk.event_url %}
+          Event: <a href="{{ talk.event_url }}">{{ talk.event_url }}</a><br>
+          {% endif %}
+          {% if talk.video_url %}
+          Video: <a href="{{ talk.video_url }}">{{ talk.video_url }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </body>
+</html>

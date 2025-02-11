@@ -1,0 +1,12 @@
+[project]
+name = "simple-research-website"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3.1.5",
+    "pdfkit>=1.0.0",
+    "pyyaml>=6.0.2",
+    "weasyprint>=64.0",
+]

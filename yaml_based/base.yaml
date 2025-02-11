@@ -35,6 +35,8 @@ social_links:
     url: "https://www.linkedin.com/in/nicholas-vincent-93594a81/"
 
 recent_news:
+  - 'Wrote several <a href="https://dataleverage.substack.com/p/ai-labs-could-open-source-data-protection"> newsletters </a> and did an interview with <a href="https://www.businessinsider.com/openai-deepseek-ai-model-distillation-training-data-copyright-karma-2025-1"> Business Insider </a> on DeepSeek's R1, data distillation, and the live-by-the-sword, die-by-the-sword data paradigm".
+  - 'Moderated a panel and gave a talk at the NeurIPS 2024 <a href="https://creativity-ai.github.io/"> Workshop on Creativity & Generative AI</a>. '
   - 'New preprint on a framework for <a href="https://arxiv.org/abs/2405.14614">attentional agency</a>.'
   - 'Attended ICWSM 2024 (helped organize the <a href="https://sites.google.com/stanford.edu/icwsm-2024-data-challenge/home">Data Challenge</a>).'
   - 'Attended CHI 2024 (where students presented work on OpenWebUI, auditing GenAI, data consent issues, and tools for governance).'
@@ -44,6 +46,12 @@ recent_news:
 
 
 news_coverage:
+  - title: OpenAI Is Reaping What It Sowed With DeepSeek
+    source: Business Insider
+    authors: Alistair Barr
+    date: Jan 2025
+    url: https://www.businessinsider.com/openai-deepseek-ai-model-distillation-training-data-copyright-karma-2025-1
+
   - title: Is data supply AI’s Achilles’ heel? 
     source: UBS
     authors: Richard Mylles 
@@ -874,7 +882,6 @@ selected_talks:
     location: Human-Centered AI Conference @ Pepperdine University
     date: "2024-09"
     event_url: https://seaver.pepperdine.edu/events/human-centered-ai-conference/
-  - name:
 
   - name: "Economic Concentration and Dispossessive Data Use: Can HCI Solve Challenges from and to AI?" 
     location: "SIGCHI 2024 Outstanding Dissertation Award"

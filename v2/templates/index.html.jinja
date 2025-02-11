@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ website_and_cv.page_title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      .profile-heading { margin: 20px 0; padding-bottom: 10px; }
+      .bordered-left { border-left: 2px solid #f1f1f1; }
+      .bordered-right { border-right: 2px solid #f1f1f1; }
+      .bordered-bottom { border-bottom: 2px solid #f1f1f1; }
+      .mono { font-family: monospace; }
+      ul { list-style-type: circle; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div class="section profile-heading">
+        <div class="columns">
+          <div class="column is-4 bordered-left bordered-bottom">
+            <span class="subtitle is-bold">{{ website_and_cv.name }}</span>
+            <p class="is-size-7">Research in: {{ website_and_cv.research_interests }}</p>
+          </div>
+          <div class="column is-4 bordered-bottom has-text-centered">
+            <figure class="image avatar is-inline-block" style="max-width:60px">
+              <img class="is-rounded" src="{{ website_and_cv.profile_image_url }}" alt="Profile picture" />
+            </figure>
+          </div>
+          <div class="column is-4 bordered-bottom bordered-right">
+            <span class="subtitle is-bold">Affiliation</span>
+            <p class="is-size-7">
+              {{ website_and_cv.position }} in the <a href="{{ website_and_cv.department_url }}">{{ website_and_cv.department_name }}</a> at <a href="{{ website_and_cv.university_url }}">{{ website_and_cv.university_name }}</a>.
+            </p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-2 bordered-left">
+            <span class="subtitle is-bold is-size-5">Contact</span>
+            <p class="is-size-7">{{ website_and_cv.email }}</p>
+          </div>
+          <div class="column is-2">
+            <span class="subtitle is-bold">Office</span>
+            <p class="is-size-7">{{ website_and_cv.office }}</p>
+            <p class="mono is-size-7"><a href="{{ website_and_cv.office_link }}">info</a></p>
+          </div>
+          <div class="column is-2">
+            <span class="subtitle is-bold">CV</span>
+            <p class="mono is-size-7"><a href="{{ website_and_cv.cv_link }}">pdf</a></p>
+          </div>
+          <div class="column is-2">
+            <span class="subtitle is-bold">Social</span>
+            {% for link in website_and_cv.social_links %}
+            <p class="mono is-size-7"><a href="{{ link.url }}">{{ link.platform }}</a></p>
+            {% endfor %}
+          </div>
+          <div class="column is-2 bordered-right">
+            <span class="subtitle is-bold">Scholarly Profiles</span>
+            {% for profile in website_and_cv.scholarly_profiles %}
+            <p class="mono is-size-7"><a href="{{ profile.url }}">{{ profile.platform }}</a></p>
+            {% endfor %}
+          </div>
+          <div class="column is-2">
+            <span class="subtitle is-bold">More</span>
+            {% for link in website_and_cv.more_info_links %}
+            <p class="mono is-size-7"><a href="{{ link.url }}">{{ link.text }}</a></p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- Introduction Section -->
+      <div class="section is-size-7">
+        <div class="columns is-centered">
+          <div class="column is-6">
+            <p>
+              Hello! I'm {{ website_and_cv.name }}. I study how data flows make AI work – from the contributions we make to the systems that use them.
+              Below you will find a brief bio and links to my work.
+            </p>
+          </div>
+        </div>
+
+        <!-- Recent News -->
+        <div class="columns">
+          <div class="column is-12">
+            <b>Recent news:</b>
+            {% for news in web_only.recent_news %}
+            | {{ news }}
+            {% endfor %}
+          </div>
+        </div>
+
+        <!-- Publications Section (Common publications) -->
+        <div class="columns">
+          <div class="column is-6 is-size-7">
+            <h2 class="is-size-5">Archival Publications</h2>
+            <ul>
+              {% for pub in website_and_cv.publications.archival %}
+              <li>
+                {{ pub.authors | join(', ') }}. <i>{{ pub.title }}</i>, {{ pub.journal }}, {{ pub.date }}.
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="column is-6 is-size-7">
+            <h2 class="is-size-5">Workshop Publications</h2>
+            <ul>
+              {% for pub in website_and_cv.publications.workshop %}
+              <li>
+                {{ pub.authors | join(', ') }}. <i>{{ pub.title }}</i>, {{ pub.journal }}, {{ pub.date }}.
+              </li>
+              {% endfor %}
+            </ul>
+            <h2 class="is-size-5">Other Publications</h2>
+            <ul>
+              {% for pub in website_and_cv.publications.other %}
+              <li>
+                {{ pub.authors | join(', ') }}. <i>{{ pub.title }}</i>, {{ pub.journal }}, {{ pub.date }}.
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Additional Website-Only Sections -->
+        <div class="columns">
+          <div class="column is-6 is-size-7">
+            <h2 class="is-size-5">News Coverage</h2>
+            <ul>
+              {% for item in web_only.news_coverage %}
+              <li>
+                <strong>{{ item.authors }}</strong>. <a href="{{ item.url }}">{{ item.title }}</a> – <em>{{ item.source }}</em>, {{ item.date }}.
+              </li>
+              {% endfor %}
+            </ul>
+
+            <h2 class="is-size-5">Op-eds</h2>
+            <ul>
+              {% for op in web_only.op_eds %}
+              <li>
+                <strong>{{ op.authors }}</strong>. <a href="{{ op.url }}">{{ op.title }}</a> – <em>{{ op.source }}</em>, {{ op.date }}.
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="column is-6 is-size-7">
+            <h2 class="is-size-5">Blog Posts</h2>
+            <ul>
+              {% for post in web_only.blog_posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date }})
+              </li>
+              {% endfor %}
+            </ul>
+            <h2 class="is-size-5">Multimedia</h2>
+            <ul>
+              {% for media in web_only.multimedia %}
+              <li>
+                ({{ media.type }}) <a href="{{ media.url }}">{{ media.title }}</a> ({{ media.date }})
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

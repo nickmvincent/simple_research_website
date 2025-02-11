@@ -5,7 +5,6 @@
 - Manually update `base.yaml`
 - Run `convert.py`
 
-
 ## Current workflow
 
 - Add or edit content in `base.yaml`
